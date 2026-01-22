@@ -1,0 +1,13 @@
+
+    
+    
+    
+    create table "jaffle_dbt"."main"."raw_payments" ("id" integer,"order_id" integer,"payment_method" text,"amount" integer)
+  ;
+    -- dbt seed --
+    
+          COPY "jaffle_dbt"."main"."raw_payments" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_payments.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  

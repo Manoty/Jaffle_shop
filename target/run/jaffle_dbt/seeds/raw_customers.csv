@@ -1,0 +1,13 @@
+
+    
+    
+    
+    create table "jaffle_dbt"."main"."raw_customers" ("id" integer,"first_name" text,"last_name" text)
+  ;
+    -- dbt seed --
+    
+          COPY "jaffle_dbt"."main"."raw_customers" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_customers.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  

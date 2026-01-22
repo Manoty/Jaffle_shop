@@ -1,0 +1,2873 @@
+[0m01:13:24.893603 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022369FE0EC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002236AA88CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002236B107ED0>]}
+
+
+============================== 01:13:24.903683 | 4c28dfc2-a2c9-4513-972f-30e9548e4115 ==============================
+[0m01:13:24.903683 [info ] [MainThread]: Running with dbt=1.11.2
+[0m01:13:24.905851 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m01:13:24.965208 [info ] [MainThread]: dbt version: 1.11.2
+[0m01:13:24.966143 [info ] [MainThread]: python version: 3.13.4
+[0m01:13:24.967089 [info ] [MainThread]: python path: C:\kev\jaffle_shop\jaffle_dbt\venv\Scripts\python.exe
+[0m01:13:24.968057 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m01:13:25.183978 [info ] [MainThread]: Using profiles dir at C:\Users\Evans Moseti\.dbt
+[0m01:13:25.185172 [info ] [MainThread]: Using profiles.yml file at C:\Users\Evans Moseti\.dbt\profiles.yml
+[0m01:13:25.186017 [info ] [MainThread]: Using dbt_project.yml file at C:\kev\jaffle_shop\jaffle_dbt\dbt_project.yml
+[0m01:13:25.187143 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m01:13:25.189021 [debug] [MainThread]: Command `dbt debug` failed at 01:13:25.188813 after 0.52 seconds
+[0m01:13:25.189687 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002236C3650F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002236C322B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002236C193570>]}
+[0m01:13:25.190814 [debug] [MainThread]: Flushing usage events
+[0m01:13:26.690031 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m01:18:57.442530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAD582CEC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAD62D8CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAD6957ED0>]}
+
+
+============================== 01:18:57.451047 | 0b19ec7c-e3b8-4f12-9092-3fb10c6925a8 ==============================
+[0m01:18:57.451047 [info ] [MainThread]: Running with dbt=1.11.2
+[0m01:18:57.452394 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m01:18:57.508631 [info ] [MainThread]: dbt version: 1.11.2
+[0m01:18:57.509579 [info ] [MainThread]: python version: 3.13.4
+[0m01:18:57.510549 [info ] [MainThread]: python path: C:\kev\jaffle_shop\jaffle_dbt\venv\Scripts\python.exe
+[0m01:18:57.511505 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m01:18:57.797801 [info ] [MainThread]: Using profiles dir at C:\Users\Evans Moseti\.dbt
+[0m01:18:57.798898 [info ] [MainThread]: Using profiles.yml file at C:\Users\Evans Moseti\.dbt\profiles.yml
+[0m01:18:57.799920 [info ] [MainThread]: Using dbt_project.yml file at C:\kev\jaffle_shop\jaffle_dbt\dbt_project.yml
+[0m01:18:57.801097 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m01:18:57.803434 [debug] [MainThread]: Command `dbt debug` failed at 01:18:57.803157 after 0.61 seconds
+[0m01:18:57.804134 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAD7B9CC30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAD7B72B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAD79E3CE0>]}
+[0m01:18:57.808070 [debug] [MainThread]: Flushing usage events
+[0m01:18:59.490177 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:19:29.677861 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234F27206D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234F27239D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234F2720610>]}
+
+
+============================== 03:19:29.679000 | dc57eddc-c1c6-4732-a033-e284d9fec927 ==============================
+[0m03:19:29.679000 [info ] [MainThread]: Running with dbt=1.11.2
+[0m03:19:29.679000 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m03:19:29.722653 [info ] [MainThread]: dbt version: 1.11.2
+[0m03:19:29.722653 [info ] [MainThread]: python version: 3.11.3
+[0m03:19:29.722653 [info ] [MainThread]: python path: C:\kev\jaffle_shop\jaffle_dbt\venv\Scripts\python.exe
+[0m03:19:29.722653 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m03:19:30.101453 [info ] [MainThread]: Using profiles dir at C:\Users\Evans Moseti\.dbt
+[0m03:19:30.101453 [info ] [MainThread]: Using profiles.yml file at C:\Users\Evans Moseti\.dbt\profiles.yml
+[0m03:19:30.101453 [info ] [MainThread]: Using dbt_project.yml file at C:\kev\jaffle_shop\jaffle_dbt\dbt_project.yml
+[0m03:19:30.101453 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m03:19:30.101453 [debug] [MainThread]: Command `dbt debug` failed at 03:19:30.101453 after 0.55 seconds
+[0m03:19:30.101453 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234F27EB410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234F27EE510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234EAA7A390>]}
+[0m03:19:30.101453 [debug] [MainThread]: Flushing usage events
+[0m03:19:31.059978 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:22:21.923379 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000148A4DCCD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000148A4DC8390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000148A4DCA150>]}
+
+
+============================== 03:22:21.929912 | b5f275ab-6791-4cdd-8b8d-801487d27062 ==============================
+[0m03:22:21.929912 [info ] [MainThread]: Running with dbt=1.11.2
+[0m03:22:21.931873 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\jaffle_shop\\jaffle_dbt\\logs'}
+[0m03:22:21.959001 [info ] [MainThread]: dbt version: 1.11.2
+[0m03:22:21.974623 [info ] [MainThread]: python version: 3.11.3
+[0m03:22:21.976357 [info ] [MainThread]: python path: C:\kev\jaffle_shop\jaffle_dbt\venv\Scripts\python.exe
+[0m03:22:21.977281 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m03:22:22.166535 [info ] [MainThread]: Using profiles dir at C:\Users\Evans Moseti\.dbt
+[0m03:22:22.168494 [info ] [MainThread]: Using profiles.yml file at C:\Users\Evans Moseti\.dbt\profiles.yml
+[0m03:22:22.169175 [info ] [MainThread]: Using dbt_project.yml file at C:\kev\jaffle_shop\jaffle_dbt\dbt_project.yml
+[0m03:22:22.174078 [info ] [MainThread]: adapter type: duckdb
+[0m03:22:22.176069 [info ] [MainThread]: adapter version: 1.10.0
+[0m03:22:22.350227 [info ] [MainThread]: Configuration:
+[0m03:22:22.351262 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m03:22:22.352633 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m03:22:22.354632 [info ] [MainThread]: Required dependencies:
+[0m03:22:22.355637 [debug] [MainThread]: Executing "git --help"
+[0m03:22:22.431503 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m03:22:22.432500 [debug] [MainThread]: STDERR: "b''"
+[0m03:22:22.433498 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m03:22:22.433920 [info ] [MainThread]: Connection:
+[0m03:22:22.435553 [info ] [MainThread]:   database: jaffle_dbt
+[0m03:22:22.436787 [info ] [MainThread]:   schema: main
+[0m03:22:22.437788 [info ] [MainThread]:   path: jaffle_dbt.duckdb
+[0m03:22:22.439783 [info ] [MainThread]:   config_options: None
+[0m03:22:22.441810 [info ] [MainThread]:   extensions: None
+[0m03:22:22.443773 [info ] [MainThread]:   settings: {}
+[0m03:22:22.446592 [info ] [MainThread]:   external_root: .
+[0m03:22:22.448550 [info ] [MainThread]:   use_credential_provider: None
+[0m03:22:22.449582 [info ] [MainThread]:   attach: None
+[0m03:22:22.450804 [info ] [MainThread]:   filesystems: None
+[0m03:22:22.451805 [info ] [MainThread]:   remote: None
+[0m03:22:22.453799 [info ] [MainThread]:   plugins: None
+[0m03:22:22.455065 [info ] [MainThread]:   disable_transactions: False
+[0m03:22:22.456312 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m03:22:22.837159 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m03:22:27.584122 [debug] [MainThread]: Using duckdb connection "debug"
+[0m03:22:27.584122 [debug] [MainThread]: On debug: select 1 as id
+[0m03:22:27.597526 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:22:27.631615 [debug] [MainThread]: SQL status: OK in 0.039 seconds
+[0m03:22:27.631615 [debug] [MainThread]: On debug: Close
+[0m03:22:27.631615 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m03:22:27.631615 [info ] [MainThread]: [32mAll checks passed![0m
+[0m03:22:27.631615 [debug] [MainThread]: Command `dbt debug` succeeded at 03:22:27.631615 after 5.89 seconds
+[0m03:22:27.631615 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m03:22:27.645297 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000148A6177150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000148A6177110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001489E18CB90>]}
+[0m03:22:27.649127 [debug] [MainThread]: Flushing usage events
+[0m03:22:28.565077 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:23:39.897769 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9D9F1F3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9D9E3D8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9D9F0F7D0>]}
+
+
+============================== 03:23:39.913393 | 4e854fb9-2087-45cb-bd35-94dc8098acc9 ==============================
+[0m03:23:39.913393 [info ] [MainThread]: Running with dbt=1.11.2
+[0m03:23:39.913393 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'invocation_command': 'dbt seed', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\jaffle_shop\\jaffle_dbt\\logs'}
+[0m03:23:40.394487 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4e854fb9-2087-45cb-bd35-94dc8098acc9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9DB0E3E50>]}
+[0m03:23:40.493259 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4e854fb9-2087-45cb-bd35-94dc8098acc9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9D677D510>]}
+[0m03:23:40.497175 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m03:23:40.909861 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m03:23:40.911856 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m03:23:40.912921 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '4e854fb9-2087-45cb-bd35-94dc8098acc9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9D9FE5390>]}
+[0m03:23:44.960820 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.jaffle_dbt.marts
+[0m03:23:44.960820 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4e854fb9-2087-45cb-bd35-94dc8098acc9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9DB790590>]}
+[0m03:23:45.081295 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\jaffle_shop\jaffle_dbt\target\manifest.json
+[0m03:23:45.096916 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\jaffle_shop\jaffle_dbt\target\semantic_manifest.json
+[0m03:23:45.175022 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4e854fb9-2087-45cb-bd35-94dc8098acc9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9DB76FE10>]}
+[0m03:23:45.175022 [info ] [MainThread]: Found 3 models, 3 seeds, 472 macros
+[0m03:23:45.175022 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4e854fb9-2087-45cb-bd35-94dc8098acc9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9DB750D10>]}
+[0m03:23:45.175022 [info ] [MainThread]: 
+[0m03:23:45.175022 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m03:23:45.175022 [info ] [MainThread]: 
+[0m03:23:45.189492 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m03:23:45.205338 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_jaffle_dbt'
+[0m03:23:45.327790 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt"
+[0m03:23:45.328787 [debug] [ThreadPool]: On list_jaffle_dbt: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "list_jaffle_dbt"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"jaffle_dbt"'
+    
+  
+  
+[0m03:23:45.329784 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:23:45.365247 [debug] [ThreadPool]: SQL status: OK in 0.035 seconds
+[0m03:23:45.367281 [debug] [ThreadPool]: On list_jaffle_dbt: Close
+[0m03:23:45.368549 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_jaffle_dbt, now create_jaffle_dbt_main)
+[0m03:23:45.369550 [debug] [ThreadPool]: Creating schema "database: "jaffle_dbt"
+schema: "main"
+"
+[0m03:23:45.380520 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m03:23:45.381640 [debug] [ThreadPool]: On create_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "create_jaffle_dbt_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='jaffle_dbt'
+        and type='sqlite'
+    
+  
+[0m03:23:45.381640 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:23:45.383675 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m03:23:45.386628 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m03:23:45.387625 [debug] [ThreadPool]: On create_jaffle_dbt_main: BEGIN
+[0m03:23:45.388622 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m03:23:45.389620 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m03:23:45.389620 [debug] [ThreadPool]: On create_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "create_jaffle_dbt_main"} */
+
+    
+    
+        create schema if not exists "jaffle_dbt"."main"
+    
+[0m03:23:45.391626 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m03:23:45.393609 [debug] [ThreadPool]: On create_jaffle_dbt_main: COMMIT
+[0m03:23:45.393609 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m03:23:45.394606 [debug] [ThreadPool]: On create_jaffle_dbt_main: COMMIT
+[0m03:23:45.395604 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m03:23:45.396601 [debug] [ThreadPool]: On create_jaffle_dbt_main: Close
+[0m03:23:45.397637 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_jaffle_dbt_main'
+[0m03:23:45.397637 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt_main"
+[0m03:23:45.397637 [debug] [ThreadPool]: On list_jaffle_dbt_main: BEGIN
+[0m03:23:45.397637 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:23:45.413260 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m03:23:45.413260 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt_main"
+[0m03:23:45.413260 [debug] [ThreadPool]: On list_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "list_jaffle_dbt_main"} */
+select
+      'jaffle_dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'jaffle_dbt'
+  
+[0m03:23:45.441084 [debug] [ThreadPool]: SQL status: OK in 0.026 seconds
+[0m03:23:45.443081 [debug] [ThreadPool]: On list_jaffle_dbt_main: ROLLBACK
+[0m03:23:45.445075 [debug] [ThreadPool]: Failed to rollback 'list_jaffle_dbt_main'
+[0m03:23:45.446108 [debug] [ThreadPool]: On list_jaffle_dbt_main: Close
+[0m03:23:45.447082 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4e854fb9-2087-45cb-bd35-94dc8098acc9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9DB7D7350>]}
+[0m03:23:45.448102 [debug] [MainThread]: Using duckdb connection "master"
+[0m03:23:45.449099 [debug] [MainThread]: On master: BEGIN
+[0m03:23:45.450062 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:23:45.451095 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m03:23:45.452095 [debug] [MainThread]: On master: COMMIT
+[0m03:23:45.453088 [debug] [MainThread]: Using duckdb connection "master"
+[0m03:23:45.454050 [debug] [MainThread]: On master: COMMIT
+[0m03:23:45.455063 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m03:23:45.456076 [debug] [MainThread]: On master: Close
+[0m03:23:45.490663 [debug] [Thread-1 (]: Began running node seed.jaffle_dbt.raw_customers
+[0m03:23:45.490663 [debug] [Thread-2 (]: Began running node seed.jaffle_dbt.raw_orders
+[0m03:23:45.490663 [debug] [Thread-3 (]: Began running node seed.jaffle_dbt.raw_payments
+[0m03:23:45.490663 [info ] [Thread-1 (]: 1 of 3 START seed file main.raw_customers ...................................... [RUN]
+[0m03:23:45.506247 [info ] [Thread-2 (]: 2 of 3 START seed file main.raw_orders ......................................... [RUN]
+[0m03:23:45.506247 [debug] [Thread-1 (]: Acquiring new duckdb connection 'seed.jaffle_dbt.raw_customers'
+[0m03:23:45.506247 [info ] [Thread-3 (]: 3 of 3 START seed file main.raw_payments ....................................... [RUN]
+[0m03:23:45.506247 [debug] [Thread-2 (]: Acquiring new duckdb connection 'seed.jaffle_dbt.raw_orders'
+[0m03:23:45.506247 [debug] [Thread-1 (]: Began compiling node seed.jaffle_dbt.raw_customers
+[0m03:23:45.506247 [debug] [Thread-3 (]: Acquiring new duckdb connection 'seed.jaffle_dbt.raw_payments'
+[0m03:23:45.506247 [debug] [Thread-2 (]: Began compiling node seed.jaffle_dbt.raw_orders
+[0m03:23:45.506247 [debug] [Thread-1 (]: Began executing node seed.jaffle_dbt.raw_customers
+[0m03:23:45.506247 [debug] [Thread-3 (]: Began compiling node seed.jaffle_dbt.raw_payments
+[0m03:23:45.506247 [debug] [Thread-2 (]: Began executing node seed.jaffle_dbt.raw_orders
+[0m03:23:45.529029 [debug] [Thread-3 (]: Began executing node seed.jaffle_dbt.raw_payments
+[0m03:23:45.580319 [debug] [Thread-1 (]: Using duckdb connection "seed.jaffle_dbt.raw_customers"
+[0m03:23:45.593243 [debug] [Thread-2 (]: Using duckdb connection "seed.jaffle_dbt.raw_orders"
+[0m03:23:45.593243 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: BEGIN
+[0m03:23:45.593243 [debug] [Thread-3 (]: Using duckdb connection "seed.jaffle_dbt.raw_payments"
+[0m03:23:45.593243 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: BEGIN
+[0m03:23:45.602968 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m03:23:45.604954 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: BEGIN
+[0m03:23:45.606950 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m03:23:45.608944 [debug] [Thread-1 (]: SQL status: OK in 0.006 seconds
+[0m03:23:45.609940 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m03:23:45.612933 [debug] [Thread-2 (]: SQL status: OK in 0.006 seconds
+[0m03:23:45.613930 [debug] [Thread-1 (]: Using duckdb connection "seed.jaffle_dbt.raw_customers"
+[0m03:23:45.615928 [debug] [Thread-2 (]: Using duckdb connection "seed.jaffle_dbt.raw_orders"
+[0m03:23:45.616922 [debug] [Thread-3 (]: SQL status: OK in 0.007 seconds
+[0m03:23:45.617918 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "seed.jaffle_dbt.raw_customers"} */
+
+    create table "jaffle_dbt"."main"."raw_customers" ("id,first_name,last_name" text)
+  
+[0m03:23:45.619915 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "seed.jaffle_dbt.raw_orders"} */
+
+    create table "jaffle_dbt"."main"."raw_orders" ("id,user_id,order_date,status" text)
+  
+[0m03:23:45.620913 [debug] [Thread-3 (]: Using duckdb connection "seed.jaffle_dbt.raw_payments"
+[0m03:23:45.623904 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m03:23:45.624505 [debug] [Thread-2 (]: SQL status: OK in 0.002 seconds
+[0m03:23:45.624505 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "seed.jaffle_dbt.raw_payments"} */
+
+    create table "jaffle_dbt"."main"."raw_payments" ("id,order_id,payment_method,amount" text)
+  
+[0m03:23:45.650630 [debug] [Thread-1 (]: Using duckdb connection "seed.jaffle_dbt.raw_customers"
+[0m03:23:45.653623 [debug] [Thread-2 (]: Using duckdb connection "seed.jaffle_dbt.raw_orders"
+[0m03:23:45.655619 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: 
+          COPY "jaffle_dbt"."main"."raw_customers" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_customers.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        ...
+[0m03:23:45.656213 [debug] [Thread-3 (]: SQL status: OK in 0.002 seconds
+[0m03:23:45.657248 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: 
+          COPY "jaffle_dbt"."main"."raw_orders" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_orders.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        ...
+[0m03:23:45.659927 [debug] [Thread-3 (]: Using duckdb connection "seed.jaffle_dbt.raw_payments"
+[0m03:23:45.661919 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: 
+          COPY "jaffle_dbt"."main"."raw_payments" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_payments.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        ...
+[0m03:23:45.678164 [debug] [Thread-2 (]: DuckDB adapter: Error running SQL: 
+          COPY "jaffle_dbt"."main"."raw_orders" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_orders.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+[0m03:23:45.678164 [debug] [Thread-3 (]: DuckDB adapter: Error running SQL: 
+          COPY "jaffle_dbt"."main"."raw_payments" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_payments.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+[0m03:23:45.678164 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: 
+          COPY "jaffle_dbt"."main"."raw_customers" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_customers.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+[0m03:23:45.678164 [debug] [Thread-2 (]: DuckDB adapter: Rolling back transaction.
+[0m03:23:45.678164 [debug] [Thread-3 (]: DuckDB adapter: Rolling back transaction.
+[0m03:23:45.678164 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m03:23:45.678164 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: ROLLBACK
+[0m03:23:45.686512 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: ROLLBACK
+[0m03:23:45.686512 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: ROLLBACK
+[0m03:23:45.706005 [debug] [Thread-3 (]: Failed to rollback 'seed.jaffle_dbt.raw_payments'
+[0m03:23:45.706005 [debug] [Thread-1 (]: Failed to rollback 'seed.jaffle_dbt.raw_customers'
+[0m03:23:45.706005 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: Close
+[0m03:23:45.706005 [debug] [Thread-2 (]: Failed to rollback 'seed.jaffle_dbt.raw_orders'
+[0m03:23:45.706005 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: Close
+[0m03:23:45.722103 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: Close
+[0m03:23:45.727800 [debug] [Thread-3 (]: Runtime Error in seed raw_payments (seeds\raw_payments.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_payments.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,order_id,payment_method,amount' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:23:45.737496 [debug] [Thread-1 (]: Runtime Error in seed raw_customers (seeds\raw_customers.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_customers.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,first_name,last_name' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 3. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:23:45.741447 [debug] [Thread-2 (]: Runtime Error in seed raw_orders (seeds\raw_orders.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_orders.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,user_id,order_date,status' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:23:45.742444 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4e854fb9-2087-45cb-bd35-94dc8098acc9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9DBB48D90>]}
+[0m03:23:45.743443 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4e854fb9-2087-45cb-bd35-94dc8098acc9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9DB840A50>]}
+[0m03:23:45.744709 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4e854fb9-2087-45cb-bd35-94dc8098acc9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9DBBAB010>]}
+[0m03:23:45.746605 [error] [Thread-3 (]: 3 of 3 ERROR loading seed file main.raw_payments ............................... [[31mERROR[0m in 0.22s]
+[0m03:23:45.747603 [error] [Thread-1 (]: 1 of 3 ERROR loading seed file main.raw_customers .............................. [[31mERROR[0m in 0.23s]
+[0m03:23:45.749597 [error] [Thread-2 (]: 2 of 3 ERROR loading seed file main.raw_orders ................................. [[31mERROR[0m in 0.24s]
+[0m03:23:45.751592 [debug] [Thread-3 (]: Finished running node seed.jaffle_dbt.raw_payments
+[0m03:23:45.753585 [debug] [Thread-1 (]: Finished running node seed.jaffle_dbt.raw_customers
+[0m03:23:45.754294 [debug] [Thread-2 (]: Finished running node seed.jaffle_dbt.raw_orders
+[0m03:23:45.756475 [debug] [Thread-7 (]: Marking all children of 'seed.jaffle_dbt.raw_payments' to be skipped because of status 'error'.  Reason: Runtime Error in seed raw_payments (seeds\raw_payments.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_payments.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,order_id,payment_method,amount' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  .
+[0m03:23:45.759279 [debug] [Thread-7 (]: Marking all children of 'seed.jaffle_dbt.raw_customers' to be skipped because of status 'error'.  Reason: Runtime Error in seed raw_customers (seeds\raw_customers.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_customers.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,first_name,last_name' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 3. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  .
+[0m03:23:45.761247 [debug] [Thread-7 (]: Marking all children of 'seed.jaffle_dbt.raw_orders' to be skipped because of status 'error'.  Reason: Runtime Error in seed raw_orders (seeds\raw_orders.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_orders.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,user_id,order_date,status' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  .
+[0m03:23:45.765233 [debug] [MainThread]: Using duckdb connection "master"
+[0m03:23:45.766228 [debug] [MainThread]: On master: BEGIN
+[0m03:23:45.767258 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m03:23:45.768258 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m03:23:45.771215 [debug] [MainThread]: On master: COMMIT
+[0m03:23:45.772245 [debug] [MainThread]: Using duckdb connection "master"
+[0m03:23:45.773244 [debug] [MainThread]: On master: COMMIT
+[0m03:23:45.774208 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m03:23:45.775237 [debug] [MainThread]: On master: Close
+[0m03:23:45.776204 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m03:23:45.777203 [debug] [MainThread]: Connection 'create_jaffle_dbt_main' was properly closed.
+[0m03:23:45.778231 [debug] [MainThread]: Connection 'list_jaffle_dbt_main' was properly closed.
+[0m03:23:45.779194 [debug] [MainThread]: Connection 'seed.jaffle_dbt.raw_customers' was properly closed.
+[0m03:23:45.780197 [debug] [MainThread]: Connection 'seed.jaffle_dbt.raw_orders' was properly closed.
+[0m03:23:45.780197 [debug] [MainThread]: Connection 'seed.jaffle_dbt.raw_payments' was properly closed.
+[0m03:23:45.781223 [info ] [MainThread]: 
+[0m03:23:45.783185 [info ] [MainThread]: Finished running 3 seeds in 0 hours 0 minutes and 0.59 seconds (0.59s).
+[0m03:23:45.786127 [debug] [MainThread]: Command end result
+[0m03:23:45.822396 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\jaffle_shop\jaffle_dbt\target\manifest.json
+[0m03:23:45.822396 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\jaffle_shop\jaffle_dbt\target\semantic_manifest.json
+[0m03:23:45.839352 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\kev\jaffle_shop\jaffle_dbt\target\run_results.json
+[0m03:23:45.839352 [info ] [MainThread]: 
+[0m03:23:45.839352 [info ] [MainThread]: [31mCompleted with 3 errors, 0 partial successes, and 0 warnings:[0m
+[0m03:23:45.839352 [info ] [MainThread]: 
+[0m03:23:45.853874 [error] [MainThread]: [31mFailure in seed raw_payments (seeds\raw_payments.csv)[0m
+[0m03:23:45.855861 [error] [MainThread]:   Runtime Error in seed raw_payments (seeds\raw_payments.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_payments.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,order_id,payment_method,amount' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:23:45.861844 [info ] [MainThread]: 
+[0m03:23:45.865836 [error] [MainThread]: [31mFailure in seed raw_customers (seeds\raw_customers.csv)[0m
+[0m03:23:45.867829 [error] [MainThread]:   Runtime Error in seed raw_customers (seeds\raw_customers.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_customers.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,first_name,last_name' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 3. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:23:45.875809 [info ] [MainThread]: 
+[0m03:23:45.877802 [error] [MainThread]: [31mFailure in seed raw_orders (seeds\raw_orders.csv)[0m
+[0m03:23:45.879799 [error] [MainThread]:   Runtime Error in seed raw_orders (seeds\raw_orders.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_orders.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,user_id,order_date,status' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:23:45.881918 [info ] [MainThread]: 
+[0m03:23:45.881918 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=3 SKIP=0 NO-OP=0 TOTAL=3
+[0m03:23:45.889597 [debug] [MainThread]: Command `dbt seed` failed at 03:23:45.889597 after 6.10 seconds
+[0m03:23:45.890597 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9D9F1B550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9D8FC3410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9D330A390>]}
+[0m03:23:45.892587 [debug] [MainThread]: Flushing usage events
+[0m03:23:46.823541 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:25:42.522228 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002138FE11CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002138FE11E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002138FE11FD0>]}
+
+
+============================== 03:25:42.529790 | 7b94fd2a-7165-4174-913c-9cae1f347630 ==============================
+[0m03:25:42.529790 [info ] [MainThread]: Running with dbt=1.11.2
+[0m03:25:42.531752 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt seed', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\jaffle_shop\\jaffle_dbt\\logs'}
+[0m03:25:42.959480 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7b94fd2a-7165-4174-913c-9cae1f347630', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002138FD9F210>]}
+[0m03:25:43.054218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7b94fd2a-7165-4174-913c-9cae1f347630', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002138C60D950>]}
+[0m03:25:43.054218 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m03:25:43.881890 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m03:25:44.051687 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m03:25:44.051687 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '7b94fd2a-7165-4174-913c-9cae1f347630', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002138EDCF610>]}
+[0m03:25:47.580537 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.jaffle_dbt.marts
+[0m03:25:47.605389 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7b94fd2a-7165-4174-913c-9cae1f347630', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021391559ED0>]}
+[0m03:25:47.740558 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\jaffle_shop\jaffle_dbt\target\manifest.json
+[0m03:25:47.741596 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\jaffle_shop\jaffle_dbt\target\semantic_manifest.json
+[0m03:25:47.799189 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7b94fd2a-7165-4174-913c-9cae1f347630', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000213915DB3D0>]}
+[0m03:25:47.799189 [info ] [MainThread]: Found 3 models, 3 seeds, 472 macros
+[0m03:25:47.799189 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7b94fd2a-7165-4174-913c-9cae1f347630', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000213914DD410>]}
+[0m03:25:47.799189 [info ] [MainThread]: 
+[0m03:25:47.799189 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m03:25:47.810395 [info ] [MainThread]: 
+[0m03:25:47.812390 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m03:25:47.823451 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_jaffle_dbt'
+[0m03:25:47.961454 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt"
+[0m03:25:47.964597 [debug] [ThreadPool]: On list_jaffle_dbt: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "list_jaffle_dbt"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"jaffle_dbt"'
+    
+  
+  
+[0m03:25:47.966126 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:25:47.983050 [debug] [ThreadPool]: SQL status: OK in 0.029 seconds
+[0m03:25:47.999109 [debug] [ThreadPool]: On list_jaffle_dbt: Close
+[0m03:25:47.999823 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_jaffle_dbt, now create_jaffle_dbt_main)
+[0m03:25:47.999823 [debug] [ThreadPool]: Creating schema "database: "jaffle_dbt"
+schema: "main"
+"
+[0m03:25:47.999823 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m03:25:48.015757 [debug] [ThreadPool]: On create_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "create_jaffle_dbt_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='jaffle_dbt'
+        and type='sqlite'
+    
+  
+[0m03:25:48.016752 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:25:48.018748 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m03:25:48.020742 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m03:25:48.020742 [debug] [ThreadPool]: On create_jaffle_dbt_main: BEGIN
+[0m03:25:48.022801 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m03:25:48.022801 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m03:25:48.022801 [debug] [ThreadPool]: On create_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "create_jaffle_dbt_main"} */
+
+    
+    
+        create schema if not exists "jaffle_dbt"."main"
+    
+[0m03:25:48.022801 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m03:25:48.022801 [debug] [ThreadPool]: On create_jaffle_dbt_main: COMMIT
+[0m03:25:48.022801 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m03:25:48.022801 [debug] [ThreadPool]: On create_jaffle_dbt_main: COMMIT
+[0m03:25:48.022801 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m03:25:48.031509 [debug] [ThreadPool]: On create_jaffle_dbt_main: Close
+[0m03:25:48.033576 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_jaffle_dbt_main'
+[0m03:25:48.033576 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt_main"
+[0m03:25:48.033576 [debug] [ThreadPool]: On list_jaffle_dbt_main: BEGIN
+[0m03:25:48.033576 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:25:48.049877 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m03:25:48.049917 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt_main"
+[0m03:25:48.049917 [debug] [ThreadPool]: On list_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "list_jaffle_dbt_main"} */
+select
+      'jaffle_dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'jaffle_dbt'
+  
+[0m03:25:48.065899 [debug] [ThreadPool]: SQL status: OK in 0.025 seconds
+[0m03:25:48.065899 [debug] [ThreadPool]: On list_jaffle_dbt_main: ROLLBACK
+[0m03:25:48.065899 [debug] [ThreadPool]: Failed to rollback 'list_jaffle_dbt_main'
+[0m03:25:48.082889 [debug] [ThreadPool]: On list_jaffle_dbt_main: Close
+[0m03:25:48.083150 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7b94fd2a-7165-4174-913c-9cae1f347630', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000213915AD990>]}
+[0m03:25:48.083150 [debug] [MainThread]: Using duckdb connection "master"
+[0m03:25:48.083150 [debug] [MainThread]: On master: BEGIN
+[0m03:25:48.083150 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:25:48.083150 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m03:25:48.083150 [debug] [MainThread]: On master: COMMIT
+[0m03:25:48.083150 [debug] [MainThread]: Using duckdb connection "master"
+[0m03:25:48.083150 [debug] [MainThread]: On master: COMMIT
+[0m03:25:48.083150 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m03:25:48.083150 [debug] [MainThread]: On master: Close
+[0m03:25:48.100066 [debug] [Thread-1 (]: Began running node seed.jaffle_dbt.raw_customers
+[0m03:25:48.100066 [debug] [Thread-2 (]: Began running node seed.jaffle_dbt.raw_orders
+[0m03:25:48.100066 [debug] [Thread-3 (]: Began running node seed.jaffle_dbt.raw_payments
+[0m03:25:48.106609 [info ] [Thread-1 (]: 1 of 3 START seed file main.raw_customers ...................................... [RUN]
+[0m03:25:48.108602 [info ] [Thread-2 (]: 2 of 3 START seed file main.raw_orders ......................................... [RUN]
+[0m03:25:48.111597 [info ] [Thread-3 (]: 3 of 3 START seed file main.raw_payments ....................................... [RUN]
+[0m03:25:48.113590 [debug] [Thread-1 (]: Acquiring new duckdb connection 'seed.jaffle_dbt.raw_customers'
+[0m03:25:48.114595 [debug] [Thread-2 (]: Acquiring new duckdb connection 'seed.jaffle_dbt.raw_orders'
+[0m03:25:48.117583 [debug] [Thread-3 (]: Acquiring new duckdb connection 'seed.jaffle_dbt.raw_payments'
+[0m03:25:48.118999 [debug] [Thread-1 (]: Began compiling node seed.jaffle_dbt.raw_customers
+[0m03:25:48.119997 [debug] [Thread-2 (]: Began compiling node seed.jaffle_dbt.raw_orders
+[0m03:25:48.121993 [debug] [Thread-3 (]: Began compiling node seed.jaffle_dbt.raw_payments
+[0m03:25:48.123025 [debug] [Thread-1 (]: Began executing node seed.jaffle_dbt.raw_customers
+[0m03:25:48.124985 [debug] [Thread-2 (]: Began executing node seed.jaffle_dbt.raw_orders
+[0m03:25:48.126991 [debug] [Thread-3 (]: Began executing node seed.jaffle_dbt.raw_payments
+[0m03:25:48.194016 [debug] [Thread-1 (]: Using duckdb connection "seed.jaffle_dbt.raw_customers"
+[0m03:25:48.203991 [debug] [Thread-2 (]: Using duckdb connection "seed.jaffle_dbt.raw_orders"
+[0m03:25:48.204986 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: BEGIN
+[0m03:25:48.207981 [debug] [Thread-3 (]: Using duckdb connection "seed.jaffle_dbt.raw_payments"
+[0m03:25:48.208978 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: BEGIN
+[0m03:25:48.209976 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m03:25:48.211156 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: BEGIN
+[0m03:25:48.212157 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m03:25:48.215149 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m03:25:48.216146 [debug] [Thread-1 (]: SQL status: OK in 0.006 seconds
+[0m03:25:48.218141 [debug] [Thread-2 (]: SQL status: OK in 0.005 seconds
+[0m03:25:48.219137 [debug] [Thread-1 (]: Using duckdb connection "seed.jaffle_dbt.raw_customers"
+[0m03:25:48.220167 [debug] [Thread-3 (]: SQL status: OK in 0.005 seconds
+[0m03:25:48.221166 [debug] [Thread-2 (]: Using duckdb connection "seed.jaffle_dbt.raw_orders"
+[0m03:25:48.222052 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "seed.jaffle_dbt.raw_customers"} */
+
+    create table "jaffle_dbt"."main"."raw_customers" ("id,first_name,last_name" text)
+  
+[0m03:25:48.223053 [debug] [Thread-3 (]: Using duckdb connection "seed.jaffle_dbt.raw_payments"
+[0m03:25:48.224081 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "seed.jaffle_dbt.raw_orders"} */
+
+    create table "jaffle_dbt"."main"."raw_orders" ("id,user_id,order_date,status" text)
+  
+[0m03:25:48.226046 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "seed.jaffle_dbt.raw_payments"} */
+
+    create table "jaffle_dbt"."main"."raw_payments" ("id,order_id,payment_method,amount" text)
+  
+[0m03:25:48.227043 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m03:25:48.229038 [debug] [Thread-2 (]: SQL status: OK in 0.001 seconds
+[0m03:25:48.245841 [debug] [Thread-3 (]: SQL status: OK in 0.017 seconds
+[0m03:25:48.246563 [debug] [Thread-1 (]: Using duckdb connection "seed.jaffle_dbt.raw_customers"
+[0m03:25:48.249559 [debug] [Thread-2 (]: Using duckdb connection "seed.jaffle_dbt.raw_orders"
+[0m03:25:48.252551 [debug] [Thread-3 (]: Using duckdb connection "seed.jaffle_dbt.raw_payments"
+[0m03:25:48.253404 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: 
+          COPY "jaffle_dbt"."main"."raw_customers" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_customers.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        ...
+[0m03:25:48.254221 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: 
+          COPY "jaffle_dbt"."main"."raw_orders" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_orders.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        ...
+[0m03:25:48.255222 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: 
+          COPY "jaffle_dbt"."main"."raw_payments" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_payments.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        ...
+[0m03:25:48.269333 [debug] [Thread-2 (]: DuckDB adapter: Error running SQL: 
+          COPY "jaffle_dbt"."main"."raw_orders" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_orders.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+[0m03:25:48.270364 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: 
+          COPY "jaffle_dbt"."main"."raw_customers" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_customers.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+[0m03:25:48.271329 [debug] [Thread-3 (]: DuckDB adapter: Error running SQL: 
+          COPY "jaffle_dbt"."main"."raw_payments" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_payments.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+[0m03:25:48.272325 [debug] [Thread-2 (]: DuckDB adapter: Rolling back transaction.
+[0m03:25:48.273654 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m03:25:48.274656 [debug] [Thread-3 (]: DuckDB adapter: Rolling back transaction.
+[0m03:25:48.275681 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: ROLLBACK
+[0m03:25:48.277647 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: ROLLBACK
+[0m03:25:48.278099 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: ROLLBACK
+[0m03:25:48.300263 [debug] [Thread-3 (]: Failed to rollback 'seed.jaffle_dbt.raw_payments'
+[0m03:25:48.287408 [debug] [Thread-1 (]: Failed to rollback 'seed.jaffle_dbt.raw_customers'
+[0m03:25:48.300263 [debug] [Thread-2 (]: Failed to rollback 'seed.jaffle_dbt.raw_orders'
+[0m03:25:48.300263 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: Close
+[0m03:25:48.300263 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: Close
+[0m03:25:48.300263 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: Close
+[0m03:25:48.316928 [debug] [Thread-3 (]: Runtime Error in seed raw_payments (seeds\raw_payments.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_payments.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,order_id,payment_method,amount' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:25:48.316928 [debug] [Thread-1 (]: Runtime Error in seed raw_customers (seeds\raw_customers.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_customers.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,first_name,last_name' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 3. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:25:48.316928 [debug] [Thread-2 (]: Runtime Error in seed raw_orders (seeds\raw_orders.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_orders.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,user_id,order_date,status' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:25:48.316928 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7b94fd2a-7165-4174-913c-9cae1f347630', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021391B00590>]}
+[0m03:25:48.316928 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7b94fd2a-7165-4174-913c-9cae1f347630', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000213915DB4D0>]}
+[0m03:25:48.316928 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7b94fd2a-7165-4174-913c-9cae1f347630', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002139146A210>]}
+[0m03:25:48.316928 [error] [Thread-3 (]: 3 of 3 ERROR loading seed file main.raw_payments ............................... [[31mERROR[0m in 0.20s]
+[0m03:25:48.333582 [error] [Thread-1 (]: 1 of 3 ERROR loading seed file main.raw_customers .............................. [[31mERROR[0m in 0.20s]
+[0m03:25:48.336675 [debug] [Thread-3 (]: Finished running node seed.jaffle_dbt.raw_payments
+[0m03:25:48.335675 [error] [Thread-2 (]: 2 of 3 ERROR loading seed file main.raw_orders ................................. [[31mERROR[0m in 0.20s]
+[0m03:25:48.338670 [debug] [Thread-1 (]: Finished running node seed.jaffle_dbt.raw_customers
+[0m03:25:48.340664 [debug] [Thread-7 (]: Marking all children of 'seed.jaffle_dbt.raw_payments' to be skipped because of status 'error'.  Reason: Runtime Error in seed raw_payments (seeds\raw_payments.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_payments.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,order_id,payment_method,amount' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  .
+[0m03:25:48.341662 [debug] [Thread-2 (]: Finished running node seed.jaffle_dbt.raw_orders
+[0m03:25:48.343759 [debug] [Thread-7 (]: Marking all children of 'seed.jaffle_dbt.raw_customers' to be skipped because of status 'error'.  Reason: Runtime Error in seed raw_customers (seeds\raw_customers.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_customers.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,first_name,last_name' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 3. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  .
+[0m03:25:48.346394 [debug] [Thread-7 (]: Marking all children of 'seed.jaffle_dbt.raw_orders' to be skipped because of status 'error'.  Reason: Runtime Error in seed raw_orders (seeds\raw_orders.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_orders.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,user_id,order_date,status' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  .
+[0m03:25:48.349386 [debug] [MainThread]: Using duckdb connection "master"
+[0m03:25:48.350383 [debug] [MainThread]: On master: BEGIN
+[0m03:25:48.351872 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m03:25:48.353870 [debug] [MainThread]: SQL status: OK in 0.002 seconds
+[0m03:25:48.354897 [debug] [MainThread]: On master: COMMIT
+[0m03:25:48.355897 [debug] [MainThread]: Using duckdb connection "master"
+[0m03:25:48.356861 [debug] [MainThread]: On master: COMMIT
+[0m03:25:48.357856 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m03:25:48.358885 [debug] [MainThread]: On master: Close
+[0m03:25:48.359884 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m03:25:48.360859 [debug] [MainThread]: Connection 'create_jaffle_dbt_main' was properly closed.
+[0m03:25:48.360859 [debug] [MainThread]: Connection 'list_jaffle_dbt_main' was properly closed.
+[0m03:25:48.361846 [debug] [MainThread]: Connection 'seed.jaffle_dbt.raw_customers' was properly closed.
+[0m03:25:48.362876 [debug] [MainThread]: Connection 'seed.jaffle_dbt.raw_orders' was properly closed.
+[0m03:25:48.363876 [debug] [MainThread]: Connection 'seed.jaffle_dbt.raw_payments' was properly closed.
+[0m03:25:48.364839 [info ] [MainThread]: 
+[0m03:25:48.367833 [info ] [MainThread]: Finished running 3 seeds in 0 hours 0 minutes and 0.55 seconds (0.55s).
+[0m03:25:48.371855 [debug] [MainThread]: Command end result
+[0m03:25:48.424097 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\jaffle_shop\jaffle_dbt\target\manifest.json
+[0m03:25:48.428121 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\jaffle_shop\jaffle_dbt\target\semantic_manifest.json
+[0m03:25:48.438172 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\kev\jaffle_shop\jaffle_dbt\target\run_results.json
+[0m03:25:48.440166 [info ] [MainThread]: 
+[0m03:25:48.442161 [info ] [MainThread]: [31mCompleted with 3 errors, 0 partial successes, and 0 warnings:[0m
+[0m03:25:48.442691 [info ] [MainThread]: 
+[0m03:25:48.444689 [error] [MainThread]: [31mFailure in seed raw_payments (seeds\raw_payments.csv)[0m
+[0m03:25:48.446660 [error] [MainThread]:   Runtime Error in seed raw_payments (seeds\raw_payments.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_payments.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,order_id,payment_method,amount' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:25:48.456633 [info ] [MainThread]: 
+[0m03:25:48.458100 [error] [MainThread]: [31mFailure in seed raw_customers (seeds\raw_customers.csv)[0m
+[0m03:25:48.460588 [error] [MainThread]:   Runtime Error in seed raw_customers (seeds\raw_customers.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_customers.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,first_name,last_name' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 3. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:25:48.460588 [info ] [MainThread]: 
+[0m03:25:48.468024 [error] [MainThread]: [31mFailure in seed raw_orders (seeds\raw_orders.csv)[0m
+[0m03:25:48.473519 [error] [MainThread]:   Runtime Error in seed raw_orders (seeds\raw_orders.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_orders.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,user_id,order_date,status' : 'VARCHAR'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:25:48.478601 [info ] [MainThread]: 
+[0m03:25:48.479293 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=3 SKIP=0 NO-OP=0 TOTAL=3
+[0m03:25:48.484615 [debug] [MainThread]: Command `dbt seed` failed at 03:25:48.481612 after 6.10 seconds
+[0m03:25:48.486609 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002138FD9EAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002138FD9E9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002138FD9F510>]}
+[0m03:25:48.487596 [debug] [MainThread]: Flushing usage events
+[0m03:25:49.421474 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:37:13.870158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002473D29F610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024739ACA810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002473D29C410>]}
+
+
+============================== 03:37:13.878110 | d6330736-fca0-4b9b-9119-388a17019c92 ==============================
+[0m03:37:13.878110 [info ] [MainThread]: Running with dbt=1.11.2
+[0m03:37:13.880108 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt seed', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\jaffle_shop\\jaffle_dbt\\logs'}
+[0m03:37:14.561101 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd6330736-fca0-4b9b-9119-388a17019c92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002473E494190>]}
+[0m03:37:14.656772 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd6330736-fca0-4b9b-9119-388a17019c92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002473C290110>]}
+[0m03:37:14.656772 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m03:37:15.067989 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m03:37:15.354262 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 3 files changed.
+[0m03:37:15.355262 [debug] [MainThread]: Partial parsing: updated file: jaffle_dbt://seeds\raw_customers.csv
+[0m03:37:15.357226 [debug] [MainThread]: Partial parsing: updated file: jaffle_dbt://seeds\raw_payments.csv
+[0m03:37:15.358256 [debug] [MainThread]: Partial parsing: updated file: jaffle_dbt://seeds\raw_orders.csv
+[0m03:37:15.693971 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.jaffle_dbt.marts
+[0m03:37:15.693971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd6330736-fca0-4b9b-9119-388a17019c92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002473E716590>]}
+[0m03:37:15.825824 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\jaffle_shop\jaffle_dbt\target\manifest.json
+[0m03:37:15.836991 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\jaffle_shop\jaffle_dbt\target\semantic_manifest.json
+[0m03:37:15.907698 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd6330736-fca0-4b9b-9119-388a17019c92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002473E9DF390>]}
+[0m03:37:15.908696 [info ] [MainThread]: Found 3 models, 3 seeds, 472 macros
+[0m03:37:15.909418 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd6330736-fca0-4b9b-9119-388a17019c92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002473E718D90>]}
+[0m03:37:15.912445 [info ] [MainThread]: 
+[0m03:37:15.913482 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m03:37:15.916176 [info ] [MainThread]: 
+[0m03:37:15.918170 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m03:37:15.929609 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_jaffle_dbt'
+[0m03:37:16.179508 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt"
+[0m03:37:16.179508 [debug] [ThreadPool]: On list_jaffle_dbt: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "list_jaffle_dbt"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"jaffle_dbt"'
+    
+  
+  
+[0m03:37:16.179508 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:37:16.240665 [debug] [ThreadPool]: SQL status: OK in 0.060 seconds
+[0m03:37:16.240665 [debug] [ThreadPool]: On list_jaffle_dbt: Close
+[0m03:37:16.240665 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_jaffle_dbt, now create_jaffle_dbt_main)
+[0m03:37:16.240665 [debug] [ThreadPool]: Creating schema "database: "jaffle_dbt"
+schema: "main"
+"
+[0m03:37:16.260480 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m03:37:16.261476 [debug] [ThreadPool]: On create_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "create_jaffle_dbt_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='jaffle_dbt'
+        and type='sqlite'
+    
+  
+[0m03:37:16.262474 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:37:16.265155 [debug] [ThreadPool]: SQL status: OK in 0.003 seconds
+[0m03:37:16.267152 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m03:37:16.268150 [debug] [ThreadPool]: On create_jaffle_dbt_main: BEGIN
+[0m03:37:16.269146 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m03:37:16.270144 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m03:37:16.271140 [debug] [ThreadPool]: On create_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "create_jaffle_dbt_main"} */
+
+    
+    
+        create schema if not exists "jaffle_dbt"."main"
+    
+[0m03:37:16.274132 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m03:37:16.275130 [debug] [ThreadPool]: On create_jaffle_dbt_main: COMMIT
+[0m03:37:16.276127 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m03:37:16.277125 [debug] [ThreadPool]: On create_jaffle_dbt_main: COMMIT
+[0m03:37:16.278122 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m03:37:16.279119 [debug] [ThreadPool]: On create_jaffle_dbt_main: Close
+[0m03:37:16.282478 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_jaffle_dbt_main'
+[0m03:37:16.292552 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt_main"
+[0m03:37:16.293550 [debug] [ThreadPool]: On list_jaffle_dbt_main: BEGIN
+[0m03:37:16.294549 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:37:16.295546 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m03:37:16.296544 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt_main"
+[0m03:37:16.297542 [debug] [ThreadPool]: On list_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "list_jaffle_dbt_main"} */
+select
+      'jaffle_dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'jaffle_dbt'
+  
+[0m03:37:16.335916 [debug] [ThreadPool]: SQL status: OK in 0.037 seconds
+[0m03:37:16.337908 [debug] [ThreadPool]: On list_jaffle_dbt_main: ROLLBACK
+[0m03:37:16.340331 [debug] [ThreadPool]: Failed to rollback 'list_jaffle_dbt_main'
+[0m03:37:16.341334 [debug] [ThreadPool]: On list_jaffle_dbt_main: Close
+[0m03:37:16.343036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd6330736-fca0-4b9b-9119-388a17019c92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002473E98B490>]}
+[0m03:37:16.344038 [debug] [MainThread]: Using duckdb connection "master"
+[0m03:37:16.345071 [debug] [MainThread]: On master: BEGIN
+[0m03:37:16.345071 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:37:16.346031 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m03:37:16.347061 [debug] [MainThread]: On master: COMMIT
+[0m03:37:16.348026 [debug] [MainThread]: Using duckdb connection "master"
+[0m03:37:16.349056 [debug] [MainThread]: On master: COMMIT
+[0m03:37:16.350128 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m03:37:16.351159 [debug] [MainThread]: On master: Close
+[0m03:37:16.360875 [debug] [Thread-1 (]: Began running node seed.jaffle_dbt.raw_customers
+[0m03:37:16.361876 [debug] [Thread-2 (]: Began running node seed.jaffle_dbt.raw_orders
+[0m03:37:16.361876 [debug] [Thread-3 (]: Began running node seed.jaffle_dbt.raw_payments
+[0m03:37:16.363216 [info ] [Thread-1 (]: 1 of 3 START seed file main.raw_customers ...................................... [RUN]
+[0m03:37:16.365053 [info ] [Thread-2 (]: 2 of 3 START seed file main.raw_orders ......................................... [RUN]
+[0m03:37:16.366049 [info ] [Thread-3 (]: 3 of 3 START seed file main.raw_payments ....................................... [RUN]
+[0m03:37:16.368193 [debug] [Thread-1 (]: Acquiring new duckdb connection 'seed.jaffle_dbt.raw_customers'
+[0m03:37:16.369732 [debug] [Thread-2 (]: Acquiring new duckdb connection 'seed.jaffle_dbt.raw_orders'
+[0m03:37:16.370304 [debug] [Thread-3 (]: Acquiring new duckdb connection 'seed.jaffle_dbt.raw_payments'
+[0m03:37:16.371524 [debug] [Thread-1 (]: Began compiling node seed.jaffle_dbt.raw_customers
+[0m03:37:16.372677 [debug] [Thread-2 (]: Began compiling node seed.jaffle_dbt.raw_orders
+[0m03:37:16.373444 [debug] [Thread-3 (]: Began compiling node seed.jaffle_dbt.raw_payments
+[0m03:37:16.374508 [debug] [Thread-1 (]: Began executing node seed.jaffle_dbt.raw_customers
+[0m03:37:16.375316 [debug] [Thread-2 (]: Began executing node seed.jaffle_dbt.raw_orders
+[0m03:37:16.376413 [debug] [Thread-3 (]: Began executing node seed.jaffle_dbt.raw_payments
+[0m03:37:16.436738 [debug] [Thread-1 (]: Using duckdb connection "seed.jaffle_dbt.raw_customers"
+[0m03:37:16.437738 [debug] [Thread-2 (]: Using duckdb connection "seed.jaffle_dbt.raw_orders"
+[0m03:37:16.438764 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: BEGIN
+[0m03:37:16.441243 [debug] [Thread-3 (]: Using duckdb connection "seed.jaffle_dbt.raw_payments"
+[0m03:37:16.441654 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: BEGIN
+[0m03:37:16.442775 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m03:37:16.443806 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: BEGIN
+[0m03:37:16.443806 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m03:37:16.447053 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m03:37:16.448080 [debug] [Thread-1 (]: SQL status: OK in 0.005 seconds
+[0m03:37:16.450042 [debug] [Thread-2 (]: SQL status: OK in 0.005 seconds
+[0m03:37:16.450719 [debug] [Thread-1 (]: Using duckdb connection "seed.jaffle_dbt.raw_customers"
+[0m03:37:16.451752 [debug] [Thread-3 (]: SQL status: OK in 0.005 seconds
+[0m03:37:16.452717 [debug] [Thread-2 (]: Using duckdb connection "seed.jaffle_dbt.raw_orders"
+[0m03:37:16.453850 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "seed.jaffle_dbt.raw_customers"} */
+
+    create table "jaffle_dbt"."main"."raw_customers" ("id,first_name,last_name
+1,Michael,P.
+2,Shawn,M.
+3,Kathleen,P.
+4,Jimmy,C.
+5,Katherine,R.
+6,Sarah,R.
+7,Martin,M.
+8,Frank,R.
+9,Jennifer,F.
+10,Henry,W.
+11,Fred,S.
+12,Amy,D.
+13,Kathleen,M.
+14,Steve,F.
+15,Teresa,H.
+16,Amanda,H.
+17,Kimberly,R.
+18,Johnny,K.
+19,Virginia,F.
+20,Anna,A.
+21,Willie,H.
+22,Sean,H.
+23,Mildred,A.
+24,David,G.
+25,Victor,H.
+26,Aaron,R.
+27,Benjamin,B.
+28,Lisa,W.
+29,Benjamin,K.
+30,Christina,W.
+31,Jane,G.
+32,Thomas,O.
+33,Katherine,M.
+34,Jennifer,S.
+35,Sara,T.
+36,Harold,O.
+37,Shirley,J.
+38,Dennis,J.
+39,Louise,W.
+40,Maria,A.
+41,Gloria,C.
+42,Diana,S.
+43,Kelly,N.
+44,Jane,R.
+45,Scott,B.
+46,Norma,C.
+47,Marie,P.
+48,Lillian,C.
+49,Judy,N.
+50,Billy,L.
+51,Howard,R.
+52,Laura,F.
+53,Anne,B.
+54,Rose,M.
+55,Nicholas,R.
+56,Joshua,K.
+57,Paul,W.
+58,Kathryn,K.
+59,Adam,A.
+60,Norma,W.
+61,Timothy,R.
+62,Elizabeth,P.
+63,Edward,G.
+64,David,C.
+65,Brenda,W.
+66,Adam,W.
+67,Michael,H.
+68,Jesse,E.
+69,Janet,P.
+70,Helen,F.
+71,Gerald,C.
+72,Kathryn,O.
+73,Alan,B.
+74,Harry,A.
+75,Andrea,H.
+76,Barbara,W.
+77,Anne,W.
+78,Harry,H.
+79,Jack,R.
+80,Phillip,H.
+81,Shirley,H.
+82,Arthur,D.
+83,Virginia,R.
+84,Christina,R.
+85,Theresa,M.
+86,Jason,C.
+87,Phillip,B.
+88,Adam,T.
+89,Margaret,J.
+90,Paul,P.
+91,Todd,W.
+92,Willie,O.
+93,Frances,R.
+94,Gregory,H.
+95,Lisa,P.
+96,Jacqueline,A.
+97,Shirley,D.
+98,Nicole,M.
+99,Mary,G.
+100,Jean,M.
+" integer)
+  
+[0m03:37:16.455221 [debug] [Thread-3 (]: Using duckdb connection "seed.jaffle_dbt.raw_payments"
+[0m03:37:16.456188 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "seed.jaffle_dbt.raw_orders"} */
+
+    create table "jaffle_dbt"."main"."raw_orders" ("id,user_id,order_date,status
+1,1,2018-01-01,returned
+2,3,2018-01-02,completed
+3,94,2018-01-04,completed
+4,50,2018-01-05,completed
+5,64,2018-01-05,completed
+6,54,2018-01-07,completed
+7,88,2018-01-09,completed
+8,2,2018-01-11,returned
+9,53,2018-01-12,completed
+10,7,2018-01-14,completed
+11,99,2018-01-14,completed
+12,59,2018-01-15,completed
+13,84,2018-01-17,completed
+14,40,2018-01-17,returned
+15,25,2018-01-17,completed
+16,39,2018-01-18,completed
+17,71,2018-01-18,completed
+18,64,2018-01-20,returned
+19,54,2018-01-22,completed
+20,20,2018-01-23,completed
+21,71,2018-01-23,completed
+22,86,2018-01-24,completed
+23,22,2018-01-26,return_pending
+24,3,2018-01-27,completed
+25,51,2018-01-28,completed
+26,32,2018-01-28,completed
+27,94,2018-01-29,completed
+28,8,2018-01-29,completed
+29,57,2018-01-31,completed
+30,69,2018-02-02,completed
+31,16,2018-02-02,completed
+32,28,2018-02-04,completed
+33,42,2018-02-04,completed
+34,38,2018-02-06,completed
+35,80,2018-02-08,completed
+36,85,2018-02-10,completed
+37,1,2018-02-10,completed
+38,51,2018-02-10,completed
+39,26,2018-02-11,completed
+40,33,2018-02-13,completed
+41,99,2018-02-14,completed
+42,92,2018-02-16,completed
+43,31,2018-02-17,completed
+44,66,2018-02-17,completed
+45,22,2018-02-17,completed
+46,6,2018-02-19,completed
+47,50,2018-02-20,completed
+48,27,2018-02-21,completed
+49,35,2018-02-21,completed
+50,51,2018-02-23,completed
+51,71,2018-02-24,completed
+52,54,2018-02-25,return_pending
+53,34,2018-02-26,completed
+54,54,2018-02-26,completed
+55,18,2018-02-27,completed
+56,79,2018-02-28,completed
+57,93,2018-03-01,completed
+58,22,2018-03-01,completed
+59,30,2018-03-02,completed
+60,12,2018-03-03,completed
+61,63,2018-03-03,completed
+62,57,2018-03-05,completed
+63,70,2018-03-06,completed
+64,13,2018-03-07,completed
+65,26,2018-03-08,completed
+66,36,2018-03-10,completed
+67,79,2018-03-11,completed
+68,53,2018-03-11,completed
+69,3,2018-03-11,completed
+70,8,2018-03-12,completed
+71,42,2018-03-12,shipped
+72,30,2018-03-14,shipped
+73,19,2018-03-16,completed
+74,9,2018-03-17,shipped
+75,69,2018-03-18,completed
+76,25,2018-03-20,completed
+77,35,2018-03-21,shipped
+78,90,2018-03-23,shipped
+79,52,2018-03-23,shipped
+80,11,2018-03-23,shipped
+81,76,2018-03-23,shipped
+82,46,2018-03-24,shipped
+83,54,2018-03-24,shipped
+84,70,2018-03-26,placed
+85,47,2018-03-26,shipped
+86,68,2018-03-26,placed
+87,46,2018-03-27,placed
+88,91,2018-03-27,shipped
+89,21,2018-03-28,placed
+90,66,2018-03-30,shipped
+91,47,2018-03-31,placed
+92,84,2018-04-02,placed
+93,66,2018-04-03,placed
+94,63,2018-04-03,placed
+95,27,2018-04-04,placed
+96,90,2018-04-06,placed
+97,89,2018-04-07,placed
+98,41,2018-04-07,placed
+99,85,2018-04-09,placed
+" integer)
+  
+[0m03:37:16.459196 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "seed.jaffle_dbt.raw_payments"} */
+
+    create table "jaffle_dbt"."main"."raw_payments" ("id,order_id,payment_method,amount
+1,1,credit_card,1000
+2,2,credit_card,2000
+3,3,coupon,100
+4,4,coupon,2500
+5,5,bank_transfer,1700
+6,6,credit_card,600
+7,7,credit_card,1600
+8,8,credit_card,2300
+9,9,gift_card,2300
+10,9,bank_transfer,0
+11,10,bank_transfer,2600
+12,11,credit_card,2700
+13,12,credit_card,100
+14,13,credit_card,500
+15,13,bank_transfer,1400
+16,14,bank_transfer,300
+17,15,coupon,2200
+18,16,credit_card,1000
+19,17,bank_transfer,200
+20,18,credit_card,500
+21,18,credit_card,800
+22,19,gift_card,600
+23,20,bank_transfer,1500
+24,21,credit_card,1200
+25,22,bank_transfer,800
+26,23,gift_card,2300
+27,24,coupon,2600
+28,25,bank_transfer,2000
+29,25,credit_card,2200
+30,25,coupon,1600
+31,26,credit_card,3000
+32,27,credit_card,2300
+33,28,bank_transfer,1900
+34,29,bank_transfer,1200
+35,30,credit_card,1300
+36,31,credit_card,1200
+37,32,credit_card,300
+38,33,credit_card,2200
+39,34,bank_transfer,1500
+40,35,credit_card,2900
+41,36,bank_transfer,900
+42,37,credit_card,2300
+43,38,credit_card,1500
+44,39,bank_transfer,800
+45,40,credit_card,1400
+46,41,credit_card,1700
+47,42,coupon,1700
+48,43,gift_card,1800
+49,44,gift_card,1100
+50,45,bank_transfer,500
+51,46,bank_transfer,800
+52,47,credit_card,2200
+53,48,bank_transfer,300
+54,49,credit_card,600
+55,49,credit_card,900
+56,50,credit_card,2600
+57,51,credit_card,2900
+58,51,credit_card,100
+59,52,bank_transfer,1500
+60,53,credit_card,300
+61,54,credit_card,1800
+62,54,bank_transfer,1100
+63,55,credit_card,2900
+64,56,credit_card,400
+65,57,bank_transfer,200
+66,58,coupon,1800
+67,58,gift_card,600
+68,59,gift_card,2800
+69,60,credit_card,400
+70,61,bank_transfer,1600
+71,62,gift_card,1400
+72,63,credit_card,2900
+73,64,bank_transfer,2600
+74,65,credit_card,0
+75,66,credit_card,2800
+76,67,bank_transfer,400
+77,67,credit_card,1900
+78,68,credit_card,1600
+79,69,credit_card,1900
+80,70,credit_card,2600
+81,71,credit_card,500
+82,72,credit_card,2900
+83,73,bank_transfer,300
+84,74,credit_card,3000
+85,75,credit_card,1900
+86,76,coupon,200
+87,77,credit_card,0
+88,77,bank_transfer,1900
+89,78,bank_transfer,2600
+90,79,credit_card,1800
+91,79,credit_card,900
+92,80,gift_card,300
+93,81,coupon,200
+94,82,credit_card,800
+95,83,credit_card,100
+96,84,bank_transfer,2500
+97,85,bank_transfer,1700
+98,86,coupon,2300
+99,87,gift_card,3000
+100,87,credit_card,2600
+101,88,credit_card,2900
+102,89,bank_transfer,2200
+103,90,bank_transfer,200
+104,91,credit_card,1900
+105,92,bank_transfer,1500
+106,92,coupon,200
+107,93,gift_card,2600
+108,94,coupon,700
+109,95,coupon,2400
+110,96,gift_card,1700
+111,97,bank_transfer,1400
+112,98,bank_transfer,1000
+113,99,credit_card,2400
+" integer)
+  
+[0m03:37:16.460181 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m03:37:16.462430 [debug] [Thread-2 (]: SQL status: OK in 0.001 seconds
+[0m03:37:16.463562 [debug] [Thread-3 (]: SQL status: OK in 0.002 seconds
+[0m03:37:16.481518 [debug] [Thread-1 (]: Using duckdb connection "seed.jaffle_dbt.raw_customers"
+[0m03:37:16.483857 [debug] [Thread-2 (]: Using duckdb connection "seed.jaffle_dbt.raw_orders"
+[0m03:37:16.486152 [debug] [Thread-3 (]: Using duckdb connection "seed.jaffle_dbt.raw_payments"
+[0m03:37:16.487566 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: 
+          COPY "jaffle_dbt"."main"."raw_customers" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_customers.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        ...
+[0m03:37:16.488365 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: 
+          COPY "jaffle_dbt"."main"."raw_orders" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_orders.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        ...
+[0m03:37:16.489469 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: 
+          COPY "jaffle_dbt"."main"."raw_payments" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_payments.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        ...
+[0m03:37:16.529817 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: 
+          COPY "jaffle_dbt"."main"."raw_customers" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_customers.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+[0m03:37:16.530479 [debug] [Thread-3 (]: DuckDB adapter: Error running SQL: 
+          COPY "jaffle_dbt"."main"."raw_payments" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_payments.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+[0m03:37:16.530479 [debug] [Thread-2 (]: DuckDB adapter: Error running SQL: 
+          COPY "jaffle_dbt"."main"."raw_orders" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_orders.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+[0m03:37:16.530479 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m03:37:16.530479 [debug] [Thread-3 (]: DuckDB adapter: Rolling back transaction.
+[0m03:37:16.530479 [debug] [Thread-2 (]: DuckDB adapter: Rolling back transaction.
+[0m03:37:16.530479 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: ROLLBACK
+[0m03:37:16.530479 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: ROLLBACK
+[0m03:37:16.530479 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: ROLLBACK
+[0m03:37:16.567293 [debug] [Thread-2 (]: Failed to rollback 'seed.jaffle_dbt.raw_orders'
+[0m03:37:16.570318 [debug] [Thread-1 (]: Failed to rollback 'seed.jaffle_dbt.raw_customers'
+[0m03:37:16.571285 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: Close
+[0m03:37:16.573280 [debug] [Thread-3 (]: Failed to rollback 'seed.jaffle_dbt.raw_payments'
+[0m03:37:16.574113 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: Close
+[0m03:37:16.578289 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: Close
+[0m03:37:16.588184 [debug] [Thread-2 (]: Runtime Error in seed raw_orders (seeds\raw_orders.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_orders.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,user_id,order_date,status
+  1,1,2018-01-01,returned
+  2,3,2018-01-02,completed
+  3,94,2018-01-04,completed
+  4,50,2018-01-05,completed
+  5,64,2018-01-05,completed
+  6,54,2018-01-07,completed
+  7,88,2018-01-09,completed
+  8,2,2018-01-11,returned
+  9,53,2018-01-12,completed
+  10,7,2018-01-14,completed
+  11,99,2018-01-14,completed
+  12,59,2018-01-15,completed
+  13,84,2018-01-17,completed
+  14,40,2018-01-17,returned
+  15,25,2018-01-17,completed
+  16,39,2018-01-18,completed
+  17,71,2018-01-18,completed
+  18,64,2018-01-20,returned
+  19,54,2018-01-22,completed
+  20,20,2018-01-23,completed
+  21,71,2018-01-23,completed
+  22,86,2018-01-24,completed
+  23,22,2018-01-26,return_pending
+  24,3,2018-01-27,completed
+  25,51,2018-01-28,completed
+  26,32,2018-01-28,completed
+  27,94,2018-01-29,completed
+  28,8,2018-01-29,completed
+  29,57,2018-01-31,completed
+  30,69,2018-02-02,completed
+  31,16,2018-02-02,completed
+  32,28,2018-02-04,completed
+  33,42,2018-02-04,completed
+  34,38,2018-02-06,completed
+  35,80,2018-02-08,completed
+  36,85,2018-02-10,completed
+  37,1,2018-02-10,completed
+  38,51,2018-02-10,completed
+  39,26,2018-02-11,completed
+  40,33,2018-02-13,completed
+  41,99,2018-02-14,completed
+  42,92,2018-02-16,completed
+  43,31,2018-02-17,completed
+  44,66,2018-02-17,completed
+  45,22,2018-02-17,completed
+  46,6,2018-02-19,completed
+  47,50,2018-02-20,completed
+  48,27,2018-02-21,completed
+  49,35,2018-02-21,completed
+  50,51,2018-02-23,completed
+  51,71,2018-02-24,completed
+  52,54,2018-02-25,return_pending
+  53,34,2018-02-26,completed
+  54,54,2018-02-26,completed
+  55,18,2018-02-27,completed
+  56,79,2018-02-28,completed
+  57,93,2018-03-01,completed
+  58,22,2018-03-01,completed
+  59,30,2018-03-02,completed
+  60,12,2018-03-03,completed
+  61,63,2018-03-03,completed
+  62,57,2018-03-05,completed
+  63,70,2018-03-06,completed
+  64,13,2018-03-07,completed
+  65,26,2018-03-08,completed
+  66,36,2018-03-10,completed
+  67,79,2018-03-11,completed
+  68,53,2018-03-11,completed
+  69,3,2018-03-11,completed
+  70,8,2018-03-12,completed
+  71,42,2018-03-12,shipped
+  72,30,2018-03-14,shipped
+  73,19,2018-03-16,completed
+  74,9,2018-03-17,shipped
+  75,69,2018-03-18,completed
+  76,25,2018-03-20,completed
+  77,35,2018-03-21,shipped
+  78,90,2018-03-23,shipped
+  79,52,2018-03-23,shipped
+  80,11,2018-03-23,shipped
+  81,76,2018-03-23,shipped
+  82,46,2018-03-24,shipped
+  83,54,2018-03-24,shipped
+  84,70,2018-03-26,placed
+  85,47,2018-03-26,shipped
+  86,68,2018-03-26,placed
+  87,46,2018-03-27,placed
+  88,91,2018-03-27,shipped
+  89,21,2018-03-28,placed
+  90,66,2018-03-30,shipped
+  91,47,2018-03-31,placed
+  92,84,2018-04-02,placed
+  93,66,2018-04-03,placed
+  94,63,2018-04-03,placed
+  95,27,2018-04-04,placed
+  96,90,2018-04-06,placed
+  97,89,2018-04-07,placed
+  98,41,2018-04-07,placed
+  99,85,2018-04-09,placed
+  ' : 'INTEGER'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:37:16.593137 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd6330736-fca0-4b9b-9119-388a17019c92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002473EE32E90>]}
+[0m03:37:16.596127 [debug] [Thread-1 (]: Runtime Error in seed raw_customers (seeds\raw_customers.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_customers.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,first_name,last_name
+  1,Michael,P.
+  2,Shawn,M.
+  3,Kathleen,P.
+  4,Jimmy,C.
+  5,Katherine,R.
+  6,Sarah,R.
+  7,Martin,M.
+  8,Frank,R.
+  9,Jennifer,F.
+  10,Henry,W.
+  11,Fred,S.
+  12,Amy,D.
+  13,Kathleen,M.
+  14,Steve,F.
+  15,Teresa,H.
+  16,Amanda,H.
+  17,Kimberly,R.
+  18,Johnny,K.
+  19,Virginia,F.
+  20,Anna,A.
+  21,Willie,H.
+  22,Sean,H.
+  23,Mildred,A.
+  24,David,G.
+  25,Victor,H.
+  26,Aaron,R.
+  27,Benjamin,B.
+  28,Lisa,W.
+  29,Benjamin,K.
+  30,Christina,W.
+  31,Jane,G.
+  32,Thomas,O.
+  33,Katherine,M.
+  34,Jennifer,S.
+  35,Sara,T.
+  36,Harold,O.
+  37,Shirley,J.
+  38,Dennis,J.
+  39,Louise,W.
+  40,Maria,A.
+  41,Gloria,C.
+  42,Diana,S.
+  43,Kelly,N.
+  44,Jane,R.
+  45,Scott,B.
+  46,Norma,C.
+  47,Marie,P.
+  48,Lillian,C.
+  49,Judy,N.
+  50,Billy,L.
+  51,Howard,R.
+  52,Laura,F.
+  53,Anne,B.
+  54,Rose,M.
+  55,Nicholas,R.
+  56,Joshua,K.
+  57,Paul,W.
+  58,Kathryn,K.
+  59,Adam,A.
+  60,Norma,W.
+  61,Timothy,R.
+  62,Elizabeth,P.
+  63,Edward,G.
+  64,David,C.
+  65,Brenda,W.
+  66,Adam,W.
+  67,Michael,H.
+  68,Jesse,E.
+  69,Janet,P.
+  70,Helen,F.
+  71,Gerald,C.
+  72,Kathryn,O.
+  73,Alan,B.
+  74,Harry,A.
+  75,Andrea,H.
+  76,Barbara,W.
+  77,Anne,W.
+  78,Harry,H.
+  79,Jack,R.
+  80,Phillip,H.
+  81,Shirley,H.
+  82,Arthur,D.
+  83,Virginia,R.
+  84,Christina,R.
+  85,Theresa,M.
+  86,Jason,C.
+  87,Phillip,B.
+  88,Adam,T.
+  89,Margaret,J.
+  90,Paul,P.
+  91,Todd,W.
+  92,Willie,O.
+  93,Frances,R.
+  94,Gregory,H.
+  95,Lisa,P.
+  96,Jacqueline,A.
+  97,Shirley,D.
+  98,Nicole,M.
+  99,Mary,G.
+  100,Jean,M.
+  ' : 'INTEGER'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 3. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:37:16.598188 [debug] [Thread-3 (]: Runtime Error in seed raw_payments (seeds\raw_payments.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_payments.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,order_id,payment_method,amount
+  1,1,credit_card,1000
+  2,2,credit_card,2000
+  3,3,coupon,100
+  4,4,coupon,2500
+  5,5,bank_transfer,1700
+  6,6,credit_card,600
+  7,7,credit_card,1600
+  8,8,credit_card,2300
+  9,9,gift_card,2300
+  10,9,bank_transfer,0
+  11,10,bank_transfer,2600
+  12,11,credit_card,2700
+  13,12,credit_card,100
+  14,13,credit_card,500
+  15,13,bank_transfer,1400
+  16,14,bank_transfer,300
+  17,15,coupon,2200
+  18,16,credit_card,1000
+  19,17,bank_transfer,200
+  20,18,credit_card,500
+  21,18,credit_card,800
+  22,19,gift_card,600
+  23,20,bank_transfer,1500
+  24,21,credit_card,1200
+  25,22,bank_transfer,800
+  26,23,gift_card,2300
+  27,24,coupon,2600
+  28,25,bank_transfer,2000
+  29,25,credit_card,2200
+  30,25,coupon,1600
+  31,26,credit_card,3000
+  32,27,credit_card,2300
+  33,28,bank_transfer,1900
+  34,29,bank_transfer,1200
+  35,30,credit_card,1300
+  36,31,credit_card,1200
+  37,32,credit_card,300
+  38,33,credit_card,2200
+  39,34,bank_transfer,1500
+  40,35,credit_card,2900
+  41,36,bank_transfer,900
+  42,37,credit_card,2300
+  43,38,credit_card,1500
+  44,39,bank_transfer,800
+  45,40,credit_card,1400
+  46,41,credit_card,1700
+  47,42,coupon,1700
+  48,43,gift_card,1800
+  49,44,gift_card,1100
+  50,45,bank_transfer,500
+  51,46,bank_transfer,800
+  52,47,credit_card,2200
+  53,48,bank_transfer,300
+  54,49,credit_card,600
+  55,49,credit_card,900
+  56,50,credit_card,2600
+  57,51,credit_card,2900
+  58,51,credit_card,100
+  59,52,bank_transfer,1500
+  60,53,credit_card,300
+  61,54,credit_card,1800
+  62,54,bank_transfer,1100
+  63,55,credit_card,2900
+  64,56,credit_card,400
+  65,57,bank_transfer,200
+  66,58,coupon,1800
+  67,58,gift_card,600
+  68,59,gift_card,2800
+  69,60,credit_card,400
+  70,61,bank_transfer,1600
+  71,62,gift_card,1400
+  72,63,credit_card,2900
+  73,64,bank_transfer,2600
+  74,65,credit_card,0
+  75,66,credit_card,2800
+  76,67,bank_transfer,400
+  77,67,credit_card,1900
+  78,68,credit_card,1600
+  79,69,credit_card,1900
+  80,70,credit_card,2600
+  81,71,credit_card,500
+  82,72,credit_card,2900
+  83,73,bank_transfer,300
+  84,74,credit_card,3000
+  85,75,credit_card,1900
+  86,76,coupon,200
+  87,77,credit_card,0
+  88,77,bank_transfer,1900
+  89,78,bank_transfer,2600
+  90,79,credit_card,1800
+  91,79,credit_card,900
+  92,80,gift_card,300
+  93,81,coupon,200
+  94,82,credit_card,800
+  95,83,credit_card,100
+  96,84,bank_transfer,2500
+  97,85,bank_transfer,1700
+  98,86,coupon,2300
+  99,87,gift_card,3000
+  100,87,credit_card,2600
+  101,88,credit_card,2900
+  102,89,bank_transfer,2200
+  103,90,bank_transfer,200
+  104,91,credit_card,1900
+  105,92,bank_transfer,1500
+  106,92,coupon,200
+  107,93,gift_card,2600
+  108,94,coupon,700
+  109,95,coupon,2400
+  110,96,gift_card,1700
+  111,97,bank_transfer,1400
+  112,98,bank_transfer,1000
+  113,99,credit_card,2400
+  ' : 'INTEGER'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:37:16.598188 [error] [Thread-2 (]: 2 of 3 ERROR loading seed file main.raw_orders ................................. [[31mERROR[0m in 0.22s]
+[0m03:37:16.598188 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd6330736-fca0-4b9b-9119-388a17019c92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002473EC61590>]}
+[0m03:37:16.598188 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd6330736-fca0-4b9b-9119-388a17019c92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002473EE27050>]}
+[0m03:37:16.598188 [debug] [Thread-2 (]: Finished running node seed.jaffle_dbt.raw_orders
+[0m03:37:16.598188 [error] [Thread-1 (]: 1 of 3 ERROR loading seed file main.raw_customers .............................. [[31mERROR[0m in 0.23s]
+[0m03:37:16.612287 [debug] [Thread-7 (]: Marking all children of 'seed.jaffle_dbt.raw_orders' to be skipped because of status 'error'.  Reason: Runtime Error in seed raw_orders (seeds\raw_orders.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_orders.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,user_id,order_date,status
+  1,1,2018-01-01,returned
+  2,3,2018-01-02,completed
+  3,94,2018-01-04,completed
+  4,50,2018-01-05,completed
+  5,64,2018-01-05,completed
+  6,54,2018-01-07,completed
+  7,88,2018-01-09,completed
+  8,2,2018-01-11,returned
+  9,53,2018-01-12,completed
+  10,7,2018-01-14,completed
+  11,99,2018-01-14,completed
+  12,59,2018-01-15,completed
+  13,84,2018-01-17,completed
+  14,40,2018-01-17,returned
+  15,25,2018-01-17,completed
+  16,39,2018-01-18,completed
+  17,71,2018-01-18,completed
+  18,64,2018-01-20,returned
+  19,54,2018-01-22,completed
+  20,20,2018-01-23,completed
+  21,71,2018-01-23,completed
+  22,86,2018-01-24,completed
+  23,22,2018-01-26,return_pending
+  24,3,2018-01-27,completed
+  25,51,2018-01-28,completed
+  26,32,2018-01-28,completed
+  27,94,2018-01-29,completed
+  28,8,2018-01-29,completed
+  29,57,2018-01-31,completed
+  30,69,2018-02-02,completed
+  31,16,2018-02-02,completed
+  32,28,2018-02-04,completed
+  33,42,2018-02-04,completed
+  34,38,2018-02-06,completed
+  35,80,2018-02-08,completed
+  36,85,2018-02-10,completed
+  37,1,2018-02-10,completed
+  38,51,2018-02-10,completed
+  39,26,2018-02-11,completed
+  40,33,2018-02-13,completed
+  41,99,2018-02-14,completed
+  42,92,2018-02-16,completed
+  43,31,2018-02-17,completed
+  44,66,2018-02-17,completed
+  45,22,2018-02-17,completed
+  46,6,2018-02-19,completed
+  47,50,2018-02-20,completed
+  48,27,2018-02-21,completed
+  49,35,2018-02-21,completed
+  50,51,2018-02-23,completed
+  51,71,2018-02-24,completed
+  52,54,2018-02-25,return_pending
+  53,34,2018-02-26,completed
+  54,54,2018-02-26,completed
+  55,18,2018-02-27,completed
+  56,79,2018-02-28,completed
+  57,93,2018-03-01,completed
+  58,22,2018-03-01,completed
+  59,30,2018-03-02,completed
+  60,12,2018-03-03,completed
+  61,63,2018-03-03,completed
+  62,57,2018-03-05,completed
+  63,70,2018-03-06,completed
+  64,13,2018-03-07,completed
+  65,26,2018-03-08,completed
+  66,36,2018-03-10,completed
+  67,79,2018-03-11,completed
+  68,53,2018-03-11,completed
+  69,3,2018-03-11,completed
+  70,8,2018-03-12,completed
+  71,42,2018-03-12,shipped
+  72,30,2018-03-14,shipped
+  73,19,2018-03-16,completed
+  74,9,2018-03-17,shipped
+  75,69,2018-03-18,completed
+  76,25,2018-03-20,completed
+  77,35,2018-03-21,shipped
+  78,90,2018-03-23,shipped
+  79,52,2018-03-23,shipped
+  80,11,2018-03-23,shipped
+  81,76,2018-03-23,shipped
+  82,46,2018-03-24,shipped
+  83,54,2018-03-24,shipped
+  84,70,2018-03-26,placed
+  85,47,2018-03-26,shipped
+  86,68,2018-03-26,placed
+  87,46,2018-03-27,placed
+  88,91,2018-03-27,shipped
+  89,21,2018-03-28,placed
+  90,66,2018-03-30,shipped
+  91,47,2018-03-31,placed
+  92,84,2018-04-02,placed
+  93,66,2018-04-03,placed
+  94,63,2018-04-03,placed
+  95,27,2018-04-04,placed
+  96,90,2018-04-06,placed
+  97,89,2018-04-07,placed
+  98,41,2018-04-07,placed
+  99,85,2018-04-09,placed
+  ' : 'INTEGER'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  .
+[0m03:37:16.609738 [error] [Thread-3 (]: 3 of 3 ERROR loading seed file main.raw_payments ............................... [[31mERROR[0m in 0.23s]
+[0m03:37:16.615053 [debug] [Thread-1 (]: Finished running node seed.jaffle_dbt.raw_customers
+[0m03:37:16.615053 [debug] [Thread-3 (]: Finished running node seed.jaffle_dbt.raw_payments
+[0m03:37:16.615053 [debug] [Thread-7 (]: Marking all children of 'seed.jaffle_dbt.raw_customers' to be skipped because of status 'error'.  Reason: Runtime Error in seed raw_customers (seeds\raw_customers.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_customers.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,first_name,last_name
+  1,Michael,P.
+  2,Shawn,M.
+  3,Kathleen,P.
+  4,Jimmy,C.
+  5,Katherine,R.
+  6,Sarah,R.
+  7,Martin,M.
+  8,Frank,R.
+  9,Jennifer,F.
+  10,Henry,W.
+  11,Fred,S.
+  12,Amy,D.
+  13,Kathleen,M.
+  14,Steve,F.
+  15,Teresa,H.
+  16,Amanda,H.
+  17,Kimberly,R.
+  18,Johnny,K.
+  19,Virginia,F.
+  20,Anna,A.
+  21,Willie,H.
+  22,Sean,H.
+  23,Mildred,A.
+  24,David,G.
+  25,Victor,H.
+  26,Aaron,R.
+  27,Benjamin,B.
+  28,Lisa,W.
+  29,Benjamin,K.
+  30,Christina,W.
+  31,Jane,G.
+  32,Thomas,O.
+  33,Katherine,M.
+  34,Jennifer,S.
+  35,Sara,T.
+  36,Harold,O.
+  37,Shirley,J.
+  38,Dennis,J.
+  39,Louise,W.
+  40,Maria,A.
+  41,Gloria,C.
+  42,Diana,S.
+  43,Kelly,N.
+  44,Jane,R.
+  45,Scott,B.
+  46,Norma,C.
+  47,Marie,P.
+  48,Lillian,C.
+  49,Judy,N.
+  50,Billy,L.
+  51,Howard,R.
+  52,Laura,F.
+  53,Anne,B.
+  54,Rose,M.
+  55,Nicholas,R.
+  56,Joshua,K.
+  57,Paul,W.
+  58,Kathryn,K.
+  59,Adam,A.
+  60,Norma,W.
+  61,Timothy,R.
+  62,Elizabeth,P.
+  63,Edward,G.
+  64,David,C.
+  65,Brenda,W.
+  66,Adam,W.
+  67,Michael,H.
+  68,Jesse,E.
+  69,Janet,P.
+  70,Helen,F.
+  71,Gerald,C.
+  72,Kathryn,O.
+  73,Alan,B.
+  74,Harry,A.
+  75,Andrea,H.
+  76,Barbara,W.
+  77,Anne,W.
+  78,Harry,H.
+  79,Jack,R.
+  80,Phillip,H.
+  81,Shirley,H.
+  82,Arthur,D.
+  83,Virginia,R.
+  84,Christina,R.
+  85,Theresa,M.
+  86,Jason,C.
+  87,Phillip,B.
+  88,Adam,T.
+  89,Margaret,J.
+  90,Paul,P.
+  91,Todd,W.
+  92,Willie,O.
+  93,Frances,R.
+  94,Gregory,H.
+  95,Lisa,P.
+  96,Jacqueline,A.
+  97,Shirley,D.
+  98,Nicole,M.
+  99,Mary,G.
+  100,Jean,M.
+  ' : 'INTEGER'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 3. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  .
+[0m03:37:16.615053 [debug] [Thread-7 (]: Marking all children of 'seed.jaffle_dbt.raw_payments' to be skipped because of status 'error'.  Reason: Runtime Error in seed raw_payments (seeds\raw_payments.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_payments.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,order_id,payment_method,amount
+  1,1,credit_card,1000
+  2,2,credit_card,2000
+  3,3,coupon,100
+  4,4,coupon,2500
+  5,5,bank_transfer,1700
+  6,6,credit_card,600
+  7,7,credit_card,1600
+  8,8,credit_card,2300
+  9,9,gift_card,2300
+  10,9,bank_transfer,0
+  11,10,bank_transfer,2600
+  12,11,credit_card,2700
+  13,12,credit_card,100
+  14,13,credit_card,500
+  15,13,bank_transfer,1400
+  16,14,bank_transfer,300
+  17,15,coupon,2200
+  18,16,credit_card,1000
+  19,17,bank_transfer,200
+  20,18,credit_card,500
+  21,18,credit_card,800
+  22,19,gift_card,600
+  23,20,bank_transfer,1500
+  24,21,credit_card,1200
+  25,22,bank_transfer,800
+  26,23,gift_card,2300
+  27,24,coupon,2600
+  28,25,bank_transfer,2000
+  29,25,credit_card,2200
+  30,25,coupon,1600
+  31,26,credit_card,3000
+  32,27,credit_card,2300
+  33,28,bank_transfer,1900
+  34,29,bank_transfer,1200
+  35,30,credit_card,1300
+  36,31,credit_card,1200
+  37,32,credit_card,300
+  38,33,credit_card,2200
+  39,34,bank_transfer,1500
+  40,35,credit_card,2900
+  41,36,bank_transfer,900
+  42,37,credit_card,2300
+  43,38,credit_card,1500
+  44,39,bank_transfer,800
+  45,40,credit_card,1400
+  46,41,credit_card,1700
+  47,42,coupon,1700
+  48,43,gift_card,1800
+  49,44,gift_card,1100
+  50,45,bank_transfer,500
+  51,46,bank_transfer,800
+  52,47,credit_card,2200
+  53,48,bank_transfer,300
+  54,49,credit_card,600
+  55,49,credit_card,900
+  56,50,credit_card,2600
+  57,51,credit_card,2900
+  58,51,credit_card,100
+  59,52,bank_transfer,1500
+  60,53,credit_card,300
+  61,54,credit_card,1800
+  62,54,bank_transfer,1100
+  63,55,credit_card,2900
+  64,56,credit_card,400
+  65,57,bank_transfer,200
+  66,58,coupon,1800
+  67,58,gift_card,600
+  68,59,gift_card,2800
+  69,60,credit_card,400
+  70,61,bank_transfer,1600
+  71,62,gift_card,1400
+  72,63,credit_card,2900
+  73,64,bank_transfer,2600
+  74,65,credit_card,0
+  75,66,credit_card,2800
+  76,67,bank_transfer,400
+  77,67,credit_card,1900
+  78,68,credit_card,1600
+  79,69,credit_card,1900
+  80,70,credit_card,2600
+  81,71,credit_card,500
+  82,72,credit_card,2900
+  83,73,bank_transfer,300
+  84,74,credit_card,3000
+  85,75,credit_card,1900
+  86,76,coupon,200
+  87,77,credit_card,0
+  88,77,bank_transfer,1900
+  89,78,bank_transfer,2600
+  90,79,credit_card,1800
+  91,79,credit_card,900
+  92,80,gift_card,300
+  93,81,coupon,200
+  94,82,credit_card,800
+  95,83,credit_card,100
+  96,84,bank_transfer,2500
+  97,85,bank_transfer,1700
+  98,86,coupon,2300
+  99,87,gift_card,3000
+  100,87,credit_card,2600
+  101,88,credit_card,2900
+  102,89,bank_transfer,2200
+  103,90,bank_transfer,200
+  104,91,credit_card,1900
+  105,92,bank_transfer,1500
+  106,92,coupon,200
+  107,93,gift_card,2600
+  108,94,coupon,700
+  109,95,coupon,2400
+  110,96,gift_card,1700
+  111,97,bank_transfer,1400
+  112,98,bank_transfer,1000
+  113,99,credit_card,2400
+  ' : 'INTEGER'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  .
+[0m03:37:16.615053 [debug] [MainThread]: Using duckdb connection "master"
+[0m03:37:16.615053 [debug] [MainThread]: On master: BEGIN
+[0m03:37:16.615053 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m03:37:16.615053 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m03:37:16.615053 [debug] [MainThread]: On master: COMMIT
+[0m03:37:16.631161 [debug] [MainThread]: Using duckdb connection "master"
+[0m03:37:16.632160 [debug] [MainThread]: On master: COMMIT
+[0m03:37:16.634155 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m03:37:16.635528 [debug] [MainThread]: On master: Close
+[0m03:37:16.636524 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m03:37:16.636524 [debug] [MainThread]: Connection 'create_jaffle_dbt_main' was properly closed.
+[0m03:37:16.638520 [debug] [MainThread]: Connection 'list_jaffle_dbt_main' was properly closed.
+[0m03:37:16.638520 [debug] [MainThread]: Connection 'seed.jaffle_dbt.raw_customers' was properly closed.
+[0m03:37:16.639517 [debug] [MainThread]: Connection 'seed.jaffle_dbt.raw_orders' was properly closed.
+[0m03:37:16.640514 [debug] [MainThread]: Connection 'seed.jaffle_dbt.raw_payments' was properly closed.
+[0m03:37:16.642194 [info ] [MainThread]: 
+[0m03:37:16.642870 [info ] [MainThread]: Finished running 3 seeds in 0 hours 0 minutes and 0.72 seconds (0.72s).
+[0m03:37:16.646863 [debug] [MainThread]: Command end result
+[0m03:37:16.690294 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\jaffle_shop\jaffle_dbt\target\manifest.json
+[0m03:37:16.694283 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\jaffle_shop\jaffle_dbt\target\semantic_manifest.json
+[0m03:37:16.699521 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\kev\jaffle_shop\jaffle_dbt\target\run_results.json
+[0m03:37:16.699521 [info ] [MainThread]: 
+[0m03:37:16.699521 [info ] [MainThread]: [31mCompleted with 3 errors, 0 partial successes, and 0 warnings:[0m
+[0m03:37:16.699521 [info ] [MainThread]: 
+[0m03:37:16.699521 [error] [MainThread]: [31mFailure in seed raw_orders (seeds\raw_orders.csv)[0m
+[0m03:37:16.713660 [error] [MainThread]:   Runtime Error in seed raw_orders (seeds\raw_orders.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_orders.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,user_id,order_date,status
+  1,1,2018-01-01,returned
+  2,3,2018-01-02,completed
+  3,94,2018-01-04,completed
+  4,50,2018-01-05,completed
+  5,64,2018-01-05,completed
+  6,54,2018-01-07,completed
+  7,88,2018-01-09,completed
+  8,2,2018-01-11,returned
+  9,53,2018-01-12,completed
+  10,7,2018-01-14,completed
+  11,99,2018-01-14,completed
+  12,59,2018-01-15,completed
+  13,84,2018-01-17,completed
+  14,40,2018-01-17,returned
+  15,25,2018-01-17,completed
+  16,39,2018-01-18,completed
+  17,71,2018-01-18,completed
+  18,64,2018-01-20,returned
+  19,54,2018-01-22,completed
+  20,20,2018-01-23,completed
+  21,71,2018-01-23,completed
+  22,86,2018-01-24,completed
+  23,22,2018-01-26,return_pending
+  24,3,2018-01-27,completed
+  25,51,2018-01-28,completed
+  26,32,2018-01-28,completed
+  27,94,2018-01-29,completed
+  28,8,2018-01-29,completed
+  29,57,2018-01-31,completed
+  30,69,2018-02-02,completed
+  31,16,2018-02-02,completed
+  32,28,2018-02-04,completed
+  33,42,2018-02-04,completed
+  34,38,2018-02-06,completed
+  35,80,2018-02-08,completed
+  36,85,2018-02-10,completed
+  37,1,2018-02-10,completed
+  38,51,2018-02-10,completed
+  39,26,2018-02-11,completed
+  40,33,2018-02-13,completed
+  41,99,2018-02-14,completed
+  42,92,2018-02-16,completed
+  43,31,2018-02-17,completed
+  44,66,2018-02-17,completed
+  45,22,2018-02-17,completed
+  46,6,2018-02-19,completed
+  47,50,2018-02-20,completed
+  48,27,2018-02-21,completed
+  49,35,2018-02-21,completed
+  50,51,2018-02-23,completed
+  51,71,2018-02-24,completed
+  52,54,2018-02-25,return_pending
+  53,34,2018-02-26,completed
+  54,54,2018-02-26,completed
+  55,18,2018-02-27,completed
+  56,79,2018-02-28,completed
+  57,93,2018-03-01,completed
+  58,22,2018-03-01,completed
+  59,30,2018-03-02,completed
+  60,12,2018-03-03,completed
+  61,63,2018-03-03,completed
+  62,57,2018-03-05,completed
+  63,70,2018-03-06,completed
+  64,13,2018-03-07,completed
+  65,26,2018-03-08,completed
+  66,36,2018-03-10,completed
+  67,79,2018-03-11,completed
+  68,53,2018-03-11,completed
+  69,3,2018-03-11,completed
+  70,8,2018-03-12,completed
+  71,42,2018-03-12,shipped
+  72,30,2018-03-14,shipped
+  73,19,2018-03-16,completed
+  74,9,2018-03-17,shipped
+  75,69,2018-03-18,completed
+  76,25,2018-03-20,completed
+  77,35,2018-03-21,shipped
+  78,90,2018-03-23,shipped
+  79,52,2018-03-23,shipped
+  80,11,2018-03-23,shipped
+  81,76,2018-03-23,shipped
+  82,46,2018-03-24,shipped
+  83,54,2018-03-24,shipped
+  84,70,2018-03-26,placed
+  85,47,2018-03-26,shipped
+  86,68,2018-03-26,placed
+  87,46,2018-03-27,placed
+  88,91,2018-03-27,shipped
+  89,21,2018-03-28,placed
+  90,66,2018-03-30,shipped
+  91,47,2018-03-31,placed
+  92,84,2018-04-02,placed
+  93,66,2018-04-03,placed
+  94,63,2018-04-03,placed
+  95,27,2018-04-04,placed
+  96,90,2018-04-06,placed
+  97,89,2018-04-07,placed
+  98,41,2018-04-07,placed
+  99,85,2018-04-09,placed
+  ' : 'INTEGER'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:37:16.738169 [info ] [MainThread]: 
+[0m03:37:16.739012 [error] [MainThread]: [31mFailure in seed raw_customers (seeds\raw_customers.csv)[0m
+[0m03:37:16.741393 [error] [MainThread]:   Runtime Error in seed raw_customers (seeds\raw_customers.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_customers.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,first_name,last_name
+  1,Michael,P.
+  2,Shawn,M.
+  3,Kathleen,P.
+  4,Jimmy,C.
+  5,Katherine,R.
+  6,Sarah,R.
+  7,Martin,M.
+  8,Frank,R.
+  9,Jennifer,F.
+  10,Henry,W.
+  11,Fred,S.
+  12,Amy,D.
+  13,Kathleen,M.
+  14,Steve,F.
+  15,Teresa,H.
+  16,Amanda,H.
+  17,Kimberly,R.
+  18,Johnny,K.
+  19,Virginia,F.
+  20,Anna,A.
+  21,Willie,H.
+  22,Sean,H.
+  23,Mildred,A.
+  24,David,G.
+  25,Victor,H.
+  26,Aaron,R.
+  27,Benjamin,B.
+  28,Lisa,W.
+  29,Benjamin,K.
+  30,Christina,W.
+  31,Jane,G.
+  32,Thomas,O.
+  33,Katherine,M.
+  34,Jennifer,S.
+  35,Sara,T.
+  36,Harold,O.
+  37,Shirley,J.
+  38,Dennis,J.
+  39,Louise,W.
+  40,Maria,A.
+  41,Gloria,C.
+  42,Diana,S.
+  43,Kelly,N.
+  44,Jane,R.
+  45,Scott,B.
+  46,Norma,C.
+  47,Marie,P.
+  48,Lillian,C.
+  49,Judy,N.
+  50,Billy,L.
+  51,Howard,R.
+  52,Laura,F.
+  53,Anne,B.
+  54,Rose,M.
+  55,Nicholas,R.
+  56,Joshua,K.
+  57,Paul,W.
+  58,Kathryn,K.
+  59,Adam,A.
+  60,Norma,W.
+  61,Timothy,R.
+  62,Elizabeth,P.
+  63,Edward,G.
+  64,David,C.
+  65,Brenda,W.
+  66,Adam,W.
+  67,Michael,H.
+  68,Jesse,E.
+  69,Janet,P.
+  70,Helen,F.
+  71,Gerald,C.
+  72,Kathryn,O.
+  73,Alan,B.
+  74,Harry,A.
+  75,Andrea,H.
+  76,Barbara,W.
+  77,Anne,W.
+  78,Harry,H.
+  79,Jack,R.
+  80,Phillip,H.
+  81,Shirley,H.
+  82,Arthur,D.
+  83,Virginia,R.
+  84,Christina,R.
+  85,Theresa,M.
+  86,Jason,C.
+  87,Phillip,B.
+  88,Adam,T.
+  89,Margaret,J.
+  90,Paul,P.
+  91,Todd,W.
+  92,Willie,O.
+  93,Frances,R.
+  94,Gregory,H.
+  95,Lisa,P.
+  96,Jacqueline,A.
+  97,Shirley,D.
+  98,Nicole,M.
+  99,Mary,G.
+  100,Jean,M.
+  ' : 'INTEGER'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 3. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:37:16.762338 [info ] [MainThread]: 
+[0m03:37:16.764084 [error] [MainThread]: [31mFailure in seed raw_payments (seeds\raw_payments.csv)[0m
+[0m03:37:16.767078 [error] [MainThread]:   Runtime Error in seed raw_payments (seeds\raw_payments.csv)
+  Invalid Input Error: Error when sniffing file "C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_payments.csv".
+  It was not possible to automatically detect the CSV parsing dialect
+  The search space used was:
+  Delimiter Candidates: ','
+  Quote/Escape Candidates: ['(no quote)','(no escape)'],['"','(no escape)'],['"','"'],['"','''],['"','\'],[''','(no escape)'],[''','''],[''','"'],[''','\']
+  Comment Candidates: '\0', '#'
+  Encoding: utf-8
+  Possible fixes:
+  * Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+  * Columns are set as: "columns = { 'id,order_id,payment_method,amount
+  1,1,credit_card,1000
+  2,2,credit_card,2000
+  3,3,coupon,100
+  4,4,coupon,2500
+  5,5,bank_transfer,1700
+  6,6,credit_card,600
+  7,7,credit_card,1600
+  8,8,credit_card,2300
+  9,9,gift_card,2300
+  10,9,bank_transfer,0
+  11,10,bank_transfer,2600
+  12,11,credit_card,2700
+  13,12,credit_card,100
+  14,13,credit_card,500
+  15,13,bank_transfer,1400
+  16,14,bank_transfer,300
+  17,15,coupon,2200
+  18,16,credit_card,1000
+  19,17,bank_transfer,200
+  20,18,credit_card,500
+  21,18,credit_card,800
+  22,19,gift_card,600
+  23,20,bank_transfer,1500
+  24,21,credit_card,1200
+  25,22,bank_transfer,800
+  26,23,gift_card,2300
+  27,24,coupon,2600
+  28,25,bank_transfer,2000
+  29,25,credit_card,2200
+  30,25,coupon,1600
+  31,26,credit_card,3000
+  32,27,credit_card,2300
+  33,28,bank_transfer,1900
+  34,29,bank_transfer,1200
+  35,30,credit_card,1300
+  36,31,credit_card,1200
+  37,32,credit_card,300
+  38,33,credit_card,2200
+  39,34,bank_transfer,1500
+  40,35,credit_card,2900
+  41,36,bank_transfer,900
+  42,37,credit_card,2300
+  43,38,credit_card,1500
+  44,39,bank_transfer,800
+  45,40,credit_card,1400
+  46,41,credit_card,1700
+  47,42,coupon,1700
+  48,43,gift_card,1800
+  49,44,gift_card,1100
+  50,45,bank_transfer,500
+  51,46,bank_transfer,800
+  52,47,credit_card,2200
+  53,48,bank_transfer,300
+  54,49,credit_card,600
+  55,49,credit_card,900
+  56,50,credit_card,2600
+  57,51,credit_card,2900
+  58,51,credit_card,100
+  59,52,bank_transfer,1500
+  60,53,credit_card,300
+  61,54,credit_card,1800
+  62,54,bank_transfer,1100
+  63,55,credit_card,2900
+  64,56,credit_card,400
+  65,57,bank_transfer,200
+  66,58,coupon,1800
+  67,58,gift_card,600
+  68,59,gift_card,2800
+  69,60,credit_card,400
+  70,61,bank_transfer,1600
+  71,62,gift_card,1400
+  72,63,credit_card,2900
+  73,64,bank_transfer,2600
+  74,65,credit_card,0
+  75,66,credit_card,2800
+  76,67,bank_transfer,400
+  77,67,credit_card,1900
+  78,68,credit_card,1600
+  79,69,credit_card,1900
+  80,70,credit_card,2600
+  81,71,credit_card,500
+  82,72,credit_card,2900
+  83,73,bank_transfer,300
+  84,74,credit_card,3000
+  85,75,credit_card,1900
+  86,76,coupon,200
+  87,77,credit_card,0
+  88,77,bank_transfer,1900
+  89,78,bank_transfer,2600
+  90,79,credit_card,1800
+  91,79,credit_card,900
+  92,80,gift_card,300
+  93,81,coupon,200
+  94,82,credit_card,800
+  95,83,credit_card,100
+  96,84,bank_transfer,2500
+  97,85,bank_transfer,1700
+  98,86,coupon,2300
+  99,87,gift_card,3000
+  100,87,credit_card,2600
+  101,88,credit_card,2900
+  102,89,bank_transfer,2200
+  103,90,bank_transfer,200
+  104,91,credit_card,1900
+  105,92,bank_transfer,1500
+  106,92,coupon,200
+  107,93,gift_card,2600
+  108,94,coupon,700
+  109,95,coupon,2400
+  110,96,gift_card,1700
+  111,97,bank_transfer,1400
+  112,98,bank_transfer,1000
+  113,99,credit_card,2400
+  ' : 'INTEGER'}", and they contain: 1 columns. It does not match the number of columns found by the sniffer: 4. Verify the columns parameter is correctly set.
+  * Make sure you are using the correct file encoding. If not, set it (e.g., encoding = 'utf-16').
+  * Delimiter is set to ','. Consider unsetting it.
+  * Set quote (e.g., quote='"')
+  * Set escape (e.g., escape='"')
+  * Set comment (e.g., comment='#')
+  * Set skip (skip=${n}) to skip ${n} lines at the top of the file
+  * Enable ignore errors (ignore_errors=true) to ignore potential errors
+  * Enable null padding (null_padding=true) to pad missing columns with NULL values
+  * Check you are using the correct file compression, otherwise set it (e.g., compression = 'zstd')
+  * Be sure that the maximum line size is set to an appropriate value, otherwise set it (e.g., max_line_size=10000000)
+  
+[0m03:37:16.791153 [info ] [MainThread]: 
+[0m03:37:16.793150 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=3 SKIP=0 NO-OP=0 TOTAL=3
+[0m03:37:16.795143 [debug] [MainThread]: Command `dbt seed` failed at 03:37:16.795143 after 3.04 seconds
+[0m03:37:16.796144 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024739ACAC50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002473D03CED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002473C3DD0D0>]}
+[0m03:37:16.798137 [debug] [MainThread]: Flushing usage events
+[0m03:37:17.805704 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:39:55.163718 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0B20E510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0B20CFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0B20E450>]}
+
+
+============================== 03:39:55.181627 | 36471117-7123-402c-b8b6-37bcd4ae5780 ==============================
+[0m03:39:55.181627 [info ] [MainThread]: Running with dbt=1.11.2
+[0m03:39:55.183590 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt seed', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\jaffle_shop\\jaffle_dbt\\logs'}
+[0m03:39:55.521968 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '36471117-7123-402c-b8b6-37bcd4ae5780', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0B2B3D10>]}
+[0m03:39:55.623506 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '36471117-7123-402c-b8b6-37bcd4ae5780', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE07A6D710>]}
+[0m03:39:55.627906 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m03:39:55.991352 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m03:39:56.204336 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 3 files changed.
+[0m03:39:56.206331 [debug] [MainThread]: Partial parsing: updated file: jaffle_dbt://seeds\raw_payments.csv
+[0m03:39:56.207331 [debug] [MainThread]: Partial parsing: updated file: jaffle_dbt://seeds\raw_customers.csv
+[0m03:39:56.208326 [debug] [MainThread]: Partial parsing: updated file: jaffle_dbt://seeds\raw_orders.csv
+[0m03:39:56.506827 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.jaffle_dbt.marts
+[0m03:39:56.516800 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '36471117-7123-402c-b8b6-37bcd4ae5780', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0C866C10>]}
+[0m03:39:56.637047 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\jaffle_shop\jaffle_dbt\target\manifest.json
+[0m03:39:56.640039 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\jaffle_shop\jaffle_dbt\target\semantic_manifest.json
+[0m03:39:56.679869 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '36471117-7123-402c-b8b6-37bcd4ae5780', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0C8D8350>]}
+[0m03:39:56.679869 [info ] [MainThread]: Found 3 models, 3 seeds, 472 macros
+[0m03:39:56.679869 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '36471117-7123-402c-b8b6-37bcd4ae5780', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0C9B7510>]}
+[0m03:39:56.679869 [info ] [MainThread]: 
+[0m03:39:56.679869 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m03:39:56.696034 [info ] [MainThread]: 
+[0m03:39:56.697033 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m03:39:56.708002 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_jaffle_dbt'
+[0m03:39:56.902683 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt"
+[0m03:39:56.903682 [debug] [ThreadPool]: On list_jaffle_dbt: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "list_jaffle_dbt"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"jaffle_dbt"'
+    
+  
+  
+[0m03:39:56.904679 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:39:56.928624 [debug] [ThreadPool]: SQL status: OK in 0.025 seconds
+[0m03:39:56.929708 [debug] [ThreadPool]: On list_jaffle_dbt: Close
+[0m03:39:56.929708 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_jaffle_dbt, now create_jaffle_dbt_main)
+[0m03:39:56.929708 [debug] [ThreadPool]: Creating schema "database: "jaffle_dbt"
+schema: "main"
+"
+[0m03:39:56.945453 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m03:39:56.946453 [debug] [ThreadPool]: On create_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "create_jaffle_dbt_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='jaffle_dbt'
+        and type='sqlite'
+    
+  
+[0m03:39:56.947450 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:39:56.948449 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m03:39:56.951439 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m03:39:56.951439 [debug] [ThreadPool]: On create_jaffle_dbt_main: BEGIN
+[0m03:39:56.953433 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m03:39:56.953433 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m03:39:56.954467 [debug] [ThreadPool]: On create_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "create_jaffle_dbt_main"} */
+
+    
+    
+        create schema if not exists "jaffle_dbt"."main"
+    
+[0m03:39:56.956425 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m03:39:56.957422 [debug] [ThreadPool]: On create_jaffle_dbt_main: COMMIT
+[0m03:39:56.958461 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m03:39:56.959453 [debug] [ThreadPool]: On create_jaffle_dbt_main: COMMIT
+[0m03:39:56.960580 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m03:39:56.961618 [debug] [ThreadPool]: On create_jaffle_dbt_main: Close
+[0m03:39:56.964766 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_jaffle_dbt_main'
+[0m03:39:56.974742 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt_main"
+[0m03:39:56.975932 [debug] [ThreadPool]: On list_jaffle_dbt_main: BEGIN
+[0m03:39:56.976970 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:39:56.977965 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m03:39:56.978957 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt_main"
+[0m03:39:56.979955 [debug] [ThreadPool]: On list_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "list_jaffle_dbt_main"} */
+select
+      'jaffle_dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'jaffle_dbt'
+  
+[0m03:39:56.991959 [debug] [ThreadPool]: SQL status: OK in 0.022 seconds
+[0m03:39:56.991959 [debug] [ThreadPool]: On list_jaffle_dbt_main: ROLLBACK
+[0m03:39:56.991959 [debug] [ThreadPool]: Failed to rollback 'list_jaffle_dbt_main'
+[0m03:39:56.991959 [debug] [ThreadPool]: On list_jaffle_dbt_main: Close
+[0m03:39:57.007619 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '36471117-7123-402c-b8b6-37bcd4ae5780', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0C8B6C10>]}
+[0m03:39:57.007619 [debug] [MainThread]: Using duckdb connection "master"
+[0m03:39:57.007619 [debug] [MainThread]: On master: BEGIN
+[0m03:39:57.007619 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:39:57.007619 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m03:39:57.007619 [debug] [MainThread]: On master: COMMIT
+[0m03:39:57.007619 [debug] [MainThread]: Using duckdb connection "master"
+[0m03:39:57.007619 [debug] [MainThread]: On master: COMMIT
+[0m03:39:57.007619 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m03:39:57.007619 [debug] [MainThread]: On master: Close
+[0m03:39:57.024030 [debug] [Thread-1 (]: Began running node seed.jaffle_dbt.raw_customers
+[0m03:39:57.025031 [debug] [Thread-2 (]: Began running node seed.jaffle_dbt.raw_orders
+[0m03:39:57.025031 [debug] [Thread-3 (]: Began running node seed.jaffle_dbt.raw_payments
+[0m03:39:57.026190 [info ] [Thread-1 (]: 1 of 3 START seed file main.raw_customers ...................................... [RUN]
+[0m03:39:57.028190 [info ] [Thread-2 (]: 2 of 3 START seed file main.raw_orders ......................................... [RUN]
+[0m03:39:57.029188 [info ] [Thread-3 (]: 3 of 3 START seed file main.raw_payments ....................................... [RUN]
+[0m03:39:57.030182 [debug] [Thread-1 (]: Acquiring new duckdb connection 'seed.jaffle_dbt.raw_customers'
+[0m03:39:57.031580 [debug] [Thread-2 (]: Acquiring new duckdb connection 'seed.jaffle_dbt.raw_orders'
+[0m03:39:57.032859 [debug] [Thread-3 (]: Acquiring new duckdb connection 'seed.jaffle_dbt.raw_payments'
+[0m03:39:57.033987 [debug] [Thread-1 (]: Began compiling node seed.jaffle_dbt.raw_customers
+[0m03:39:57.035084 [debug] [Thread-2 (]: Began compiling node seed.jaffle_dbt.raw_orders
+[0m03:39:57.035830 [debug] [Thread-3 (]: Began compiling node seed.jaffle_dbt.raw_payments
+[0m03:39:57.036831 [debug] [Thread-1 (]: Began executing node seed.jaffle_dbt.raw_customers
+[0m03:39:57.037872 [debug] [Thread-2 (]: Began executing node seed.jaffle_dbt.raw_orders
+[0m03:39:57.037872 [debug] [Thread-3 (]: Began executing node seed.jaffle_dbt.raw_payments
+[0m03:39:57.158394 [debug] [Thread-1 (]: Using duckdb connection "seed.jaffle_dbt.raw_customers"
+[0m03:39:57.158394 [debug] [Thread-2 (]: Using duckdb connection "seed.jaffle_dbt.raw_orders"
+[0m03:39:57.164481 [debug] [Thread-3 (]: Using duckdb connection "seed.jaffle_dbt.raw_payments"
+[0m03:39:57.165445 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: BEGIN
+[0m03:39:57.165920 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: BEGIN
+[0m03:39:57.167072 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: BEGIN
+[0m03:39:57.167839 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m03:39:57.168868 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m03:39:57.169628 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m03:39:57.172625 [debug] [Thread-1 (]: SQL status: OK in 0.004 seconds
+[0m03:39:57.173621 [debug] [Thread-2 (]: SQL status: OK in 0.005 seconds
+[0m03:39:57.174620 [debug] [Thread-3 (]: SQL status: OK in 0.005 seconds
+[0m03:39:57.175616 [debug] [Thread-1 (]: Using duckdb connection "seed.jaffle_dbt.raw_customers"
+[0m03:39:57.176613 [debug] [Thread-2 (]: Using duckdb connection "seed.jaffle_dbt.raw_orders"
+[0m03:39:57.179236 [debug] [Thread-3 (]: Using duckdb connection "seed.jaffle_dbt.raw_payments"
+[0m03:39:57.179236 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "seed.jaffle_dbt.raw_customers"} */
+
+    create table "jaffle_dbt"."main"."raw_customers" ("id" integer,"first_name" text,"last_name" text)
+  
+[0m03:39:57.179236 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "seed.jaffle_dbt.raw_orders"} */
+
+    create table "jaffle_dbt"."main"."raw_orders" ("id" integer,"user_id" integer,"order_date" date,"status" text)
+  
+[0m03:39:57.179236 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "seed.jaffle_dbt.raw_payments"} */
+
+    create table "jaffle_dbt"."main"."raw_payments" ("id" integer,"order_id" integer,"payment_method" text,"amount" integer)
+  
+[0m03:39:57.179236 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m03:39:57.179236 [debug] [Thread-2 (]: SQL status: OK in 0.001 seconds
+[0m03:39:57.194194 [debug] [Thread-3 (]: SQL status: OK in 0.008 seconds
+[0m03:39:57.194194 [debug] [Thread-1 (]: Using duckdb connection "seed.jaffle_dbt.raw_customers"
+[0m03:39:57.194194 [debug] [Thread-2 (]: Using duckdb connection "seed.jaffle_dbt.raw_orders"
+[0m03:39:57.194194 [debug] [Thread-3 (]: Using duckdb connection "seed.jaffle_dbt.raw_payments"
+[0m03:39:57.194194 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: 
+          COPY "jaffle_dbt"."main"."raw_customers" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_customers.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        ...
+[0m03:39:57.210161 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: 
+          COPY "jaffle_dbt"."main"."raw_orders" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_orders.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        ...
+[0m03:39:57.211372 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: 
+          COPY "jaffle_dbt"."main"."raw_payments" FROM 'C:\kev\jaffle_shop\jaffle_dbt\seeds\raw_payments.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        ...
+[0m03:39:57.240409 [debug] [Thread-3 (]: SQL status: OK in 0.026 seconds
+[0m03:39:57.240409 [debug] [Thread-1 (]: SQL status: OK in 0.028 seconds
+[0m03:39:57.249421 [debug] [Thread-3 (]: Writing runtime SQL for node "seed.jaffle_dbt.raw_payments"
+[0m03:39:57.250383 [debug] [Thread-2 (]: SQL status: OK in 0.037 seconds
+[0m03:39:57.251410 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.jaffle_dbt.raw_customers"
+[0m03:39:57.253364 [debug] [Thread-2 (]: Writing runtime SQL for node "seed.jaffle_dbt.raw_orders"
+[0m03:39:57.281513 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: COMMIT
+[0m03:39:57.284470 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: COMMIT
+[0m03:39:57.286029 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: COMMIT
+[0m03:39:57.287044 [debug] [Thread-3 (]: Using duckdb connection "seed.jaffle_dbt.raw_payments"
+[0m03:39:57.288023 [debug] [Thread-2 (]: Using duckdb connection "seed.jaffle_dbt.raw_orders"
+[0m03:39:57.289102 [debug] [Thread-1 (]: Using duckdb connection "seed.jaffle_dbt.raw_customers"
+[0m03:39:57.289914 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: COMMIT
+[0m03:39:57.291044 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: COMMIT
+[0m03:39:57.291812 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: COMMIT
+[0m03:39:57.297884 [debug] [Thread-3 (]: SQL status: OK in 0.005 seconds
+[0m03:39:57.301877 [debug] [Thread-3 (]: On seed.jaffle_dbt.raw_payments: Close
+[0m03:39:57.302872 [debug] [Thread-2 (]: SQL status: OK in 0.010 seconds
+[0m03:39:57.306315 [debug] [Thread-1 (]: SQL status: OK in 0.012 seconds
+[0m03:39:57.308342 [debug] [Thread-2 (]: On seed.jaffle_dbt.raw_orders: Close
+[0m03:39:57.309314 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '36471117-7123-402c-b8b6-37bcd4ae5780', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0C4BC090>]}
+[0m03:39:57.310305 [debug] [Thread-1 (]: On seed.jaffle_dbt.raw_customers: Close
+[0m03:39:57.311223 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '36471117-7123-402c-b8b6-37bcd4ae5780', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0CC98D10>]}
+[0m03:39:57.314510 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '36471117-7123-402c-b8b6-37bcd4ae5780', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0C909CD0>]}
+[0m03:39:57.312631 [info ] [Thread-3 (]: 3 of 3 OK loaded seed file main.raw_payments ................................... [[32mINSERT 113[0m in 0.27s]
+[0m03:39:57.315072 [info ] [Thread-2 (]: 2 of 3 OK loaded seed file main.raw_orders ..................................... [[32mINSERT 99[0m in 0.28s]
+[0m03:39:57.318718 [debug] [Thread-3 (]: Finished running node seed.jaffle_dbt.raw_payments
+[0m03:39:57.317278 [info ] [Thread-1 (]: 1 of 3 OK loaded seed file main.raw_customers .................................. [[32mINSERT 100[0m in 0.28s]
+[0m03:39:57.319833 [debug] [Thread-2 (]: Finished running node seed.jaffle_dbt.raw_orders
+[0m03:39:57.322196 [debug] [Thread-1 (]: Finished running node seed.jaffle_dbt.raw_customers
+[0m03:39:57.324977 [debug] [MainThread]: Using duckdb connection "master"
+[0m03:39:57.324977 [debug] [MainThread]: On master: BEGIN
+[0m03:39:57.325976 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m03:39:57.326974 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m03:39:57.327967 [debug] [MainThread]: On master: COMMIT
+[0m03:39:57.328934 [debug] [MainThread]: Using duckdb connection "master"
+[0m03:39:57.329930 [debug] [MainThread]: On master: COMMIT
+[0m03:39:57.330962 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m03:39:57.331937 [debug] [MainThread]: On master: Close
+[0m03:39:57.332954 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m03:39:57.333920 [debug] [MainThread]: Connection 'create_jaffle_dbt_main' was properly closed.
+[0m03:39:57.333920 [debug] [MainThread]: Connection 'list_jaffle_dbt_main' was properly closed.
+[0m03:39:57.334949 [debug] [MainThread]: Connection 'seed.jaffle_dbt.raw_customers' was properly closed.
+[0m03:39:57.336912 [debug] [MainThread]: Connection 'seed.jaffle_dbt.raw_orders' was properly closed.
+[0m03:39:57.336912 [debug] [MainThread]: Connection 'seed.jaffle_dbt.raw_payments' was properly closed.
+[0m03:39:57.338907 [info ] [MainThread]: 
+[0m03:39:57.340904 [info ] [MainThread]: Finished running 3 seeds in 0 hours 0 minutes and 0.64 seconds (0.64s).
+[0m03:39:57.344893 [debug] [MainThread]: Command end result
+[0m03:39:57.393117 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\jaffle_shop\jaffle_dbt\target\manifest.json
+[0m03:39:57.398252 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\jaffle_shop\jaffle_dbt\target\semantic_manifest.json
+[0m03:39:57.408191 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\kev\jaffle_shop\jaffle_dbt\target\run_results.json
+[0m03:39:57.409191 [info ] [MainThread]: 
+[0m03:39:57.411184 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m03:39:57.413179 [info ] [MainThread]: 
+[0m03:39:57.414175 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=3
+[0m03:39:57.416363 [debug] [MainThread]: Command `dbt seed` succeeded at 03:39:57.416363 after 2.35 seconds
+[0m03:39:57.417363 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0AFAD250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0A35D090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0AEBB490>]}
+[0m03:39:57.418356 [debug] [MainThread]: Flushing usage events
+[0m03:39:58.363902 [debug] [MainThread]: An error was encountered while trying to flush usage events
