@@ -1,0 +1,2 @@
+--Summary by payment method
+│
