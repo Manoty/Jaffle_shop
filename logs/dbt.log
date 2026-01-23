@@ -2871,3 +2871,2415 @@ select
 [0m03:39:57.417363 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0AFAD250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0A35D090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0AEBB490>]}
 [0m03:39:57.418356 [debug] [MainThread]: Flushing usage events
 [0m03:39:58.363902 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:36:04.338243 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000289660FF6D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000289660EEF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000289660EFE10>]}
+
+
+============================== 23:36:04.348756 | d576b1c6-e5ec-4252-97a7-d53b908e83e8 ==============================
+[0m23:36:04.348756 [info ] [MainThread]: Running with dbt=1.11.2
+[0m23:36:04.351075 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt run --select staging', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\jaffle_shop\\jaffle_dbt\\logs'}
+[0m23:36:04.982289 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd576b1c6-e5ec-4252-97a7-d53b908e83e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002896725D750>]}
+[0m23:36:05.200830 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd576b1c6-e5ec-4252-97a7-d53b908e83e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000289650F0290>]}
+[0m23:36:05.214048 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m23:36:06.242950 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m23:36:09.520853 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 9 files added, 0 files changed.
+[0m23:36:09.524302 [debug] [MainThread]: Partial parsing: added file: jaffle_dbt://models\marts\growth\repeat_purchase_rate.sql
+[0m23:36:09.526296 [debug] [MainThread]: Partial parsing: added file: jaffle_dbt://models\marts\finance\payments_summary.sql
+[0m23:36:09.529693 [debug] [MainThread]: Partial parsing: added file: jaffle_dbt://models\marts\finance\refunds_discounts.sql
+[0m23:36:09.531688 [debug] [MainThread]: Partial parsing: added file: jaffle_dbt://models\marts\growth\new_customers.sql
+[0m23:36:09.534598 [debug] [MainThread]: Partial parsing: added file: jaffle_dbt://models\marts\customer\top_customers.sql
+[0m23:36:09.535593 [debug] [MainThread]: Partial parsing: added file: jaffle_dbt://models\marts\customer\customer_segment.sql
+[0m23:36:09.538931 [debug] [MainThread]: Partial parsing: added file: jaffle_dbt://models\marts\growth\monthly_order_growth.sql
+[0m23:36:09.541668 [debug] [MainThread]: Partial parsing: added file: jaffle_dbt://models\marts\customer\customer_ltv.sql
+[0m23:36:09.543671 [debug] [MainThread]: Partial parsing: added file: jaffle_dbt://models\marts\finance\monthly_revenue.sql
+[0m23:36:10.162028 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd576b1c6-e5ec-4252-97a7-d53b908e83e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002896782F610>]}
+[0m23:36:10.381761 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\jaffle_shop\jaffle_dbt\target\manifest.json
+[0m23:36:10.386779 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\jaffle_shop\jaffle_dbt\target\semantic_manifest.json
+[0m23:36:10.497007 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd576b1c6-e5ec-4252-97a7-d53b908e83e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000289678B5D50>]}
+[0m23:36:10.499417 [info ] [MainThread]: Found 12 models, 3 seeds, 472 macros
+[0m23:36:10.501480 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd576b1c6-e5ec-4252-97a7-d53b908e83e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000289679245D0>]}
+[0m23:36:10.505612 [info ] [MainThread]: 
+[0m23:36:10.510809 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m23:36:10.515137 [info ] [MainThread]: 
+[0m23:36:10.519665 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m23:36:10.536976 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_jaffle_dbt'
+[0m23:36:16.841258 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt"
+[0m23:36:16.841258 [debug] [ThreadPool]: On list_jaffle_dbt: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "list_jaffle_dbt"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"jaffle_dbt"'
+    
+  
+  
+[0m23:36:16.845102 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:36:16.995154 [debug] [ThreadPool]: SQL status: OK in 0.150 seconds
+[0m23:36:17.003067 [debug] [ThreadPool]: On list_jaffle_dbt: Close
+[0m23:36:17.005060 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_jaffle_dbt, now create_jaffle_dbt_main)
+[0m23:36:17.007164 [debug] [ThreadPool]: Creating schema "database: "jaffle_dbt"
+schema: "main"
+"
+[0m23:36:17.022721 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m23:36:17.022721 [debug] [ThreadPool]: On create_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "create_jaffle_dbt_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='jaffle_dbt'
+        and type='sqlite'
+    
+  
+[0m23:36:17.022721 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:36:17.029166 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m23:36:17.031597 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m23:36:17.031597 [debug] [ThreadPool]: On create_jaffle_dbt_main: BEGIN
+[0m23:36:17.036925 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m23:36:17.037918 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m23:36:17.038943 [debug] [ThreadPool]: On create_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "create_jaffle_dbt_main"} */
+
+    
+    
+        create schema if not exists "jaffle_dbt"."main"
+    
+[0m23:36:17.044243 [debug] [ThreadPool]: SQL status: OK in 0.004 seconds
+[0m23:36:17.046972 [debug] [ThreadPool]: On create_jaffle_dbt_main: COMMIT
+[0m23:36:17.048006 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m23:36:17.049025 [debug] [ThreadPool]: On create_jaffle_dbt_main: COMMIT
+[0m23:36:17.050776 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m23:36:17.052056 [debug] [ThreadPool]: On create_jaffle_dbt_main: Close
+[0m23:36:17.057322 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_jaffle_dbt_main'
+[0m23:36:17.071735 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt_main"
+[0m23:36:17.071735 [debug] [ThreadPool]: On list_jaffle_dbt_main: BEGIN
+[0m23:36:17.071735 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:36:17.077643 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m23:36:17.078838 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt_main"
+[0m23:36:17.080008 [debug] [ThreadPool]: On list_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "list_jaffle_dbt_main"} */
+select
+      'jaffle_dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'jaffle_dbt'
+  
+[0m23:36:17.154110 [debug] [ThreadPool]: SQL status: OK in 0.073 seconds
+[0m23:36:17.157096 [debug] [ThreadPool]: On list_jaffle_dbt_main: ROLLBACK
+[0m23:36:17.178993 [debug] [ThreadPool]: Failed to rollback 'list_jaffle_dbt_main'
+[0m23:36:17.179558 [debug] [ThreadPool]: On list_jaffle_dbt_main: Close
+[0m23:36:17.183129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd576b1c6-e5ec-4252-97a7-d53b908e83e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028967C05D10>]}
+[0m23:36:17.184126 [debug] [MainThread]: Using duckdb connection "master"
+[0m23:36:17.184686 [debug] [MainThread]: On master: BEGIN
+[0m23:36:17.185862 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:36:17.188001 [debug] [MainThread]: SQL status: OK in 0.002 seconds
+[0m23:36:17.189021 [debug] [MainThread]: On master: COMMIT
+[0m23:36:17.191066 [debug] [MainThread]: Using duckdb connection "master"
+[0m23:36:17.191066 [debug] [MainThread]: On master: COMMIT
+[0m23:36:17.192513 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m23:36:17.193510 [debug] [MainThread]: On master: Close
+[0m23:36:17.205796 [debug] [Thread-1 (]: Began running node model.jaffle_dbt.stg_customers
+[0m23:36:17.206794 [debug] [Thread-2 (]: Began running node model.jaffle_dbt.stg_orders
+[0m23:36:17.207792 [debug] [Thread-3 (]: Began running node model.jaffle_dbt.stg_payments
+[0m23:36:17.208790 [info ] [Thread-1 (]: 1 of 3 START sql view model main.stg_customers ................................. [RUN]
+[0m23:36:17.210732 [info ] [Thread-2 (]: 2 of 3 START sql view model main.stg_orders .................................... [RUN]
+[0m23:36:17.213856 [debug] [Thread-1 (]: Acquiring new duckdb connection 'model.jaffle_dbt.stg_customers'
+[0m23:36:17.211854 [info ] [Thread-3 (]: 3 of 3 START sql view model main.stg_payments .................................. [RUN]
+[0m23:36:17.214846 [debug] [Thread-2 (]: Acquiring new duckdb connection 'model.jaffle_dbt.stg_orders'
+[0m23:36:17.215844 [debug] [Thread-1 (]: Began compiling node model.jaffle_dbt.stg_customers
+[0m23:36:17.216841 [debug] [Thread-3 (]: Acquiring new duckdb connection 'model.jaffle_dbt.stg_payments'
+[0m23:36:17.220478 [debug] [Thread-2 (]: Began compiling node model.jaffle_dbt.stg_orders
+[0m23:36:17.241807 [debug] [Thread-1 (]: Writing injected SQL for node "model.jaffle_dbt.stg_customers"
+[0m23:36:17.242827 [debug] [Thread-3 (]: Began compiling node model.jaffle_dbt.stg_payments
+[0m23:36:17.253141 [debug] [Thread-2 (]: Writing injected SQL for node "model.jaffle_dbt.stg_orders"
+[0m23:36:17.261757 [debug] [Thread-3 (]: Writing injected SQL for node "model.jaffle_dbt.stg_payments"
+[0m23:36:17.265389 [debug] [Thread-1 (]: Began executing node model.jaffle_dbt.stg_customers
+[0m23:36:17.266836 [debug] [Thread-2 (]: Began executing node model.jaffle_dbt.stg_orders
+[0m23:36:17.267974 [debug] [Thread-3 (]: Began executing node model.jaffle_dbt.stg_payments
+[0m23:36:17.361338 [debug] [Thread-2 (]: Writing runtime sql for node "model.jaffle_dbt.stg_orders"
+[0m23:36:17.362334 [debug] [Thread-1 (]: Writing runtime sql for node "model.jaffle_dbt.stg_customers"
+[0m23:36:17.376340 [debug] [Thread-3 (]: Writing runtime sql for node "model.jaffle_dbt.stg_payments"
+[0m23:36:17.380044 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.stg_orders"
+[0m23:36:17.381800 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.stg_payments"
+[0m23:36:17.382429 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.stg_customers"
+[0m23:36:17.383444 [debug] [Thread-2 (]: On model.jaffle_dbt.stg_orders: BEGIN
+[0m23:36:17.384483 [debug] [Thread-3 (]: On model.jaffle_dbt.stg_payments: BEGIN
+[0m23:36:17.388911 [debug] [Thread-1 (]: On model.jaffle_dbt.stg_customers: BEGIN
+[0m23:36:17.390902 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m23:36:17.392207 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m23:36:17.393384 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m23:36:17.395380 [debug] [Thread-2 (]: SQL status: OK in 0.004 seconds
+[0m23:36:17.397394 [debug] [Thread-3 (]: SQL status: OK in 0.005 seconds
+[0m23:36:17.399390 [debug] [Thread-1 (]: SQL status: OK in 0.005 seconds
+[0m23:36:17.400622 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.stg_orders"
+[0m23:36:17.401705 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.stg_payments"
+[0m23:36:17.403977 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.stg_customers"
+[0m23:36:17.407222 [debug] [Thread-2 (]: On model.jaffle_dbt.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.stg_orders"} */
+
+  
+  create view "jaffle_dbt"."main"."stg_orders__dbt_tmp" as (
+    with source as (
+
+    select
+        id as order_id,
+        user_id as customer_id,
+        order_date,
+        status
+    from "jaffle_dbt"."main"."raw_orders"
+
+)
+
+select * from source
+  );
+
+[0m23:36:17.409120 [debug] [Thread-3 (]: On model.jaffle_dbt.stg_payments: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.stg_payments"} */
+
+  
+  create view "jaffle_dbt"."main"."stg_payments__dbt_tmp" as (
+    with source as (
+
+    select
+        id as payment_id,
+        order_id,
+        payment_method,
+        amount
+    from "jaffle_dbt"."main"."raw_payments"
+
+)
+
+select * from source
+  );
+
+[0m23:36:17.409849 [debug] [Thread-1 (]: On model.jaffle_dbt.stg_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.stg_customers"} */
+
+  
+  create view "jaffle_dbt"."main"."stg_customers__dbt_tmp" as (
+    with source as (
+
+    select
+        id as customer_id,
+        first_name,
+        last_name
+    from "jaffle_dbt"."main"."raw_customers"
+
+)
+
+select * from source
+  );
+
+[0m23:36:17.414009 [debug] [Thread-3 (]: SQL status: OK in 0.001 seconds
+[0m23:36:17.415038 [debug] [Thread-2 (]: SQL status: OK in 0.004 seconds
+[0m23:36:17.415038 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m23:36:17.440388 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.stg_payments"
+[0m23:36:17.453835 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.stg_orders"
+[0m23:36:17.464650 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.stg_customers"
+[0m23:36:17.468755 [debug] [Thread-3 (]: On model.jaffle_dbt.stg_payments: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.stg_payments"} */
+alter view "jaffle_dbt"."main"."stg_payments__dbt_tmp" rename to "stg_payments"
+[0m23:36:17.470993 [debug] [Thread-2 (]: On model.jaffle_dbt.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.stg_orders"} */
+alter view "jaffle_dbt"."main"."stg_orders__dbt_tmp" rename to "stg_orders"
+[0m23:36:17.473638 [debug] [Thread-1 (]: On model.jaffle_dbt.stg_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.stg_customers"} */
+alter view "jaffle_dbt"."main"."stg_customers__dbt_tmp" rename to "stg_customers"
+[0m23:36:17.478978 [debug] [Thread-3 (]: SQL status: OK in 0.003 seconds
+[0m23:36:17.479798 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m23:36:17.481519 [debug] [Thread-2 (]: SQL status: OK in 0.004 seconds
+[0m23:36:17.573511 [debug] [Thread-2 (]: On model.jaffle_dbt.stg_orders: COMMIT
+[0m23:36:17.573511 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.stg_orders"
+[0m23:36:17.579065 [debug] [Thread-2 (]: On model.jaffle_dbt.stg_orders: COMMIT
+[0m23:36:17.560841 [debug] [Thread-1 (]: On model.jaffle_dbt.stg_customers: COMMIT
+[0m23:36:17.582061 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.stg_customers"
+[0m23:36:17.582061 [debug] [Thread-1 (]: On model.jaffle_dbt.stg_customers: COMMIT
+[0m23:36:17.571207 [debug] [Thread-3 (]: On model.jaffle_dbt.stg_payments: COMMIT
+[0m23:36:17.593563 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.stg_payments"
+[0m23:36:17.595400 [debug] [Thread-3 (]: On model.jaffle_dbt.stg_payments: COMMIT
+[0m23:36:17.596239 [debug] [Thread-2 (]: SQL status: OK in 0.016 seconds
+[0m23:36:17.610817 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.stg_orders"
+[0m23:36:17.618924 [debug] [Thread-3 (]: SQL status: OK in 0.021 seconds
+[0m23:36:17.621066 [debug] [Thread-1 (]: SQL status: OK in 0.027 seconds
+[0m23:36:17.622245 [debug] [Thread-2 (]: On model.jaffle_dbt.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.stg_orders"} */
+
+      drop view if exists "jaffle_dbt"."main"."stg_orders__dbt_backup" cascade
+    
+[0m23:36:17.629639 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.stg_payments"
+[0m23:36:17.640787 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.stg_customers"
+[0m23:36:17.643329 [debug] [Thread-3 (]: On model.jaffle_dbt.stg_payments: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.stg_payments"} */
+
+      drop view if exists "jaffle_dbt"."main"."stg_payments__dbt_backup" cascade
+    
+[0m23:36:17.645374 [debug] [Thread-2 (]: SQL status: OK in 0.002 seconds
+[0m23:36:17.646983 [debug] [Thread-1 (]: On model.jaffle_dbt.stg_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.stg_customers"} */
+
+      drop view if exists "jaffle_dbt"."main"."stg_customers__dbt_backup" cascade
+    
+[0m23:36:17.661383 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m23:36:17.653739 [debug] [Thread-2 (]: On model.jaffle_dbt.stg_orders: Close
+[0m23:36:17.663294 [debug] [Thread-3 (]: SQL status: OK in 0.015 seconds
+[0m23:36:17.663294 [debug] [Thread-1 (]: On model.jaffle_dbt.stg_customers: Close
+[0m23:36:17.678884 [debug] [Thread-3 (]: On model.jaffle_dbt.stg_payments: Close
+[0m23:36:17.681958 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd576b1c6-e5ec-4252-97a7-d53b908e83e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028967CA9E50>]}
+[0m23:36:17.683157 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd576b1c6-e5ec-4252-97a7-d53b908e83e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028967C92B10>]}
+[0m23:36:17.683157 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd576b1c6-e5ec-4252-97a7-d53b908e83e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028967C93650>]}
+[0m23:36:17.684764 [info ] [Thread-2 (]: 2 of 3 OK created sql view model main.stg_orders ............................... [[32mOK[0m in 0.45s]
+[0m23:36:17.692261 [debug] [Thread-2 (]: Finished running node model.jaffle_dbt.stg_orders
+[0m23:36:17.686804 [info ] [Thread-1 (]: 1 of 3 OK created sql view model main.stg_customers ............................ [[32mOK[0m in 0.47s]
+[0m23:36:17.695299 [debug] [Thread-1 (]: Finished running node model.jaffle_dbt.stg_customers
+[0m23:36:17.688829 [info ] [Thread-3 (]: 3 of 3 OK created sql view model main.stg_payments ............................. [[32mOK[0m in 0.47s]
+[0m23:36:17.697617 [debug] [Thread-3 (]: Finished running node model.jaffle_dbt.stg_payments
+[0m23:36:17.701676 [debug] [MainThread]: Using duckdb connection "master"
+[0m23:36:17.704357 [debug] [MainThread]: On master: BEGIN
+[0m23:36:17.707145 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m23:36:17.713247 [debug] [MainThread]: SQL status: OK in 0.007 seconds
+[0m23:36:17.714244 [debug] [MainThread]: On master: COMMIT
+[0m23:36:17.715241 [debug] [MainThread]: Using duckdb connection "master"
+[0m23:36:17.716239 [debug] [MainThread]: On master: COMMIT
+[0m23:36:17.717454 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m23:36:17.718452 [debug] [MainThread]: On master: Close
+[0m23:36:17.719449 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:36:17.722623 [debug] [MainThread]: Connection 'create_jaffle_dbt_main' was properly closed.
+[0m23:36:17.724692 [debug] [MainThread]: Connection 'list_jaffle_dbt_main' was properly closed.
+[0m23:36:17.726687 [debug] [MainThread]: Connection 'model.jaffle_dbt.stg_customers' was properly closed.
+[0m23:36:17.727684 [debug] [MainThread]: Connection 'model.jaffle_dbt.stg_orders' was properly closed.
+[0m23:36:17.729206 [debug] [MainThread]: Connection 'model.jaffle_dbt.stg_payments' was properly closed.
+[0m23:36:17.731749 [info ] [MainThread]: 
+[0m23:36:17.732996 [info ] [MainThread]: Finished running 3 view models in 0 hours 0 minutes and 7.21 seconds (7.21s).
+[0m23:36:17.735035 [debug] [MainThread]: Command end result
+[0m23:36:17.806209 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\jaffle_shop\jaffle_dbt\target\manifest.json
+[0m23:36:17.811515 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\jaffle_shop\jaffle_dbt\target\semantic_manifest.json
+[0m23:36:17.825318 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\kev\jaffle_shop\jaffle_dbt\target\run_results.json
+[0m23:36:17.826474 [info ] [MainThread]: 
+[0m23:36:17.828622 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:36:17.829780 [info ] [MainThread]: 
+[0m23:36:17.830779 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=3
+[0m23:36:17.833567 [debug] [MainThread]: Command `dbt run` succeeded at 23:36:17.833567 after 13.70 seconds
+[0m23:36:17.834464 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002896523D610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002895F4ECDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002895F4DB690>]}
+[0m23:36:17.835462 [debug] [MainThread]: Flushing usage events
+[0m23:36:18.837416 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:36:23.562731 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA23B6FFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA23B72A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA23B72690>]}
+
+
+============================== 23:36:23.570804 | 0684dc49-efa7-4da9-87c9-b2e040cae761 ==============================
+[0m23:36:23.570804 [info ] [MainThread]: Running with dbt=1.11.2
+[0m23:36:23.573606 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt run --select marts', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\jaffle_shop\\jaffle_dbt\\logs'}
+[0m23:36:24.071921 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0684dc49-efa7-4da9-87c9-b2e040cae761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA23BAFB50>]}
+[0m23:36:24.213847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0684dc49-efa7-4da9-87c9-b2e040cae761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA203AD650>]}
+[0m23:36:24.221100 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m23:36:24.715701 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m23:36:25.008947 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:36:25.010947 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m23:36:25.011446 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:36:25.128828 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0684dc49-efa7-4da9-87c9-b2e040cae761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA250D4190>]}
+[0m23:36:25.322151 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\jaffle_shop\jaffle_dbt\target\manifest.json
+[0m23:36:25.326014 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\jaffle_shop\jaffle_dbt\target\semantic_manifest.json
+[0m23:36:25.373834 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0684dc49-efa7-4da9-87c9-b2e040cae761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA24D10E10>]}
+[0m23:36:25.374833 [info ] [MainThread]: Found 12 models, 3 seeds, 472 macros
+[0m23:36:25.376827 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0684dc49-efa7-4da9-87c9-b2e040cae761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA23BD0210>]}
+[0m23:36:25.383808 [info ] [MainThread]: 
+[0m23:36:25.384741 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m23:36:25.387734 [info ] [MainThread]: 
+[0m23:36:25.389077 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m23:36:25.406544 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_jaffle_dbt'
+[0m23:36:25.629827 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt"
+[0m23:36:25.630819 [debug] [ThreadPool]: On list_jaffle_dbt: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "list_jaffle_dbt"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"jaffle_dbt"'
+    
+  
+  
+[0m23:36:25.633813 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:36:25.689006 [debug] [ThreadPool]: SQL status: OK in 0.055 seconds
+[0m23:36:25.691509 [debug] [ThreadPool]: On list_jaffle_dbt: Close
+[0m23:36:25.692596 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_jaffle_dbt, now create_jaffle_dbt_main)
+[0m23:36:25.693626 [debug] [ThreadPool]: Creating schema "database: "jaffle_dbt"
+schema: "main"
+"
+[0m23:36:25.701857 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m23:36:25.701857 [debug] [ThreadPool]: On create_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "create_jaffle_dbt_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='jaffle_dbt'
+        and type='sqlite'
+    
+  
+[0m23:36:25.709073 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:36:25.711127 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m23:36:25.712955 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m23:36:25.714604 [debug] [ThreadPool]: On create_jaffle_dbt_main: BEGIN
+[0m23:36:25.717600 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m23:36:25.718827 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m23:36:25.718827 [debug] [ThreadPool]: On create_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "create_jaffle_dbt_main"} */
+
+    
+    
+        create schema if not exists "jaffle_dbt"."main"
+    
+[0m23:36:25.721044 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m23:36:25.723103 [debug] [ThreadPool]: On create_jaffle_dbt_main: COMMIT
+[0m23:36:25.725216 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m23:36:25.726247 [debug] [ThreadPool]: On create_jaffle_dbt_main: COMMIT
+[0m23:36:25.727323 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m23:36:25.728351 [debug] [ThreadPool]: On create_jaffle_dbt_main: Close
+[0m23:36:25.734273 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_jaffle_dbt_main'
+[0m23:36:25.740712 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt_main"
+[0m23:36:25.740712 [debug] [ThreadPool]: On list_jaffle_dbt_main: BEGIN
+[0m23:36:25.745828 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:36:25.748172 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m23:36:25.749915 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt_main"
+[0m23:36:25.751226 [debug] [ThreadPool]: On list_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "list_jaffle_dbt_main"} */
+select
+      'jaffle_dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'jaffle_dbt'
+  
+[0m23:36:25.783372 [debug] [ThreadPool]: SQL status: OK in 0.030 seconds
+[0m23:36:25.786388 [debug] [ThreadPool]: On list_jaffle_dbt_main: ROLLBACK
+[0m23:36:25.787961 [debug] [ThreadPool]: Failed to rollback 'list_jaffle_dbt_main'
+[0m23:36:25.788980 [debug] [ThreadPool]: On list_jaffle_dbt_main: Close
+[0m23:36:25.792233 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0684dc49-efa7-4da9-87c9-b2e040cae761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA25567150>]}
+[0m23:36:25.793290 [debug] [MainThread]: Using duckdb connection "master"
+[0m23:36:25.793290 [debug] [MainThread]: On master: BEGIN
+[0m23:36:25.795034 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:36:25.796275 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m23:36:25.797273 [debug] [MainThread]: On master: COMMIT
+[0m23:36:25.797438 [debug] [MainThread]: Using duckdb connection "master"
+[0m23:36:25.798726 [debug] [MainThread]: On master: COMMIT
+[0m23:36:25.800826 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m23:36:25.801855 [debug] [MainThread]: On master: Close
+[0m23:36:25.810004 [debug] [Thread-1 (]: Began running node model.jaffle_dbt.customer_ltv
+[0m23:36:25.811002 [debug] [Thread-2 (]: Began running node model.jaffle_dbt.customer_segment
+[0m23:36:25.812000 [debug] [Thread-3 (]: Began running node model.jaffle_dbt.monthly_order_growth
+[0m23:36:25.813027 [debug] [Thread-4 (]: Began running node model.jaffle_dbt.monthly_revenue
+[0m23:36:25.814004 [info ] [Thread-1 (]: 1 of 9 START sql table model main.customer_ltv ................................. [RUN]
+[0m23:36:25.815647 [info ] [Thread-2 (]: 2 of 9 START sql table model main.customer_segment ............................. [RUN]
+[0m23:36:25.822503 [debug] [Thread-1 (]: Acquiring new duckdb connection 'model.jaffle_dbt.customer_ltv'
+[0m23:36:25.818597 [info ] [Thread-3 (]: 3 of 9 START sql table model main.monthly_order_growth ......................... [RUN]
+[0m23:36:25.824861 [debug] [Thread-2 (]: Acquiring new duckdb connection 'model.jaffle_dbt.customer_segment'
+[0m23:36:25.827050 [debug] [Thread-1 (]: Began compiling node model.jaffle_dbt.customer_ltv
+[0m23:36:25.820599 [info ] [Thread-4 (]: 4 of 9 START sql table model main.monthly_revenue .............................. [RUN]
+[0m23:36:25.829098 [debug] [Thread-3 (]: Acquiring new duckdb connection 'model.jaffle_dbt.monthly_order_growth'
+[0m23:36:25.830759 [debug] [Thread-2 (]: Began compiling node model.jaffle_dbt.customer_segment
+[0m23:36:25.855403 [debug] [Thread-1 (]: Writing injected SQL for node "model.jaffle_dbt.customer_ltv"
+[0m23:36:25.857915 [debug] [Thread-4 (]: Acquiring new duckdb connection 'model.jaffle_dbt.monthly_revenue'
+[0m23:36:25.859908 [debug] [Thread-3 (]: Began compiling node model.jaffle_dbt.monthly_order_growth
+[0m23:36:25.871591 [debug] [Thread-2 (]: Writing injected SQL for node "model.jaffle_dbt.customer_segment"
+[0m23:36:25.873718 [debug] [Thread-4 (]: Began compiling node model.jaffle_dbt.monthly_revenue
+[0m23:36:25.878907 [debug] [Thread-3 (]: Writing injected SQL for node "model.jaffle_dbt.monthly_order_growth"
+[0m23:36:25.880965 [debug] [Thread-1 (]: Began executing node model.jaffle_dbt.customer_ltv
+[0m23:36:25.890537 [debug] [Thread-4 (]: Writing injected SQL for node "model.jaffle_dbt.monthly_revenue"
+[0m23:36:25.890537 [debug] [Thread-2 (]: Began executing node model.jaffle_dbt.customer_segment
+[0m23:36:25.967213 [debug] [Thread-3 (]: Began executing node model.jaffle_dbt.monthly_order_growth
+[0m23:36:25.961743 [debug] [Thread-1 (]: Writing runtime sql for node "model.jaffle_dbt.customer_ltv"
+[0m23:36:25.978800 [debug] [Thread-2 (]: Writing runtime sql for node "model.jaffle_dbt.customer_segment"
+[0m23:36:25.986565 [debug] [Thread-3 (]: Writing runtime sql for node "model.jaffle_dbt.monthly_order_growth"
+[0m23:36:25.989274 [debug] [Thread-4 (]: Began executing node model.jaffle_dbt.monthly_revenue
+[0m23:36:25.999147 [debug] [Thread-4 (]: Writing runtime sql for node "model.jaffle_dbt.monthly_revenue"
+[0m23:36:26.002308 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.customer_ltv"
+[0m23:36:26.004835 [debug] [Thread-1 (]: On model.jaffle_dbt.customer_ltv: BEGIN
+[0m23:36:26.005833 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.customer_segment"
+[0m23:36:26.006622 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.monthly_order_growth"
+[0m23:36:26.007652 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m23:36:26.008618 [debug] [Thread-2 (]: On model.jaffle_dbt.customer_segment: BEGIN
+[0m23:36:26.010613 [debug] [Thread-3 (]: On model.jaffle_dbt.monthly_order_growth: BEGIN
+[0m23:36:26.011611 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.monthly_revenue"
+[0m23:36:26.014700 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m23:36:26.016273 [debug] [Thread-1 (]: SQL status: OK in 0.008 seconds
+[0m23:36:26.017835 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m23:36:26.018874 [debug] [Thread-4 (]: On model.jaffle_dbt.monthly_revenue: BEGIN
+[0m23:36:26.021250 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.customer_ltv"
+[0m23:36:26.022247 [debug] [Thread-2 (]: SQL status: OK in 0.007 seconds
+[0m23:36:26.023047 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m23:36:26.024043 [debug] [Thread-3 (]: SQL status: OK in 0.007 seconds
+[0m23:36:26.025769 [debug] [Thread-1 (]: On model.jaffle_dbt.customer_ltv: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_ltv"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."customer_ltv__dbt_tmp"
+  
+    as (
+      --Lifetime value per customer
+
+
+
+select
+    o.customer_id,
+    sum(p.amount) as lifetime_value
+from "jaffle_dbt"."main"."stg_orders" o
+join "jaffle_dbt"."main"."stg_payments" p
+    on o.order_id = p.order_id
+group by 1
+order by lifetime_value desc
+    );
+  
+  
+[0m23:36:26.026766 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.customer_segment"
+[0m23:36:26.028910 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.monthly_order_growth"
+[0m23:36:26.029992 [debug] [Thread-4 (]: SQL status: OK in 0.006 seconds
+[0m23:36:26.031866 [debug] [Thread-2 (]: On model.jaffle_dbt.customer_segment: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_segment"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."customer_segment__dbt_tmp"
+  
+    as (
+      --Segmentation (e.g., high/medium/low)
+
+
+
+with customer_spend as (
+    select
+        o.customer_id,
+        sum(p.amount) as total_spent
+    from "jaffle_dbt"."main"."stg_orders" o
+    join "jaffle_dbt"."main"."stg_payments" p
+        on o.order_id = p.order_id
+    group by 1
+)
+
+select
+    customer_id,
+    total_spent,
+    case
+        when total_spent >= 5000 then 'high_value'
+        when total_spent >= 2000 then 'medium_value'
+        else 'low_value'
+    end as customer_segment
+from customer_spend
+    );
+  
+  
+[0m23:36:26.035137 [debug] [Thread-3 (]: On model.jaffle_dbt.monthly_order_growth: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_order_growth"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."monthly_order_growth__dbt_tmp"
+  
+    as (
+      --Orders per month
+
+
+
+select
+    date_trunc('month', order_date) as month,
+    count(*) as total_orders
+from "jaffle_dbt"."main"."stg_orders"
+group by 1
+order by 1
+    );
+  
+  
+[0m23:36:26.036133 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.monthly_revenue"
+[0m23:36:26.040832 [debug] [Thread-4 (]: On model.jaffle_dbt.monthly_revenue: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_revenue"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."monthly_revenue__dbt_tmp"
+  
+    as (
+      --Total revenue per month
+
+
+
+select
+    date_trunc('month', o.order_date) as month,
+    sum(p.amount) as revenue
+from "jaffle_dbt"."main"."stg_orders" o
+join "jaffle_dbt"."main"."stg_payments" p
+    on o.order_id = p.order_id
+group by 1
+order by 1
+    );
+  
+  
+[0m23:36:26.065163 [debug] [Thread-3 (]: SQL status: OK in 0.026 seconds
+[0m23:36:26.079637 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.monthly_order_growth"
+[0m23:36:26.080508 [debug] [Thread-4 (]: SQL status: OK in 0.038 seconds
+[0m23:36:26.081481 [debug] [Thread-2 (]: SQL status: OK in 0.044 seconds
+[0m23:36:26.082821 [debug] [Thread-1 (]: SQL status: OK in 0.052 seconds
+[0m23:36:26.084566 [debug] [Thread-3 (]: On model.jaffle_dbt.monthly_order_growth: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_order_growth"} */
+alter table "jaffle_dbt"."main"."monthly_order_growth__dbt_tmp" rename to "monthly_order_growth"
+[0m23:36:26.093734 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.monthly_revenue"
+[0m23:36:26.100054 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.customer_segment"
+[0m23:36:26.109215 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.customer_ltv"
+[0m23:36:26.110722 [debug] [Thread-4 (]: On model.jaffle_dbt.monthly_revenue: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_revenue"} */
+alter table "jaffle_dbt"."main"."monthly_revenue__dbt_tmp" rename to "monthly_revenue"
+[0m23:36:26.112549 [debug] [Thread-3 (]: SQL status: OK in 0.002 seconds
+[0m23:36:26.113590 [debug] [Thread-2 (]: On model.jaffle_dbt.customer_segment: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_segment"} */
+alter table "jaffle_dbt"."main"."customer_segment__dbt_tmp" rename to "customer_segment"
+[0m23:36:26.114588 [debug] [Thread-1 (]: On model.jaffle_dbt.customer_ltv: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_ltv"} */
+alter table "jaffle_dbt"."main"."customer_ltv__dbt_tmp" rename to "customer_ltv"
+[0m23:36:26.135810 [debug] [Thread-4 (]: SQL status: OK in 0.020 seconds
+[0m23:36:26.141461 [debug] [Thread-3 (]: On model.jaffle_dbt.monthly_order_growth: COMMIT
+[0m23:36:26.148951 [debug] [Thread-2 (]: SQL status: OK in 0.001 seconds
+[0m23:36:26.151291 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m23:36:26.156127 [debug] [Thread-4 (]: On model.jaffle_dbt.monthly_revenue: COMMIT
+[0m23:36:26.157125 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.monthly_order_growth"
+[0m23:36:26.162156 [debug] [Thread-2 (]: On model.jaffle_dbt.customer_segment: COMMIT
+[0m23:36:26.165571 [debug] [Thread-1 (]: On model.jaffle_dbt.customer_ltv: COMMIT
+[0m23:36:26.166998 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.monthly_revenue"
+[0m23:36:26.169733 [debug] [Thread-3 (]: On model.jaffle_dbt.monthly_order_growth: COMMIT
+[0m23:36:26.171389 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.customer_segment"
+[0m23:36:26.173111 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.customer_ltv"
+[0m23:36:26.174605 [debug] [Thread-4 (]: On model.jaffle_dbt.monthly_revenue: COMMIT
+[0m23:36:26.176599 [debug] [Thread-2 (]: On model.jaffle_dbt.customer_segment: COMMIT
+[0m23:36:26.177906 [debug] [Thread-1 (]: On model.jaffle_dbt.customer_ltv: COMMIT
+[0m23:36:26.180707 [debug] [Thread-3 (]: SQL status: OK in 0.005 seconds
+[0m23:36:26.182709 [debug] [Thread-4 (]: SQL status: OK in 0.003 seconds
+[0m23:36:26.198811 [debug] [Thread-2 (]: SQL status: OK in 0.019 seconds
+[0m23:36:26.206054 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.monthly_revenue"
+[0m23:36:26.206054 [debug] [Thread-1 (]: SQL status: OK in 0.028 seconds
+[0m23:36:26.192256 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.monthly_order_growth"
+[0m23:36:26.219032 [debug] [Thread-4 (]: On model.jaffle_dbt.monthly_revenue: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_revenue"} */
+
+      drop table if exists "jaffle_dbt"."main"."monthly_revenue__dbt_backup" cascade
+    
+[0m23:36:26.222712 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.customer_segment"
+[0m23:36:26.224945 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.customer_ltv"
+[0m23:36:26.224945 [debug] [Thread-3 (]: On model.jaffle_dbt.monthly_order_growth: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_order_growth"} */
+
+      drop table if exists "jaffle_dbt"."main"."monthly_order_growth__dbt_backup" cascade
+    
+[0m23:36:26.230984 [debug] [Thread-2 (]: On model.jaffle_dbt.customer_segment: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_segment"} */
+
+      drop table if exists "jaffle_dbt"."main"."customer_segment__dbt_backup" cascade
+    
+[0m23:36:26.231026 [debug] [Thread-4 (]: SQL status: OK in 0.002 seconds
+[0m23:36:26.233151 [debug] [Thread-1 (]: On model.jaffle_dbt.customer_ltv: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_ltv"} */
+
+      drop table if exists "jaffle_dbt"."main"."customer_ltv__dbt_backup" cascade
+    
+[0m23:36:26.236011 [debug] [Thread-3 (]: SQL status: OK in 0.001 seconds
+[0m23:36:26.242024 [debug] [Thread-4 (]: On model.jaffle_dbt.monthly_revenue: Close
+[0m23:36:26.243941 [debug] [Thread-2 (]: SQL status: OK in 0.006 seconds
+[0m23:36:26.246909 [debug] [Thread-3 (]: On model.jaffle_dbt.monthly_order_growth: Close
+[0m23:36:26.248295 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m23:36:26.255963 [debug] [Thread-2 (]: On model.jaffle_dbt.customer_segment: Close
+[0m23:36:26.257401 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0684dc49-efa7-4da9-87c9-b2e040cae761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA25670DD0>]}
+[0m23:36:26.258939 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0684dc49-efa7-4da9-87c9-b2e040cae761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA25639E10>]}
+[0m23:36:26.261090 [debug] [Thread-1 (]: On model.jaffle_dbt.customer_ltv: Close
+[0m23:36:26.262652 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0684dc49-efa7-4da9-87c9-b2e040cae761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA255A7D50>]}
+[0m23:36:26.270858 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0684dc49-efa7-4da9-87c9-b2e040cae761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA255AD9D0>]}
+[0m23:36:26.264770 [info ] [Thread-4 (]: 4 of 9 OK created sql table model main.monthly_revenue ......................... [[32mOK[0m in 0.39s]
+[0m23:36:26.279680 [debug] [Thread-4 (]: Finished running node model.jaffle_dbt.monthly_revenue
+[0m23:36:26.280976 [debug] [Thread-4 (]: Began running node model.jaffle_dbt.new_customers
+[0m23:36:26.266982 [info ] [Thread-3 (]: 3 of 9 OK created sql table model main.monthly_order_growth .................... [[32mOK[0m in 0.43s]
+[0m23:36:26.296729 [debug] [Thread-3 (]: Finished running node model.jaffle_dbt.monthly_order_growth
+[0m23:36:26.299537 [debug] [Thread-3 (]: Began running node model.jaffle_dbt.payments_summary
+[0m23:36:26.273906 [info ] [Thread-2 (]: 2 of 9 OK created sql table model main.customer_segment ........................ [[32mOK[0m in 0.44s]
+[0m23:36:26.310222 [debug] [Thread-2 (]: Finished running node model.jaffle_dbt.customer_segment
+[0m23:36:26.313997 [debug] [Thread-2 (]: Began running node model.jaffle_dbt.refunds_discounts
+[0m23:36:26.276034 [info ] [Thread-1 (]: 1 of 9 OK created sql table model main.customer_ltv ............................ [[32mOK[0m in 0.45s]
+[0m23:36:26.320177 [debug] [Thread-1 (]: Finished running node model.jaffle_dbt.customer_ltv
+[0m23:36:26.323855 [debug] [Thread-1 (]: Began running node model.jaffle_dbt.repeat_purchase_rate
+[0m23:36:26.283382 [info ] [Thread-4 (]: 5 of 9 START sql table model main.new_customers ................................ [RUN]
+[0m23:36:26.329887 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.jaffle_dbt.monthly_revenue, now model.jaffle_dbt.new_customers)
+[0m23:36:26.303786 [info ] [Thread-3 (]: 6 of 9 START sql table model main.payments_summary ............................. [RUN]
+[0m23:36:26.331929 [debug] [Thread-4 (]: Began compiling node model.jaffle_dbt.new_customers
+[0m23:36:26.334311 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.jaffle_dbt.monthly_order_growth, now model.jaffle_dbt.payments_summary)
+[0m23:36:26.344751 [debug] [Thread-4 (]: Writing injected SQL for node "model.jaffle_dbt.new_customers"
+[0m23:36:26.316002 [info ] [Thread-2 (]: 7 of 9 START sql table model main.refunds_discounts ............................ [RUN]
+[0m23:36:26.348788 [debug] [Thread-3 (]: Began compiling node model.jaffle_dbt.payments_summary
+[0m23:36:26.327350 [info ] [Thread-1 (]: 8 of 9 START sql table model main.repeat_purchase_rate ......................... [RUN]
+[0m23:36:26.358493 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.jaffle_dbt.customer_segment, now model.jaffle_dbt.refunds_discounts)
+[0m23:36:26.385403 [debug] [Thread-2 (]: Began compiling node model.jaffle_dbt.refunds_discounts
+[0m23:36:26.372864 [debug] [Thread-4 (]: Began executing node model.jaffle_dbt.new_customers
+[0m23:36:26.382829 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.jaffle_dbt.customer_ltv, now model.jaffle_dbt.repeat_purchase_rate)
+[0m23:36:26.375188 [debug] [Thread-3 (]: Writing injected SQL for node "model.jaffle_dbt.payments_summary"
+[0m23:36:26.397904 [debug] [Thread-2 (]: Writing injected SQL for node "model.jaffle_dbt.refunds_discounts"
+[0m23:36:26.406103 [debug] [Thread-1 (]: Began compiling node model.jaffle_dbt.repeat_purchase_rate
+[0m23:36:26.410914 [debug] [Thread-4 (]: Writing runtime sql for node "model.jaffle_dbt.new_customers"
+[0m23:36:26.413650 [debug] [Thread-3 (]: Began executing node model.jaffle_dbt.payments_summary
+[0m23:36:26.424957 [debug] [Thread-1 (]: Writing injected SQL for node "model.jaffle_dbt.repeat_purchase_rate"
+[0m23:36:26.424957 [debug] [Thread-2 (]: Began executing node model.jaffle_dbt.refunds_discounts
+[0m23:36:26.437629 [debug] [Thread-3 (]: Writing runtime sql for node "model.jaffle_dbt.payments_summary"
+[0m23:36:26.439906 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.new_customers"
+[0m23:36:26.492181 [debug] [Thread-4 (]: On model.jaffle_dbt.new_customers: BEGIN
+[0m23:36:26.493179 [debug] [Thread-1 (]: Began executing node model.jaffle_dbt.repeat_purchase_rate
+[0m23:36:26.494919 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m23:36:26.523921 [debug] [Thread-4 (]: SQL status: OK in 0.031 seconds
+[0m23:36:26.523921 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.new_customers"
+[0m23:36:26.496928 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.payments_summary"
+[0m23:36:26.491101 [debug] [Thread-2 (]: Writing runtime sql for node "model.jaffle_dbt.refunds_discounts"
+[0m23:36:26.523921 [debug] [Thread-1 (]: Writing runtime sql for node "model.jaffle_dbt.repeat_purchase_rate"
+[0m23:36:26.530593 [debug] [Thread-4 (]: On model.jaffle_dbt.new_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.new_customers"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."new_customers__dbt_tmp"
+  
+    as (
+      --New customer acquisition
+
+
+
+with first_orders as (
+    select
+        customer_id,
+        min(order_date) as first_order_date
+    from "jaffle_dbt"."main"."stg_orders"
+    group by 1
+)
+
+select
+    date_trunc('month', first_order_date) as month,
+    count(customer_id) as new_customers
+from first_orders
+group by 1
+order by 1
+    );
+  
+  
+[0m23:36:26.530593 [debug] [Thread-3 (]: On model.jaffle_dbt.payments_summary: BEGIN
+[0m23:36:26.539793 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.refunds_discounts"
+[0m23:36:26.542084 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.repeat_purchase_rate"
+[0m23:36:26.543630 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m23:36:26.546087 [debug] [Thread-2 (]: On model.jaffle_dbt.refunds_discounts: BEGIN
+[0m23:36:26.547694 [debug] [Thread-4 (]: SQL status: OK in 0.009 seconds
+[0m23:36:26.548690 [debug] [Thread-1 (]: On model.jaffle_dbt.repeat_purchase_rate: BEGIN
+[0m23:36:26.551023 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m23:36:26.555014 [debug] [Thread-3 (]: SQL status: OK in 0.011 seconds
+[0m23:36:26.561489 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.new_customers"
+[0m23:36:26.563541 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:36:26.565307 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.payments_summary"
+[0m23:36:26.566300 [debug] [Thread-2 (]: SQL status: OK in 0.015 seconds
+[0m23:36:26.566901 [debug] [Thread-4 (]: On model.jaffle_dbt.new_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.new_customers"} */
+alter table "jaffle_dbt"."main"."new_customers__dbt_tmp" rename to "new_customers"
+[0m23:36:26.571173 [debug] [Thread-3 (]: On model.jaffle_dbt.payments_summary: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.payments_summary"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."payments_summary__dbt_tmp"
+  
+    as (
+      --Summary by payment method
+│
+
+
+select
+    payment_method,
+    count(*) as payment_count,
+    sum(amount) as total_amount
+from "jaffle_dbt"."main"."stg_payments"
+group by 1
+order by total_amount desc
+    );
+  
+  
+[0m23:36:26.572471 [debug] [Thread-1 (]: SQL status: OK in 0.009 seconds
+[0m23:36:26.573468 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.refunds_discounts"
+[0m23:36:26.591001 [debug] [Thread-3 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.payments_summary"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."payments_summary__dbt_tmp"
+  
+    as (
+      --Summary by payment method
+│
+
+
+select
+    payment_method,
+    count(*) as payment_count,
+    sum(amount) as total_amount
+from "jaffle_dbt"."main"."stg_payments"
+group by 1
+order by total_amount desc
+    );
+  
+  
+[0m23:36:26.592012 [debug] [Thread-4 (]: SQL status: OK in 0.017 seconds
+[0m23:36:26.592012 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.repeat_purchase_rate"
+[0m23:36:26.593679 [debug] [Thread-2 (]: On model.jaffle_dbt.refunds_discounts: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.refunds_discounts"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."refunds_discounts__dbt_tmp"
+  
+    as (
+      --Refunds, discounts per month
+
+
+select
+    payment_method,
+    sum(case when amount = 0 then 1 else 0 end) as zero_amount_payments
+from "jaffle_dbt"."main"."stg_payments"
+group by 1
+    );
+  
+  
+[0m23:36:26.594929 [debug] [Thread-3 (]: DuckDB adapter: Rolling back transaction.
+[0m23:36:26.596920 [debug] [Thread-4 (]: On model.jaffle_dbt.new_customers: COMMIT
+[0m23:36:26.598938 [debug] [Thread-1 (]: On model.jaffle_dbt.repeat_purchase_rate: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.repeat_purchase_rate"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."repeat_purchase_rate__dbt_tmp"
+  
+    as (
+      --% of returning customers
+
+
+
+with customer_orders as (
+    select
+        customer_id,
+        count(*) as order_count
+    from "jaffle_dbt"."main"."stg_orders"
+    group by 1
+)
+
+select
+    count(case when order_count > 1 then 1 end) * 1.0
+        / count(*) as repeat_purchase_rate
+from customer_orders
+    );
+  
+  
+[0m23:36:26.601070 [debug] [Thread-3 (]: On model.jaffle_dbt.payments_summary: ROLLBACK
+[0m23:36:26.605983 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.new_customers"
+[0m23:36:26.610226 [debug] [Thread-2 (]: SQL status: OK in 0.010 seconds
+[0m23:36:26.612720 [debug] [Thread-4 (]: On model.jaffle_dbt.new_customers: COMMIT
+[0m23:36:26.621970 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.refunds_discounts"
+[0m23:36:26.621970 [debug] [Thread-1 (]: SQL status: OK in 0.016 seconds
+[0m23:36:26.624613 [debug] [Thread-2 (]: On model.jaffle_dbt.refunds_discounts: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.refunds_discounts"} */
+alter table "jaffle_dbt"."main"."refunds_discounts__dbt_tmp" rename to "refunds_discounts"
+[0m23:36:26.631555 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.repeat_purchase_rate"
+[0m23:36:26.632895 [debug] [Thread-4 (]: SQL status: OK in 0.008 seconds
+[0m23:36:26.634008 [debug] [Thread-1 (]: On model.jaffle_dbt.repeat_purchase_rate: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.repeat_purchase_rate"} */
+alter table "jaffle_dbt"."main"."repeat_purchase_rate__dbt_tmp" rename to "repeat_purchase_rate"
+[0m23:36:26.638903 [debug] [Thread-2 (]: SQL status: OK in 0.005 seconds
+[0m23:36:26.643870 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.new_customers"
+[0m23:36:26.649643 [debug] [Thread-2 (]: On model.jaffle_dbt.refunds_discounts: COMMIT
+[0m23:36:26.650634 [debug] [Thread-1 (]: SQL status: OK in 0.004 seconds
+[0m23:36:26.654625 [debug] [Thread-4 (]: On model.jaffle_dbt.new_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.new_customers"} */
+
+      drop table if exists "jaffle_dbt"."main"."new_customers__dbt_backup" cascade
+    
+[0m23:36:26.656555 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.refunds_discounts"
+[0m23:36:26.659609 [debug] [Thread-1 (]: On model.jaffle_dbt.repeat_purchase_rate: COMMIT
+[0m23:36:26.662448 [debug] [Thread-2 (]: On model.jaffle_dbt.refunds_discounts: COMMIT
+[0m23:36:26.663634 [debug] [Thread-4 (]: SQL status: OK in 0.002 seconds
+[0m23:36:26.664614 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.repeat_purchase_rate"
+[0m23:36:26.672524 [debug] [Thread-4 (]: On model.jaffle_dbt.new_customers: Close
+[0m23:36:26.673915 [debug] [Thread-2 (]: SQL status: OK in 0.008 seconds
+[0m23:36:26.674943 [debug] [Thread-1 (]: On model.jaffle_dbt.repeat_purchase_rate: COMMIT
+[0m23:36:26.677047 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0684dc49-efa7-4da9-87c9-b2e040cae761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA25568510>]}
+[0m23:36:26.682027 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.refunds_discounts"
+[0m23:36:26.692679 [debug] [Thread-2 (]: On model.jaffle_dbt.refunds_discounts: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.refunds_discounts"} */
+
+      drop table if exists "jaffle_dbt"."main"."refunds_discounts__dbt_backup" cascade
+    
+[0m23:36:26.690095 [info ] [Thread-4 (]: 5 of 9 OK created sql table model main.new_customers ........................... [[32mOK[0m in 0.35s]
+[0m23:36:26.694201 [debug] [Thread-1 (]: SQL status: OK in 0.009 seconds
+[0m23:36:26.696367 [debug] [Thread-4 (]: Finished running node model.jaffle_dbt.new_customers
+[0m23:36:26.697742 [debug] [Thread-2 (]: SQL status: OK in 0.002 seconds
+[0m23:36:26.710664 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.repeat_purchase_rate"
+[0m23:36:26.712291 [debug] [Thread-4 (]: Began running node model.jaffle_dbt.top_customers
+[0m23:36:26.715744 [debug] [Thread-2 (]: On model.jaffle_dbt.refunds_discounts: Close
+[0m23:36:26.718481 [debug] [Thread-1 (]: On model.jaffle_dbt.repeat_purchase_rate: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.repeat_purchase_rate"} */
+
+      drop table if exists "jaffle_dbt"."main"."repeat_purchase_rate__dbt_backup" cascade
+    
+[0m23:36:26.726096 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0684dc49-efa7-4da9-87c9-b2e040cae761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA210E7C50>]}
+[0m23:36:26.724239 [info ] [Thread-4 (]: 9 of 9 START sql table model main.top_customers ................................ [RUN]
+[0m23:36:26.728823 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m23:36:26.728291 [info ] [Thread-2 (]: 7 of 9 OK created sql table model main.refunds_discounts ....................... [[32mOK[0m in 0.37s]
+[0m23:36:26.730871 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.jaffle_dbt.new_customers, now model.jaffle_dbt.top_customers)
+[0m23:36:26.733863 [debug] [Thread-1 (]: On model.jaffle_dbt.repeat_purchase_rate: Close
+[0m23:36:26.739836 [debug] [Thread-2 (]: Finished running node model.jaffle_dbt.refunds_discounts
+[0m23:36:26.740601 [debug] [Thread-4 (]: Began compiling node model.jaffle_dbt.top_customers
+[0m23:36:26.744308 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0684dc49-efa7-4da9-87c9-b2e040cae761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA25520750>]}
+[0m23:36:26.759759 [debug] [Thread-4 (]: Writing injected SQL for node "model.jaffle_dbt.top_customers"
+[0m23:36:26.763551 [info ] [Thread-1 (]: 8 of 9 OK created sql table model main.repeat_purchase_rate .................... [[32mOK[0m in 0.36s]
+[0m23:36:26.766377 [debug] [Thread-1 (]: Finished running node model.jaffle_dbt.repeat_purchase_rate
+[0m23:36:26.768440 [debug] [Thread-4 (]: Began executing node model.jaffle_dbt.top_customers
+[0m23:36:26.781115 [debug] [Thread-4 (]: Writing runtime sql for node "model.jaffle_dbt.top_customers"
+[0m23:36:26.785330 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.top_customers"
+[0m23:36:26.790596 [debug] [Thread-4 (]: On model.jaffle_dbt.top_customers: BEGIN
+[0m23:36:26.793457 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m23:36:26.798884 [debug] [Thread-4 (]: SQL status: OK in 0.006 seconds
+[0m23:36:26.800946 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.top_customers"
+[0m23:36:26.809377 [debug] [Thread-4 (]: On model.jaffle_dbt.top_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.top_customers"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."top_customers__dbt_tmp"
+  
+    as (
+      --Top spenders
+
+
+
+select
+    customer_id,
+    sum(amount) as total_spent
+from "jaffle_dbt"."main"."stg_orders" o
+join "jaffle_dbt"."main"."stg_payments" p
+    on o.order_id = p.order_id
+group by 1
+order by total_spent desc
+limit 10
+    );
+  
+  
+[0m23:36:26.825005 [debug] [Thread-4 (]: SQL status: OK in 0.010 seconds
+[0m23:36:26.830489 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.top_customers"
+[0m23:36:26.840798 [debug] [Thread-4 (]: On model.jaffle_dbt.top_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.top_customers"} */
+alter table "jaffle_dbt"."main"."top_customers__dbt_tmp" rename to "top_customers"
+[0m23:36:26.843164 [debug] [Thread-4 (]: SQL status: OK in 0.001 seconds
+[0m23:36:26.844162 [debug] [Thread-4 (]: On model.jaffle_dbt.top_customers: COMMIT
+[0m23:36:26.850649 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.top_customers"
+[0m23:36:26.851647 [debug] [Thread-4 (]: On model.jaffle_dbt.top_customers: COMMIT
+[0m23:36:26.860012 [debug] [Thread-4 (]: SQL status: OK in 0.004 seconds
+[0m23:36:26.873840 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.top_customers"
+[0m23:36:26.874840 [debug] [Thread-4 (]: On model.jaffle_dbt.top_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.top_customers"} */
+
+      drop table if exists "jaffle_dbt"."main"."top_customers__dbt_backup" cascade
+    
+[0m23:36:26.877939 [debug] [Thread-4 (]: SQL status: OK in 0.001 seconds
+[0m23:36:26.881240 [debug] [Thread-4 (]: On model.jaffle_dbt.top_customers: Close
+[0m23:36:26.883263 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0684dc49-efa7-4da9-87c9-b2e040cae761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA2552FE10>]}
+[0m23:36:26.889873 [info ] [Thread-4 (]: 9 of 9 OK created sql table model main.top_customers ........................... [[32mOK[0m in 0.15s]
+[0m23:36:26.893244 [debug] [Thread-4 (]: Finished running node model.jaffle_dbt.top_customers
+[0m23:36:26.983074 [debug] [Thread-3 (]: Failed to rollback 'model.jaffle_dbt.payments_summary'
+[0m23:36:26.983074 [debug] [Thread-3 (]: On model.jaffle_dbt.payments_summary: Close
+[0m23:36:26.996104 [debug] [Thread-3 (]: Runtime Error in model payments_summary (models\marts\finance\payments_summary.sql)
+  Parser Error: syntax error at or near "│"
+  
+  LINE 12: │
+           ^
+[0m23:36:26.997136 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0684dc49-efa7-4da9-87c9-b2e040cae761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA256CC990>]}
+[0m23:36:27.000129 [error] [Thread-3 (]: 6 of 9 ERROR creating sql table model main.payments_summary .................... [[31mERROR[0m in 0.66s]
+[0m23:36:27.002167 [debug] [Thread-3 (]: Finished running node model.jaffle_dbt.payments_summary
+[0m23:36:27.006754 [debug] [Thread-7 (]: Marking all children of 'model.jaffle_dbt.payments_summary' to be skipped because of status 'error'.  Reason: Runtime Error in model payments_summary (models\marts\finance\payments_summary.sql)
+  Parser Error: syntax error at or near "│"
+  
+  LINE 12: │
+           ^.
+[0m23:36:27.010638 [debug] [MainThread]: Using duckdb connection "master"
+[0m23:36:27.012634 [debug] [MainThread]: On master: BEGIN
+[0m23:36:27.013144 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m23:36:27.014612 [debug] [MainThread]: SQL status: OK in 0.002 seconds
+[0m23:36:27.015612 [debug] [MainThread]: On master: COMMIT
+[0m23:36:27.017155 [debug] [MainThread]: Using duckdb connection "master"
+[0m23:36:27.018153 [debug] [MainThread]: On master: COMMIT
+[0m23:36:27.019712 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m23:36:27.023700 [debug] [MainThread]: On master: Close
+[0m23:36:27.026285 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:36:27.027263 [debug] [MainThread]: Connection 'create_jaffle_dbt_main' was properly closed.
+[0m23:36:27.028871 [debug] [MainThread]: Connection 'list_jaffle_dbt_main' was properly closed.
+[0m23:36:27.029790 [debug] [MainThread]: Connection 'model.jaffle_dbt.repeat_purchase_rate' was properly closed.
+[0m23:36:27.030803 [debug] [MainThread]: Connection 'model.jaffle_dbt.refunds_discounts' was properly closed.
+[0m23:36:27.031265 [debug] [MainThread]: Connection 'model.jaffle_dbt.payments_summary' was properly closed.
+[0m23:36:27.032851 [debug] [MainThread]: Connection 'model.jaffle_dbt.top_customers' was properly closed.
+[0m23:36:27.033881 [info ] [MainThread]: 
+[0m23:36:27.034694 [info ] [MainThread]: Finished running 9 table models in 0 hours 0 minutes and 1.64 seconds (1.64s).
+[0m23:36:27.047369 [debug] [MainThread]: Command end result
+[0m23:36:27.133532 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\jaffle_shop\jaffle_dbt\target\manifest.json
+[0m23:36:27.140005 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\jaffle_shop\jaffle_dbt\target\semantic_manifest.json
+[0m23:36:27.155132 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\kev\jaffle_shop\jaffle_dbt\target\run_results.json
+[0m23:36:27.156129 [info ] [MainThread]: 
+[0m23:36:27.157636 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m23:36:27.158915 [info ] [MainThread]: 
+[0m23:36:27.160906 [error] [MainThread]: [31mFailure in model payments_summary (models\marts\finance\payments_summary.sql)[0m
+[0m23:36:27.162903 [error] [MainThread]:   Runtime Error in model payments_summary (models\marts\finance\payments_summary.sql)
+  Parser Error: syntax error at or near "│"
+  
+  LINE 12: │
+           ^
+[0m23:36:27.165398 [info ] [MainThread]: 
+[0m23:36:27.167803 [info ] [MainThread]:   compiled code at target\compiled\jaffle_dbt\models\marts\finance\payments_summary.sql
+[0m23:36:27.172049 [info ] [MainThread]: 
+[0m23:36:27.173047 [info ] [MainThread]: Done. PASS=8 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=9
+[0m23:36:27.177795 [debug] [MainThread]: Command `dbt run` failed at 23:36:27.177795 after 3.77 seconds
+[0m23:36:27.182156 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA23B0C610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA23B0C790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA22BB3590>]}
+[0m23:36:27.183154 [debug] [MainThread]: Flushing usage events
+[0m23:36:28.405439 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:38:26.668254 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3C9A52990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3C99DFBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3C99DFE10>]}
+
+
+============================== 23:38:26.676919 | 323497a8-1fc2-4c8f-961f-fa3cebb8b574 ==============================
+[0m23:38:26.676919 [info ] [MainThread]: Running with dbt=1.11.2
+[0m23:38:26.679791 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt run --select marts', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\jaffle_shop\\jaffle_dbt\\logs'}
+[0m23:38:27.161511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '323497a8-1fc2-4c8f-961f-fa3cebb8b574', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3CAC75650>]}
+[0m23:38:27.261534 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '323497a8-1fc2-4c8f-961f-fa3cebb8b574', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3C624DA50>]}
+[0m23:38:27.271743 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m23:38:27.720553 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m23:38:27.931627 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m23:38:27.937168 [debug] [MainThread]: Partial parsing: updated file: jaffle_dbt://models\marts\finance\payments_summary.sql
+[0m23:38:28.331681 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '323497a8-1fc2-4c8f-961f-fa3cebb8b574', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3CAC15F10>]}
+[0m23:38:28.521444 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\jaffle_shop\jaffle_dbt\target\manifest.json
+[0m23:38:28.525257 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\jaffle_shop\jaffle_dbt\target\semantic_manifest.json
+[0m23:38:28.572993 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '323497a8-1fc2-4c8f-961f-fa3cebb8b574', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3CB1A8250>]}
+[0m23:38:28.574020 [info ] [MainThread]: Found 12 models, 3 seeds, 472 macros
+[0m23:38:28.576340 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '323497a8-1fc2-4c8f-961f-fa3cebb8b574', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3CB098750>]}
+[0m23:38:28.579278 [info ] [MainThread]: 
+[0m23:38:28.580778 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m23:38:28.583124 [info ] [MainThread]: 
+[0m23:38:28.585044 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m23:38:28.601723 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_jaffle_dbt'
+[0m23:38:28.738700 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt"
+[0m23:38:28.739251 [debug] [ThreadPool]: On list_jaffle_dbt: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "list_jaffle_dbt"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"jaffle_dbt"'
+    
+  
+  
+[0m23:38:28.739831 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:38:28.787688 [debug] [ThreadPool]: SQL status: OK in 0.047 seconds
+[0m23:38:28.789729 [debug] [ThreadPool]: On list_jaffle_dbt: Close
+[0m23:38:28.791522 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_jaffle_dbt, now create_jaffle_dbt_main)
+[0m23:38:28.792520 [debug] [ThreadPool]: Creating schema "database: "jaffle_dbt"
+schema: "main"
+"
+[0m23:38:28.801483 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m23:38:28.802964 [debug] [ThreadPool]: On create_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "create_jaffle_dbt_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='jaffle_dbt'
+        and type='sqlite'
+    
+  
+[0m23:38:28.803961 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:38:28.805949 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m23:38:28.807727 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m23:38:28.809268 [debug] [ThreadPool]: On create_jaffle_dbt_main: BEGIN
+[0m23:38:28.810633 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m23:38:28.811631 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m23:38:28.811784 [debug] [ThreadPool]: On create_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "create_jaffle_dbt_main"} */
+
+    
+    
+        create schema if not exists "jaffle_dbt"."main"
+    
+[0m23:38:28.813781 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m23:38:28.814780 [debug] [ThreadPool]: On create_jaffle_dbt_main: COMMIT
+[0m23:38:28.816418 [debug] [ThreadPool]: Using duckdb connection "create_jaffle_dbt_main"
+[0m23:38:28.816418 [debug] [ThreadPool]: On create_jaffle_dbt_main: COMMIT
+[0m23:38:28.818001 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m23:38:28.818999 [debug] [ThreadPool]: On create_jaffle_dbt_main: Close
+[0m23:38:28.822634 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_jaffle_dbt_main'
+[0m23:38:28.830872 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt_main"
+[0m23:38:28.832389 [debug] [ThreadPool]: On list_jaffle_dbt_main: BEGIN
+[0m23:38:28.832389 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:38:28.833992 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m23:38:28.835020 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt_main"
+[0m23:38:28.836115 [debug] [ThreadPool]: On list_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "list_jaffle_dbt_main"} */
+select
+      'jaffle_dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'jaffle_dbt'
+  
+[0m23:38:28.861142 [debug] [ThreadPool]: SQL status: OK in 0.024 seconds
+[0m23:38:28.863170 [debug] [ThreadPool]: On list_jaffle_dbt_main: ROLLBACK
+[0m23:38:28.863170 [debug] [ThreadPool]: Failed to rollback 'list_jaffle_dbt_main'
+[0m23:38:28.863170 [debug] [ThreadPool]: On list_jaffle_dbt_main: Close
+[0m23:38:28.871692 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '323497a8-1fc2-4c8f-961f-fa3cebb8b574', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3CAEFDD50>]}
+[0m23:38:28.872865 [debug] [MainThread]: Using duckdb connection "master"
+[0m23:38:28.872865 [debug] [MainThread]: On master: BEGIN
+[0m23:38:28.873863 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:38:28.875592 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m23:38:28.876527 [debug] [MainThread]: On master: COMMIT
+[0m23:38:28.876527 [debug] [MainThread]: Using duckdb connection "master"
+[0m23:38:28.878015 [debug] [MainThread]: On master: COMMIT
+[0m23:38:28.879171 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m23:38:28.879688 [debug] [MainThread]: On master: Close
+[0m23:38:28.887471 [debug] [Thread-1 (]: Began running node model.jaffle_dbt.customer_ltv
+[0m23:38:28.888447 [debug] [Thread-2 (]: Began running node model.jaffle_dbt.customer_segment
+[0m23:38:28.889477 [debug] [Thread-3 (]: Began running node model.jaffle_dbt.monthly_order_growth
+[0m23:38:28.889477 [debug] [Thread-4 (]: Began running node model.jaffle_dbt.monthly_revenue
+[0m23:38:28.891014 [info ] [Thread-1 (]: 1 of 9 START sql table model main.customer_ltv ................................. [RUN]
+[0m23:38:28.892855 [info ] [Thread-2 (]: 2 of 9 START sql table model main.customer_segment ............................. [RUN]
+[0m23:38:28.893960 [info ] [Thread-3 (]: 3 of 9 START sql table model main.monthly_order_growth ......................... [RUN]
+[0m23:38:28.896984 [debug] [Thread-1 (]: Acquiring new duckdb connection 'model.jaffle_dbt.customer_ltv'
+[0m23:38:28.895011 [info ] [Thread-4 (]: 4 of 9 START sql table model main.monthly_revenue .............................. [RUN]
+[0m23:38:28.899977 [debug] [Thread-2 (]: Acquiring new duckdb connection 'model.jaffle_dbt.customer_segment'
+[0m23:38:28.901006 [debug] [Thread-3 (]: Acquiring new duckdb connection 'model.jaffle_dbt.monthly_order_growth'
+[0m23:38:28.902561 [debug] [Thread-1 (]: Began compiling node model.jaffle_dbt.customer_ltv
+[0m23:38:28.904208 [debug] [Thread-4 (]: Acquiring new duckdb connection 'model.jaffle_dbt.monthly_revenue'
+[0m23:38:28.905475 [debug] [Thread-2 (]: Began compiling node model.jaffle_dbt.customer_segment
+[0m23:38:28.906541 [debug] [Thread-3 (]: Began compiling node model.jaffle_dbt.monthly_order_growth
+[0m23:38:28.915742 [debug] [Thread-4 (]: Began compiling node model.jaffle_dbt.monthly_revenue
+[0m23:38:28.929422 [debug] [Thread-1 (]: Writing injected SQL for node "model.jaffle_dbt.customer_ltv"
+[0m23:38:28.939847 [debug] [Thread-2 (]: Writing injected SQL for node "model.jaffle_dbt.customer_segment"
+[0m23:38:28.941876 [debug] [Thread-3 (]: Writing injected SQL for node "model.jaffle_dbt.monthly_order_growth"
+[0m23:38:28.950969 [debug] [Thread-4 (]: Writing injected SQL for node "model.jaffle_dbt.monthly_revenue"
+[0m23:38:28.954442 [debug] [Thread-1 (]: Began executing node model.jaffle_dbt.customer_ltv
+[0m23:38:28.955789 [debug] [Thread-2 (]: Began executing node model.jaffle_dbt.customer_segment
+[0m23:38:28.956787 [debug] [Thread-3 (]: Began executing node model.jaffle_dbt.monthly_order_growth
+[0m23:38:29.001626 [debug] [Thread-1 (]: Writing runtime sql for node "model.jaffle_dbt.customer_ltv"
+[0m23:38:29.014091 [debug] [Thread-2 (]: Writing runtime sql for node "model.jaffle_dbt.customer_segment"
+[0m23:38:29.014091 [debug] [Thread-4 (]: Began executing node model.jaffle_dbt.monthly_revenue
+[0m23:38:29.021908 [debug] [Thread-3 (]: Writing runtime sql for node "model.jaffle_dbt.monthly_order_growth"
+[0m23:38:29.030769 [debug] [Thread-4 (]: Writing runtime sql for node "model.jaffle_dbt.monthly_revenue"
+[0m23:38:29.030769 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.customer_ltv"
+[0m23:38:29.034712 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.customer_segment"
+[0m23:38:29.036706 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.monthly_order_growth"
+[0m23:38:29.037495 [debug] [Thread-1 (]: On model.jaffle_dbt.customer_ltv: BEGIN
+[0m23:38:29.039041 [debug] [Thread-2 (]: On model.jaffle_dbt.customer_segment: BEGIN
+[0m23:38:29.039553 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.monthly_revenue"
+[0m23:38:29.040546 [debug] [Thread-3 (]: On model.jaffle_dbt.monthly_order_growth: BEGIN
+[0m23:38:29.041544 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m23:38:29.043204 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m23:38:29.044416 [debug] [Thread-4 (]: On model.jaffle_dbt.monthly_revenue: BEGIN
+[0m23:38:29.045414 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m23:38:29.046468 [debug] [Thread-1 (]: SQL status: OK in 0.005 seconds
+[0m23:38:29.048463 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m23:38:29.049462 [debug] [Thread-2 (]: SQL status: OK in 0.006 seconds
+[0m23:38:29.051385 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.customer_ltv"
+[0m23:38:29.052126 [debug] [Thread-3 (]: SQL status: OK in 0.007 seconds
+[0m23:38:29.053467 [debug] [Thread-4 (]: SQL status: OK in 0.005 seconds
+[0m23:38:29.054497 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.customer_segment"
+[0m23:38:29.055463 [debug] [Thread-1 (]: On model.jaffle_dbt.customer_ltv: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_ltv"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."customer_ltv__dbt_tmp"
+  
+    as (
+      --Lifetime value per customer
+
+
+
+select
+    o.customer_id,
+    sum(p.amount) as lifetime_value
+from "jaffle_dbt"."main"."stg_orders" o
+join "jaffle_dbt"."main"."stg_payments" p
+    on o.order_id = p.order_id
+group by 1
+order by lifetime_value desc
+    );
+  
+  
+[0m23:38:29.056391 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.monthly_order_growth"
+[0m23:38:29.057643 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.monthly_revenue"
+[0m23:38:29.058641 [debug] [Thread-2 (]: On model.jaffle_dbt.customer_segment: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_segment"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."customer_segment__dbt_tmp"
+  
+    as (
+      --Segmentation (e.g., high/medium/low)
+
+
+
+with customer_spend as (
+    select
+        o.customer_id,
+        sum(p.amount) as total_spent
+    from "jaffle_dbt"."main"."stg_orders" o
+    join "jaffle_dbt"."main"."stg_payments" p
+        on o.order_id = p.order_id
+    group by 1
+)
+
+select
+    customer_id,
+    total_spent,
+    case
+        when total_spent >= 5000 then 'high_value'
+        when total_spent >= 2000 then 'medium_value'
+        else 'low_value'
+    end as customer_segment
+from customer_spend
+    );
+  
+  
+[0m23:38:29.060636 [debug] [Thread-3 (]: On model.jaffle_dbt.monthly_order_growth: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_order_growth"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."monthly_order_growth__dbt_tmp"
+  
+    as (
+      --Orders per month
+
+
+
+select
+    date_trunc('month', order_date) as month,
+    count(*) as total_orders
+from "jaffle_dbt"."main"."stg_orders"
+group by 1
+order by 1
+    );
+  
+  
+[0m23:38:29.061634 [debug] [Thread-4 (]: On model.jaffle_dbt.monthly_revenue: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_revenue"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."monthly_revenue__dbt_tmp"
+  
+    as (
+      --Total revenue per month
+
+
+
+select
+    date_trunc('month', o.order_date) as month,
+    sum(p.amount) as revenue
+from "jaffle_dbt"."main"."stg_orders" o
+join "jaffle_dbt"."main"."stg_payments" p
+    on o.order_id = p.order_id
+group by 1
+order by 1
+    );
+  
+  
+[0m23:38:29.067200 [debug] [Thread-3 (]: SQL status: OK in 0.003 seconds
+[0m23:38:29.068328 [debug] [Thread-1 (]: SQL status: OK in 0.008 seconds
+[0m23:38:29.072601 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.monthly_order_growth"
+[0m23:38:29.079226 [debug] [Thread-2 (]: SQL status: OK in 0.016 seconds
+[0m23:38:29.080735 [debug] [Thread-4 (]: SQL status: OK in 0.016 seconds
+[0m23:38:29.083797 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.customer_ltv"
+[0m23:38:29.085020 [debug] [Thread-3 (]: On model.jaffle_dbt.monthly_order_growth: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_order_growth"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'monthly_order_growth'
+  
+[0m23:38:29.088567 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.customer_segment"
+[0m23:38:29.090589 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.monthly_revenue"
+[0m23:38:29.092237 [debug] [Thread-1 (]: On model.jaffle_dbt.customer_ltv: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_ltv"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'customer_ltv'
+  
+[0m23:38:29.093235 [debug] [Thread-2 (]: On model.jaffle_dbt.customer_segment: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_segment"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'customer_segment'
+  
+[0m23:38:29.094385 [debug] [Thread-3 (]: SQL status: OK in 0.002 seconds
+[0m23:38:29.095456 [debug] [Thread-4 (]: On model.jaffle_dbt.monthly_revenue: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_revenue"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'monthly_revenue'
+  
+[0m23:38:29.099657 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.monthly_order_growth"
+[0m23:38:29.100722 [debug] [Thread-1 (]: SQL status: OK in 0.004 seconds
+[0m23:38:29.101718 [debug] [Thread-2 (]: SQL status: OK in 0.005 seconds
+[0m23:38:29.103851 [debug] [Thread-3 (]: On model.jaffle_dbt.monthly_order_growth: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_order_growth"} */
+
+    SELECT COUNT(*) as remaining_indexes
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'monthly_order_growth'
+  
+[0m23:38:29.104710 [debug] [Thread-4 (]: SQL status: OK in 0.002 seconds
+[0m23:38:29.106706 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.customer_ltv"
+[0m23:38:29.108642 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.customer_segment"
+[0m23:38:29.112154 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.monthly_revenue"
+[0m23:38:29.113116 [debug] [Thread-3 (]: SQL status: OK in 0.003 seconds
+[0m23:38:29.113116 [debug] [Thread-1 (]: On model.jaffle_dbt.customer_ltv: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_ltv"} */
+
+    SELECT COUNT(*) as remaining_indexes
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'customer_ltv'
+  
+[0m23:38:29.114614 [debug] [Thread-2 (]: On model.jaffle_dbt.customer_segment: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_segment"} */
+
+    SELECT COUNT(*) as remaining_indexes
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'customer_segment'
+  
+[0m23:38:29.116609 [debug] [Thread-4 (]: On model.jaffle_dbt.monthly_revenue: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_revenue"} */
+
+    SELECT COUNT(*) as remaining_indexes
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'monthly_revenue'
+  
+[0m23:38:29.130613 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.monthly_order_growth"
+[0m23:38:29.133727 [debug] [Thread-3 (]: On model.jaffle_dbt.monthly_order_growth: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_order_growth"} */
+alter table "jaffle_dbt"."main"."monthly_order_growth" rename to "monthly_order_growth__dbt_backup"
+[0m23:38:29.134724 [debug] [Thread-4 (]: SQL status: OK in 0.002 seconds
+[0m23:38:29.135998 [debug] [Thread-1 (]: SQL status: OK in 0.005 seconds
+[0m23:38:29.137027 [debug] [Thread-2 (]: SQL status: OK in 0.005 seconds
+[0m23:38:29.141221 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.monthly_revenue"
+[0m23:38:29.141221 [debug] [Thread-3 (]: SQL status: OK in 0.006 seconds
+[0m23:38:29.151066 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.customer_ltv"
+[0m23:38:29.154088 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.customer_segment"
+[0m23:38:29.157813 [debug] [Thread-4 (]: On model.jaffle_dbt.monthly_revenue: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_revenue"} */
+alter table "jaffle_dbt"."main"."monthly_revenue" rename to "monthly_revenue__dbt_backup"
+[0m23:38:29.161857 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.monthly_order_growth"
+[0m23:38:29.165218 [debug] [Thread-1 (]: On model.jaffle_dbt.customer_ltv: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_ltv"} */
+alter table "jaffle_dbt"."main"."customer_ltv" rename to "customer_ltv__dbt_backup"
+[0m23:38:29.166332 [debug] [Thread-2 (]: On model.jaffle_dbt.customer_segment: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_segment"} */
+alter table "jaffle_dbt"."main"."customer_segment" rename to "customer_segment__dbt_backup"
+[0m23:38:29.169282 [debug] [Thread-3 (]: On model.jaffle_dbt.monthly_order_growth: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_order_growth"} */
+alter table "jaffle_dbt"."main"."monthly_order_growth__dbt_tmp" rename to "monthly_order_growth"
+[0m23:38:29.169798 [debug] [Thread-4 (]: SQL status: OK in 0.002 seconds
+[0m23:38:29.172057 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m23:38:29.173055 [debug] [Thread-2 (]: SQL status: OK in 0.002 seconds
+[0m23:38:29.174052 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.monthly_revenue"
+[0m23:38:29.174052 [debug] [Thread-3 (]: SQL status: OK in 0.006 seconds
+[0m23:38:29.185768 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.customer_ltv"
+[0m23:38:29.191887 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.customer_segment"
+[0m23:38:29.191887 [debug] [Thread-4 (]: On model.jaffle_dbt.monthly_revenue: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_revenue"} */
+alter table "jaffle_dbt"."main"."monthly_revenue__dbt_tmp" rename to "monthly_revenue"
+[0m23:38:29.223061 [debug] [Thread-3 (]: On model.jaffle_dbt.monthly_order_growth: COMMIT
+[0m23:38:29.225206 [debug] [Thread-1 (]: On model.jaffle_dbt.customer_ltv: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_ltv"} */
+alter table "jaffle_dbt"."main"."customer_ltv__dbt_tmp" rename to "customer_ltv"
+[0m23:38:29.226557 [debug] [Thread-2 (]: On model.jaffle_dbt.customer_segment: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_segment"} */
+alter table "jaffle_dbt"."main"."customer_segment__dbt_tmp" rename to "customer_segment"
+[0m23:38:29.228554 [debug] [Thread-4 (]: SQL status: OK in 0.001 seconds
+[0m23:38:29.230924 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.monthly_order_growth"
+[0m23:38:29.234284 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m23:38:29.235282 [debug] [Thread-2 (]: SQL status: OK in 0.002 seconds
+[0m23:38:29.240705 [debug] [Thread-4 (]: On model.jaffle_dbt.monthly_revenue: COMMIT
+[0m23:38:29.242560 [debug] [Thread-3 (]: On model.jaffle_dbt.monthly_order_growth: COMMIT
+[0m23:38:29.247257 [debug] [Thread-1 (]: On model.jaffle_dbt.customer_ltv: COMMIT
+[0m23:38:29.253238 [debug] [Thread-2 (]: On model.jaffle_dbt.customer_segment: COMMIT
+[0m23:38:29.254236 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.monthly_revenue"
+[0m23:38:29.256229 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.customer_ltv"
+[0m23:38:29.263418 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.customer_segment"
+[0m23:38:29.264436 [debug] [Thread-4 (]: On model.jaffle_dbt.monthly_revenue: COMMIT
+[0m23:38:29.265598 [debug] [Thread-1 (]: On model.jaffle_dbt.customer_ltv: COMMIT
+[0m23:38:29.267921 [debug] [Thread-2 (]: On model.jaffle_dbt.customer_segment: COMMIT
+[0m23:38:29.268919 [debug] [Thread-3 (]: SQL status: OK in 0.014 seconds
+[0m23:38:29.283758 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.monthly_order_growth"
+[0m23:38:29.285831 [debug] [Thread-1 (]: SQL status: OK in 0.014 seconds
+[0m23:38:29.286921 [debug] [Thread-4 (]: SQL status: OK in 0.016 seconds
+[0m23:38:29.287786 [debug] [Thread-2 (]: SQL status: OK in 0.016 seconds
+[0m23:38:29.287786 [debug] [Thread-3 (]: On model.jaffle_dbt.monthly_order_growth: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_order_growth"} */
+
+      drop table if exists "jaffle_dbt"."main"."monthly_order_growth__dbt_backup" cascade
+    
+[0m23:38:29.291718 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.customer_ltv"
+[0m23:38:29.291718 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.monthly_revenue"
+[0m23:38:29.303693 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.customer_segment"
+[0m23:38:29.304922 [debug] [Thread-1 (]: On model.jaffle_dbt.customer_ltv: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_ltv"} */
+
+      drop table if exists "jaffle_dbt"."main"."customer_ltv__dbt_backup" cascade
+    
+[0m23:38:29.305917 [debug] [Thread-3 (]: SQL status: OK in 0.002 seconds
+[0m23:38:29.307149 [debug] [Thread-4 (]: On model.jaffle_dbt.monthly_revenue: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.monthly_revenue"} */
+
+      drop table if exists "jaffle_dbt"."main"."monthly_revenue__dbt_backup" cascade
+    
+[0m23:38:29.307911 [debug] [Thread-2 (]: On model.jaffle_dbt.customer_segment: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.customer_segment"} */
+
+      drop table if exists "jaffle_dbt"."main"."customer_segment__dbt_backup" cascade
+    
+[0m23:38:29.311902 [debug] [Thread-3 (]: On model.jaffle_dbt.monthly_order_growth: Close
+[0m23:38:29.314104 [debug] [Thread-1 (]: SQL status: OK in 0.005 seconds
+[0m23:38:29.319969 [debug] [Thread-4 (]: SQL status: OK in 0.004 seconds
+[0m23:38:29.321072 [debug] [Thread-2 (]: SQL status: OK in 0.005 seconds
+[0m23:38:29.323179 [debug] [Thread-1 (]: On model.jaffle_dbt.customer_ltv: Close
+[0m23:38:29.324807 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '323497a8-1fc2-4c8f-961f-fa3cebb8b574', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3CB4ADC50>]}
+[0m23:38:29.325667 [debug] [Thread-4 (]: On model.jaffle_dbt.monthly_revenue: Close
+[0m23:38:29.329445 [debug] [Thread-2 (]: On model.jaffle_dbt.customer_segment: Close
+[0m23:38:29.330950 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '323497a8-1fc2-4c8f-961f-fa3cebb8b574', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3CB5A09D0>]}
+[0m23:38:29.334158 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '323497a8-1fc2-4c8f-961f-fa3cebb8b574', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3CB48BC90>]}
+[0m23:38:29.332162 [info ] [Thread-3 (]: 3 of 9 OK created sql table model main.monthly_order_growth .................... [[32mOK[0m in 0.42s]
+[0m23:38:29.337538 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '323497a8-1fc2-4c8f-961f-fa3cebb8b574', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3CB59E650>]}
+[0m23:38:29.338537 [info ] [Thread-1 (]: 1 of 9 OK created sql table model main.customer_ltv ............................ [[32mOK[0m in 0.43s]
+[0m23:38:29.342073 [debug] [Thread-3 (]: Finished running node model.jaffle_dbt.monthly_order_growth
+[0m23:38:29.351394 [debug] [Thread-3 (]: Began running node model.jaffle_dbt.new_customers
+[0m23:38:29.345227 [debug] [Thread-1 (]: Finished running node model.jaffle_dbt.customer_ltv
+[0m23:38:29.340095 [info ] [Thread-4 (]: 4 of 9 OK created sql table model main.monthly_revenue ......................... [[32mOK[0m in 0.43s]
+[0m23:38:29.344226 [info ] [Thread-2 (]: 2 of 9 OK created sql table model main.customer_segment ........................ [[32mOK[0m in 0.44s]
+[0m23:38:29.357103 [debug] [Thread-1 (]: Began running node model.jaffle_dbt.payments_summary
+[0m23:38:29.355110 [info ] [Thread-3 (]: 5 of 9 START sql table model main.new_customers ................................ [RUN]
+[0m23:38:29.367714 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.jaffle_dbt.monthly_order_growth, now model.jaffle_dbt.new_customers)
+[0m23:38:29.359962 [debug] [Thread-4 (]: Finished running node model.jaffle_dbt.monthly_revenue
+[0m23:38:29.369764 [debug] [Thread-3 (]: Began compiling node model.jaffle_dbt.new_customers
+[0m23:38:29.361855 [debug] [Thread-2 (]: Finished running node model.jaffle_dbt.customer_segment
+[0m23:38:29.372615 [debug] [Thread-4 (]: Began running node model.jaffle_dbt.refunds_discounts
+[0m23:38:29.383450 [debug] [Thread-3 (]: Writing injected SQL for node "model.jaffle_dbt.new_customers"
+[0m23:38:29.363850 [info ] [Thread-1 (]: 6 of 9 START sql table model main.payments_summary ............................. [RUN]
+[0m23:38:29.386827 [debug] [Thread-2 (]: Began running node model.jaffle_dbt.repeat_purchase_rate
+[0m23:38:29.391349 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.jaffle_dbt.customer_ltv, now model.jaffle_dbt.payments_summary)
+[0m23:38:29.394102 [debug] [Thread-3 (]: Began executing node model.jaffle_dbt.new_customers
+[0m23:38:29.388821 [info ] [Thread-4 (]: 7 of 9 START sql table model main.refunds_discounts ............................ [RUN]
+[0m23:38:29.396479 [debug] [Thread-1 (]: Began compiling node model.jaffle_dbt.payments_summary
+[0m23:38:29.394102 [info ] [Thread-2 (]: 8 of 9 START sql table model main.repeat_purchase_rate ......................... [RUN]
+[0m23:38:29.406725 [debug] [Thread-3 (]: Writing runtime sql for node "model.jaffle_dbt.new_customers"
+[0m23:38:29.408682 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.jaffle_dbt.monthly_revenue, now model.jaffle_dbt.refunds_discounts)
+[0m23:38:29.412925 [debug] [Thread-1 (]: Writing injected SQL for node "model.jaffle_dbt.payments_summary"
+[0m23:38:29.416760 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.jaffle_dbt.customer_segment, now model.jaffle_dbt.repeat_purchase_rate)
+[0m23:38:29.421107 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.new_customers"
+[0m23:38:29.423093 [debug] [Thread-4 (]: Began compiling node model.jaffle_dbt.refunds_discounts
+[0m23:38:29.425525 [debug] [Thread-2 (]: Began compiling node model.jaffle_dbt.repeat_purchase_rate
+[0m23:38:29.427729 [debug] [Thread-1 (]: Began executing node model.jaffle_dbt.payments_summary
+[0m23:38:29.428760 [debug] [Thread-3 (]: On model.jaffle_dbt.new_customers: BEGIN
+[0m23:38:29.437981 [debug] [Thread-4 (]: Writing injected SQL for node "model.jaffle_dbt.refunds_discounts"
+[0m23:38:29.441741 [debug] [Thread-2 (]: Writing injected SQL for node "model.jaffle_dbt.repeat_purchase_rate"
+[0m23:38:29.454683 [debug] [Thread-1 (]: Writing runtime sql for node "model.jaffle_dbt.payments_summary"
+[0m23:38:29.457828 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m23:38:29.458825 [debug] [Thread-4 (]: Began executing node model.jaffle_dbt.refunds_discounts
+[0m23:38:29.461078 [debug] [Thread-2 (]: Began executing node model.jaffle_dbt.repeat_purchase_rate
+[0m23:38:29.463073 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.payments_summary"
+[0m23:38:29.464686 [debug] [Thread-3 (]: SQL status: OK in 0.007 seconds
+[0m23:38:29.471809 [debug] [Thread-4 (]: Writing runtime sql for node "model.jaffle_dbt.refunds_discounts"
+[0m23:38:29.480779 [debug] [Thread-2 (]: Writing runtime sql for node "model.jaffle_dbt.repeat_purchase_rate"
+[0m23:38:29.482207 [debug] [Thread-1 (]: On model.jaffle_dbt.payments_summary: BEGIN
+[0m23:38:29.484528 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.new_customers"
+[0m23:38:29.488518 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.refunds_discounts"
+[0m23:38:29.489391 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:38:29.490896 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.repeat_purchase_rate"
+[0m23:38:29.491925 [debug] [Thread-3 (]: On model.jaffle_dbt.new_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.new_customers"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."new_customers__dbt_tmp"
+  
+    as (
+      --New customer acquisition
+
+
+
+with first_orders as (
+    select
+        customer_id,
+        min(order_date) as first_order_date
+    from "jaffle_dbt"."main"."stg_orders"
+    group by 1
+)
+
+select
+    date_trunc('month', first_order_date) as month,
+    count(customer_id) as new_customers
+from first_orders
+group by 1
+order by 1
+    );
+  
+  
+[0m23:38:29.492891 [debug] [Thread-4 (]: On model.jaffle_dbt.refunds_discounts: BEGIN
+[0m23:38:29.494886 [debug] [Thread-2 (]: On model.jaffle_dbt.repeat_purchase_rate: BEGIN
+[0m23:38:29.494886 [debug] [Thread-1 (]: SQL status: OK in 0.006 seconds
+[0m23:38:29.496524 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m23:38:29.498518 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m23:38:29.500776 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.payments_summary"
+[0m23:38:29.501833 [debug] [Thread-3 (]: SQL status: OK in 0.005 seconds
+[0m23:38:29.504007 [debug] [Thread-4 (]: SQL status: OK in 0.007 seconds
+[0m23:38:29.505320 [debug] [Thread-2 (]: SQL status: OK in 0.007 seconds
+[0m23:38:29.506738 [debug] [Thread-1 (]: On model.jaffle_dbt.payments_summary: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.payments_summary"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."payments_summary__dbt_tmp"
+  
+    as (
+      
+
+select
+    payment_method,
+    count(*) as payment_count,
+    sum(amount) as total_amount
+from "jaffle_dbt"."main"."stg_payments"
+group by payment_method
+order by total_amount desc
+    );
+  
+  
+[0m23:38:29.507767 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.new_customers"
+[0m23:38:29.509034 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.refunds_discounts"
+[0m23:38:29.510540 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.repeat_purchase_rate"
+[0m23:38:29.511560 [debug] [Thread-3 (]: On model.jaffle_dbt.new_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.new_customers"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'new_customers'
+  
+[0m23:38:29.513258 [debug] [Thread-4 (]: On model.jaffle_dbt.refunds_discounts: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.refunds_discounts"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."refunds_discounts__dbt_tmp"
+  
+    as (
+      --Refunds, discounts per month
+
+
+select
+    payment_method,
+    sum(case when amount = 0 then 1 else 0 end) as zero_amount_payments
+from "jaffle_dbt"."main"."stg_payments"
+group by 1
+    );
+  
+  
+[0m23:38:29.515251 [debug] [Thread-2 (]: On model.jaffle_dbt.repeat_purchase_rate: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.repeat_purchase_rate"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."repeat_purchase_rate__dbt_tmp"
+  
+    as (
+      --% of returning customers
+
+
+
+with customer_orders as (
+    select
+        customer_id,
+        count(*) as order_count
+    from "jaffle_dbt"."main"."stg_orders"
+    group by 1
+)
+
+select
+    count(case when order_count > 1 then 1 end) * 1.0
+        / count(*) as repeat_purchase_rate
+from customer_orders
+    );
+  
+  
+[0m23:38:29.517375 [debug] [Thread-1 (]: SQL status: OK in 0.006 seconds
+[0m23:38:29.524474 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.payments_summary"
+[0m23:38:29.527130 [debug] [Thread-3 (]: SQL status: OK in 0.010 seconds
+[0m23:38:29.528041 [debug] [Thread-4 (]: SQL status: OK in 0.010 seconds
+[0m23:38:29.529035 [debug] [Thread-2 (]: SQL status: OK in 0.009 seconds
+[0m23:38:29.529054 [debug] [Thread-1 (]: On model.jaffle_dbt.payments_summary: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.payments_summary"} */
+alter table "jaffle_dbt"."main"."payments_summary__dbt_tmp" rename to "payments_summary"
+[0m23:38:29.531332 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.new_customers"
+[0m23:38:29.534801 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.refunds_discounts"
+[0m23:38:29.536828 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.repeat_purchase_rate"
+[0m23:38:29.539080 [debug] [Thread-3 (]: On model.jaffle_dbt.new_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.new_customers"} */
+
+    SELECT COUNT(*) as remaining_indexes
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'new_customers'
+  
+[0m23:38:29.539614 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m23:38:29.540613 [debug] [Thread-4 (]: On model.jaffle_dbt.refunds_discounts: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.refunds_discounts"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'refunds_discounts'
+  
+[0m23:38:29.541768 [debug] [Thread-2 (]: On model.jaffle_dbt.repeat_purchase_rate: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.repeat_purchase_rate"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'repeat_purchase_rate'
+  
+[0m23:38:29.546250 [debug] [Thread-1 (]: On model.jaffle_dbt.payments_summary: COMMIT
+[0m23:38:29.546741 [debug] [Thread-3 (]: SQL status: OK in 0.004 seconds
+[0m23:38:29.548976 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.payments_summary"
+[0m23:38:29.550484 [debug] [Thread-4 (]: SQL status: OK in 0.003 seconds
+[0m23:38:29.551480 [debug] [Thread-2 (]: SQL status: OK in 0.003 seconds
+[0m23:38:29.555554 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.new_customers"
+[0m23:38:29.558531 [debug] [Thread-1 (]: On model.jaffle_dbt.payments_summary: COMMIT
+[0m23:38:29.561059 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.refunds_discounts"
+[0m23:38:29.563073 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.repeat_purchase_rate"
+[0m23:38:29.564144 [debug] [Thread-3 (]: On model.jaffle_dbt.new_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.new_customers"} */
+alter table "jaffle_dbt"."main"."new_customers" rename to "new_customers__dbt_backup"
+[0m23:38:29.565142 [debug] [Thread-4 (]: On model.jaffle_dbt.refunds_discounts: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.refunds_discounts"} */
+
+    SELECT COUNT(*) as remaining_indexes
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'refunds_discounts'
+  
+[0m23:38:29.567203 [debug] [Thread-2 (]: On model.jaffle_dbt.repeat_purchase_rate: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.repeat_purchase_rate"} */
+
+    SELECT COUNT(*) as remaining_indexes
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'repeat_purchase_rate'
+  
+[0m23:38:29.569209 [debug] [Thread-1 (]: SQL status: OK in 0.004 seconds
+[0m23:38:29.571195 [debug] [Thread-3 (]: SQL status: OK in 0.001 seconds
+[0m23:38:29.573189 [debug] [Thread-4 (]: SQL status: OK in 0.002 seconds
+[0m23:38:29.574187 [debug] [Thread-2 (]: SQL status: OK in 0.001 seconds
+[0m23:38:29.579795 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.payments_summary"
+[0m23:38:29.587199 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.new_customers"
+[0m23:38:29.591606 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.refunds_discounts"
+[0m23:38:29.599667 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.repeat_purchase_rate"
+[0m23:38:29.600664 [debug] [Thread-1 (]: On model.jaffle_dbt.payments_summary: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.payments_summary"} */
+
+      drop table if exists "jaffle_dbt"."main"."payments_summary__dbt_backup" cascade
+    
+[0m23:38:29.602708 [debug] [Thread-3 (]: On model.jaffle_dbt.new_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.new_customers"} */
+alter table "jaffle_dbt"."main"."new_customers__dbt_tmp" rename to "new_customers"
+[0m23:38:29.603501 [debug] [Thread-4 (]: On model.jaffle_dbt.refunds_discounts: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.refunds_discounts"} */
+alter table "jaffle_dbt"."main"."refunds_discounts" rename to "refunds_discounts__dbt_backup"
+[0m23:38:29.604498 [debug] [Thread-2 (]: On model.jaffle_dbt.repeat_purchase_rate: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.repeat_purchase_rate"} */
+alter table "jaffle_dbt"."main"."repeat_purchase_rate" rename to "repeat_purchase_rate__dbt_backup"
+[0m23:38:29.606668 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m23:38:29.607743 [debug] [Thread-3 (]: SQL status: OK in 0.001 seconds
+[0m23:38:29.609841 [debug] [Thread-4 (]: SQL status: OK in 0.001 seconds
+[0m23:38:29.610699 [debug] [Thread-2 (]: SQL status: OK in 0.001 seconds
+[0m23:38:29.612727 [debug] [Thread-1 (]: On model.jaffle_dbt.payments_summary: Close
+[0m23:38:29.614772 [debug] [Thread-3 (]: On model.jaffle_dbt.new_customers: COMMIT
+[0m23:38:29.624815 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.refunds_discounts"
+[0m23:38:29.629770 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.repeat_purchase_rate"
+[0m23:38:29.631222 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '323497a8-1fc2-4c8f-961f-fa3cebb8b574', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3CC616050>]}
+[0m23:38:29.631797 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.new_customers"
+[0m23:38:29.633763 [debug] [Thread-4 (]: On model.jaffle_dbt.refunds_discounts: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.refunds_discounts"} */
+alter table "jaffle_dbt"."main"."refunds_discounts__dbt_tmp" rename to "refunds_discounts"
+[0m23:38:29.635013 [debug] [Thread-2 (]: On model.jaffle_dbt.repeat_purchase_rate: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.repeat_purchase_rate"} */
+alter table "jaffle_dbt"."main"."repeat_purchase_rate__dbt_tmp" rename to "repeat_purchase_rate"
+[0m23:38:29.637960 [debug] [Thread-3 (]: On model.jaffle_dbt.new_customers: COMMIT
+[0m23:38:29.636962 [info ] [Thread-1 (]: 6 of 9 OK created sql table model main.payments_summary ........................ [[32mOK[0m in 0.24s]
+[0m23:38:29.640880 [debug] [Thread-4 (]: SQL status: OK in 0.001 seconds
+[0m23:38:29.641854 [debug] [Thread-2 (]: SQL status: OK in 0.001 seconds
+[0m23:38:29.643664 [debug] [Thread-1 (]: Finished running node model.jaffle_dbt.payments_summary
+[0m23:38:29.645676 [debug] [Thread-4 (]: On model.jaffle_dbt.refunds_discounts: COMMIT
+[0m23:38:29.650836 [debug] [Thread-2 (]: On model.jaffle_dbt.repeat_purchase_rate: COMMIT
+[0m23:38:29.651991 [debug] [Thread-3 (]: SQL status: OK in 0.010 seconds
+[0m23:38:29.653987 [debug] [Thread-1 (]: Began running node model.jaffle_dbt.top_customers
+[0m23:38:29.655197 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.refunds_discounts"
+[0m23:38:29.656196 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.repeat_purchase_rate"
+[0m23:38:29.661038 [debug] [Thread-3 (]: Using duckdb connection "model.jaffle_dbt.new_customers"
+[0m23:38:29.664396 [debug] [Thread-4 (]: On model.jaffle_dbt.refunds_discounts: COMMIT
+[0m23:38:29.663399 [info ] [Thread-1 (]: 9 of 9 START sql table model main.top_customers ................................ [RUN]
+[0m23:38:29.666274 [debug] [Thread-2 (]: On model.jaffle_dbt.repeat_purchase_rate: COMMIT
+[0m23:38:29.668853 [debug] [Thread-3 (]: On model.jaffle_dbt.new_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.new_customers"} */
+
+      drop table if exists "jaffle_dbt"."main"."new_customers__dbt_backup" cascade
+    
+[0m23:38:29.671912 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.jaffle_dbt.payments_summary, now model.jaffle_dbt.top_customers)
+[0m23:38:29.674319 [debug] [Thread-1 (]: Began compiling node model.jaffle_dbt.top_customers
+[0m23:38:29.675381 [debug] [Thread-4 (]: SQL status: OK in 0.004 seconds
+[0m23:38:29.682672 [debug] [Thread-1 (]: Writing injected SQL for node "model.jaffle_dbt.top_customers"
+[0m23:38:29.684359 [debug] [Thread-2 (]: SQL status: OK in 0.011 seconds
+[0m23:38:29.691624 [debug] [Thread-4 (]: Using duckdb connection "model.jaffle_dbt.refunds_discounts"
+[0m23:38:29.691624 [debug] [Thread-3 (]: SQL status: OK in 0.019 seconds
+[0m23:38:29.699981 [debug] [Thread-2 (]: Using duckdb connection "model.jaffle_dbt.repeat_purchase_rate"
+[0m23:38:29.702380 [debug] [Thread-4 (]: On model.jaffle_dbt.refunds_discounts: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.refunds_discounts"} */
+
+      drop table if exists "jaffle_dbt"."main"."refunds_discounts__dbt_backup" cascade
+    
+[0m23:38:29.704498 [debug] [Thread-1 (]: Began executing node model.jaffle_dbt.top_customers
+[0m23:38:29.707607 [debug] [Thread-3 (]: On model.jaffle_dbt.new_customers: Close
+[0m23:38:29.708864 [debug] [Thread-2 (]: On model.jaffle_dbt.repeat_purchase_rate: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.repeat_purchase_rate"} */
+
+      drop table if exists "jaffle_dbt"."main"."repeat_purchase_rate__dbt_backup" cascade
+    
+[0m23:38:29.711194 [debug] [Thread-1 (]: Writing runtime sql for node "model.jaffle_dbt.top_customers"
+[0m23:38:29.717271 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '323497a8-1fc2-4c8f-961f-fa3cebb8b574', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3CB5137D0>]}
+[0m23:38:29.718375 [debug] [Thread-4 (]: SQL status: OK in 0.008 seconds
+[0m23:38:29.720895 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.top_customers"
+[0m23:38:29.723660 [debug] [Thread-2 (]: SQL status: OK in 0.005 seconds
+[0m23:38:29.723040 [info ] [Thread-3 (]: 5 of 9 OK created sql table model main.new_customers ........................... [[32mOK[0m in 0.35s]
+[0m23:38:29.726853 [debug] [Thread-4 (]: On model.jaffle_dbt.refunds_discounts: Close
+[0m23:38:29.728171 [debug] [Thread-1 (]: On model.jaffle_dbt.top_customers: BEGIN
+[0m23:38:29.730875 [debug] [Thread-2 (]: On model.jaffle_dbt.repeat_purchase_rate: Close
+[0m23:38:29.731718 [debug] [Thread-3 (]: Finished running node model.jaffle_dbt.new_customers
+[0m23:38:29.734461 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '323497a8-1fc2-4c8f-961f-fa3cebb8b574', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3CB194450>]}
+[0m23:38:29.735642 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:38:29.737741 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '323497a8-1fc2-4c8f-961f-fa3cebb8b574', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3CB0E89D0>]}
+[0m23:38:29.739782 [info ] [Thread-4 (]: 7 of 9 OK created sql table model main.refunds_discounts ....................... [[32mOK[0m in 0.33s]
+[0m23:38:29.741818 [debug] [Thread-1 (]: SQL status: OK in 0.006 seconds
+[0m23:38:29.745565 [debug] [Thread-4 (]: Finished running node model.jaffle_dbt.refunds_discounts
+[0m23:38:29.743560 [info ] [Thread-2 (]: 8 of 9 OK created sql table model main.repeat_purchase_rate .................... [[32mOK[0m in 0.32s]
+[0m23:38:29.747699 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.top_customers"
+[0m23:38:29.749949 [debug] [Thread-2 (]: Finished running node model.jaffle_dbt.repeat_purchase_rate
+[0m23:38:29.751948 [debug] [Thread-1 (]: On model.jaffle_dbt.top_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.top_customers"} */
+
+  
+    
+    
+
+    create  table
+      "jaffle_dbt"."main"."top_customers__dbt_tmp"
+  
+    as (
+      --Top spenders
+
+
+
+select
+    customer_id,
+    sum(amount) as total_spent
+from "jaffle_dbt"."main"."stg_orders" o
+join "jaffle_dbt"."main"."stg_payments" p
+    on o.order_id = p.order_id
+group by 1
+order by total_spent desc
+limit 10
+    );
+  
+  
+[0m23:38:29.759689 [debug] [Thread-1 (]: SQL status: OK in 0.004 seconds
+[0m23:38:29.764764 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.top_customers"
+[0m23:38:29.766249 [debug] [Thread-1 (]: On model.jaffle_dbt.top_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.top_customers"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'top_customers'
+  
+[0m23:38:29.773717 [debug] [Thread-1 (]: SQL status: OK in 0.006 seconds
+[0m23:38:29.773717 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.top_customers"
+[0m23:38:29.781376 [debug] [Thread-1 (]: On model.jaffle_dbt.top_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.top_customers"} */
+
+    SELECT COUNT(*) as remaining_indexes
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'top_customers'
+  
+[0m23:38:29.785425 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m23:38:29.791157 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.top_customers"
+[0m23:38:29.794314 [debug] [Thread-1 (]: On model.jaffle_dbt.top_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.top_customers"} */
+alter table "jaffle_dbt"."main"."top_customers" rename to "top_customers__dbt_backup"
+[0m23:38:29.795500 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m23:38:29.804131 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.top_customers"
+[0m23:38:29.805261 [debug] [Thread-1 (]: On model.jaffle_dbt.top_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.top_customers"} */
+alter table "jaffle_dbt"."main"."top_customers__dbt_tmp" rename to "top_customers"
+[0m23:38:29.807260 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m23:38:29.811180 [debug] [Thread-1 (]: On model.jaffle_dbt.top_customers: COMMIT
+[0m23:38:29.811946 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.top_customers"
+[0m23:38:29.812982 [debug] [Thread-1 (]: On model.jaffle_dbt.top_customers: COMMIT
+[0m23:38:29.821989 [debug] [Thread-1 (]: SQL status: OK in 0.008 seconds
+[0m23:38:29.822986 [debug] [Thread-1 (]: Using duckdb connection "model.jaffle_dbt.top_customers"
+[0m23:38:29.828907 [debug] [Thread-1 (]: On model.jaffle_dbt.top_customers: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "model.jaffle_dbt.top_customers"} */
+
+      drop table if exists "jaffle_dbt"."main"."top_customers__dbt_backup" cascade
+    
+[0m23:38:29.831968 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m23:38:29.835023 [debug] [Thread-1 (]: On model.jaffle_dbt.top_customers: Close
+[0m23:38:29.836887 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '323497a8-1fc2-4c8f-961f-fa3cebb8b574', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3CB4977D0>]}
+[0m23:38:29.838881 [info ] [Thread-1 (]: 9 of 9 OK created sql table model main.top_customers ........................... [[32mOK[0m in 0.17s]
+[0m23:38:29.840944 [debug] [Thread-1 (]: Finished running node model.jaffle_dbt.top_customers
+[0m23:38:29.843047 [debug] [MainThread]: Using duckdb connection "master"
+[0m23:38:29.844073 [debug] [MainThread]: On master: BEGIN
+[0m23:38:29.844073 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m23:38:29.846536 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m23:38:29.847530 [debug] [MainThread]: On master: COMMIT
+[0m23:38:29.847530 [debug] [MainThread]: Using duckdb connection "master"
+[0m23:38:29.848867 [debug] [MainThread]: On master: COMMIT
+[0m23:38:29.850099 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m23:38:29.850856 [debug] [MainThread]: On master: Close
+[0m23:38:29.851856 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:38:29.855606 [debug] [MainThread]: Connection 'create_jaffle_dbt_main' was properly closed.
+[0m23:38:29.856632 [debug] [MainThread]: Connection 'list_jaffle_dbt_main' was properly closed.
+[0m23:38:29.858124 [debug] [MainThread]: Connection 'model.jaffle_dbt.top_customers' was properly closed.
+[0m23:38:29.859045 [debug] [MainThread]: Connection 'model.jaffle_dbt.repeat_purchase_rate' was properly closed.
+[0m23:38:29.860084 [debug] [MainThread]: Connection 'model.jaffle_dbt.new_customers' was properly closed.
+[0m23:38:29.860084 [debug] [MainThread]: Connection 'model.jaffle_dbt.refunds_discounts' was properly closed.
+[0m23:38:29.862076 [info ] [MainThread]: 
+[0m23:38:29.863072 [info ] [MainThread]: Finished running 9 table models in 0 hours 0 minutes and 1.28 seconds (1.28s).
+[0m23:38:29.868319 [debug] [MainThread]: Command end result
+[0m23:38:29.923274 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\jaffle_shop\jaffle_dbt\target\manifest.json
+[0m23:38:29.930781 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\jaffle_shop\jaffle_dbt\target\semantic_manifest.json
+[0m23:38:29.940931 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\kev\jaffle_shop\jaffle_dbt\target\run_results.json
+[0m23:38:29.944896 [info ] [MainThread]: 
+[0m23:38:29.945861 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:38:29.946888 [info ] [MainThread]: 
+[0m23:38:29.948850 [info ] [MainThread]: Done. PASS=9 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=9
+[0m23:38:29.951187 [debug] [MainThread]: Command `dbt run` succeeded at 23:38:29.950195 after 3.44 seconds
+[0m23:38:29.952251 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3C9A50F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3C9A52550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3C2D1CDD0>]}
+[0m23:38:29.953313 [debug] [MainThread]: Flushing usage events
+[0m23:38:31.093392 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:00:28.016619 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D4562310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D4562890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D4562190>]}
+
+
+============================== 14:00:28.026542 | a246a836-6605-480f-b768-44aa02ef6c59 ==============================
+[0m14:00:28.026542 [info ] [MainThread]: Running with dbt=1.11.2
+[0m14:00:28.029572 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt test', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\jaffle_shop\\jaffle_dbt\\logs'}
+[0m14:00:29.158624 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a246a836-6605-480f-b768-44aa02ef6c59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D56FCF10>]}
+[0m14:00:29.387528 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a246a836-6605-480f-b768-44aa02ef6c59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D0D5DE90>]}
+[0m14:00:29.457917 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m14:00:30.244863 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m14:00:32.229662 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m14:00:32.230659 [debug] [MainThread]: Partial parsing: added file: jaffle_dbt://models\staging\schema.yml
+[0m14:00:32.561103 [warn ] [MainThread]: [[33mWARNING[0m][MissingArgumentsPropertyInGenericTestDeprecation]: Deprecated
+functionality
+Found top-level arguments to test `relationships` defined on 'stg_orders' in
+package 'jaffle_dbt' (models\staging\schema.yml). Arguments to generic tests
+should be nested under the `arguments` property.
+[0m14:00:32.563268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'a246a836-6605-480f-b768-44aa02ef6c59', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D5AB7010>]}
+[0m14:00:32.856939 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a246a836-6605-480f-b768-44aa02ef6c59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D5D90050>]}
+[0m14:00:33.024590 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\jaffle_shop\jaffle_dbt\target\manifest.json
+[0m14:00:33.049215 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\jaffle_shop\jaffle_dbt\target\semantic_manifest.json
+[0m14:00:33.164288 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a246a836-6605-480f-b768-44aa02ef6c59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D5C5B110>]}
+[0m14:00:33.166314 [info ] [MainThread]: Found 12 models, 3 seeds, 11 data tests, 472 macros
+[0m14:00:33.167937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a246a836-6605-480f-b768-44aa02ef6c59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D5C73790>]}
+[0m14:00:33.171954 [info ] [MainThread]: 
+[0m14:00:33.173331 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:00:33.175330 [info ] [MainThread]: 
+[0m14:00:33.177327 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m14:00:33.193353 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_jaffle_dbt_main'
+[0m14:00:37.286548 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt_main"
+[0m14:00:37.287545 [debug] [ThreadPool]: On list_jaffle_dbt_main: BEGIN
+[0m14:00:37.288543 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:00:37.368519 [debug] [ThreadPool]: SQL status: OK in 0.089 seconds
+[0m14:00:37.378770 [debug] [ThreadPool]: Using duckdb connection "list_jaffle_dbt_main"
+[0m14:00:37.379776 [debug] [ThreadPool]: On list_jaffle_dbt_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "connection_name": "list_jaffle_dbt_main"} */
+select
+      'jaffle_dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'jaffle_dbt'
+  
+[0m14:00:37.490751 [debug] [ThreadPool]: SQL status: OK in 0.110 seconds
+[0m14:00:37.495628 [debug] [ThreadPool]: On list_jaffle_dbt_main: ROLLBACK
+[0m14:00:37.520866 [debug] [ThreadPool]: Failed to rollback 'list_jaffle_dbt_main'
+[0m14:00:37.521868 [debug] [ThreadPool]: On list_jaffle_dbt_main: Close
+[0m14:00:37.528265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a246a836-6605-480f-b768-44aa02ef6c59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D5C557D0>]}
+[0m14:00:37.529555 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:00:37.530510 [debug] [MainThread]: On master: BEGIN
+[0m14:00:37.531507 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:00:37.533502 [debug] [MainThread]: SQL status: OK in 0.002 seconds
+[0m14:00:37.533502 [debug] [MainThread]: On master: COMMIT
+[0m14:00:37.534499 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:00:37.535498 [debug] [MainThread]: On master: COMMIT
+[0m14:00:37.536494 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m14:00:37.537492 [debug] [MainThread]: On master: Close
+[0m14:00:37.556503 [debug] [Thread-1 (]: Began running node test.jaffle_dbt.accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending.922d62c820
+[0m14:00:37.556503 [debug] [Thread-2 (]: Began running node test.jaffle_dbt.not_null_stg_customers_customer_id.e2cfb1f9aa
+[0m14:00:37.557505 [debug] [Thread-3 (]: Began running node test.jaffle_dbt.not_null_stg_orders_customer_id.af79d5e4b5
+[0m14:00:37.558502 [debug] [Thread-4 (]: Began running node test.jaffle_dbt.not_null_stg_orders_order_id.81cfe2fe64
+[0m14:00:37.559552 [info ] [Thread-1 (]: 1 of 11 START test accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending  [RUN]
+[0m14:00:37.560316 [info ] [Thread-2 (]: 2 of 11 START test not_null_stg_customers_customer_id .......................... [RUN]
+[0m14:00:37.562474 [info ] [Thread-3 (]: 3 of 11 START test not_null_stg_orders_customer_id ............................. [RUN]
+[0m14:00:37.565648 [debug] [Thread-1 (]: Acquiring new duckdb connection 'test.jaffle_dbt.accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending.922d62c820'
+[0m14:00:37.563469 [info ] [Thread-4 (]: 4 of 11 START test not_null_stg_orders_order_id ................................ [RUN]
+[0m14:00:37.567645 [debug] [Thread-2 (]: Acquiring new duckdb connection 'test.jaffle_dbt.not_null_stg_customers_customer_id.e2cfb1f9aa'
+[0m14:00:37.570332 [debug] [Thread-3 (]: Acquiring new duckdb connection 'test.jaffle_dbt.not_null_stg_orders_customer_id.af79d5e4b5'
+[0m14:00:37.571332 [debug] [Thread-1 (]: Began compiling node test.jaffle_dbt.accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending.922d62c820
+[0m14:00:37.573361 [debug] [Thread-4 (]: Acquiring new duckdb connection 'test.jaffle_dbt.not_null_stg_orders_order_id.81cfe2fe64'
+[0m14:00:37.576591 [debug] [Thread-2 (]: Began compiling node test.jaffle_dbt.not_null_stg_customers_customer_id.e2cfb1f9aa
+[0m14:00:37.578604 [debug] [Thread-3 (]: Began compiling node test.jaffle_dbt.not_null_stg_orders_customer_id.af79d5e4b5
+[0m14:00:37.599761 [debug] [Thread-1 (]: Writing injected SQL for node "test.jaffle_dbt.accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending.922d62c820"
+[0m14:00:37.602716 [debug] [Thread-4 (]: Began compiling node test.jaffle_dbt.not_null_stg_orders_order_id.81cfe2fe64
+[0m14:00:37.617326 [debug] [Thread-2 (]: Writing injected SQL for node "test.jaffle_dbt.not_null_stg_customers_customer_id.e2cfb1f9aa"
+[0m14:00:37.627336 [debug] [Thread-3 (]: Writing injected SQL for node "test.jaffle_dbt.not_null_stg_orders_customer_id.af79d5e4b5"
+[0m14:00:37.637372 [debug] [Thread-4 (]: Writing injected SQL for node "test.jaffle_dbt.not_null_stg_orders_order_id.81cfe2fe64"
+[0m14:00:37.639419 [debug] [Thread-1 (]: Began executing node test.jaffle_dbt.accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending.922d62c820
+[0m14:00:37.641410 [debug] [Thread-2 (]: Began executing node test.jaffle_dbt.not_null_stg_customers_customer_id.e2cfb1f9aa
+[0m14:00:37.643405 [debug] [Thread-3 (]: Began executing node test.jaffle_dbt.not_null_stg_orders_customer_id.af79d5e4b5
+[0m14:00:37.677593 [debug] [Thread-1 (]: Writing runtime sql for node "test.jaffle_dbt.accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending.922d62c820"
+[0m14:00:37.679606 [debug] [Thread-2 (]: Writing runtime sql for node "test.jaffle_dbt.not_null_stg_customers_customer_id.e2cfb1f9aa"
+[0m14:00:37.690500 [debug] [Thread-3 (]: Writing runtime sql for node "test.jaffle_dbt.not_null_stg_orders_customer_id.af79d5e4b5"
+[0m14:00:37.679606 [debug] [Thread-4 (]: Began executing node test.jaffle_dbt.not_null_stg_orders_order_id.81cfe2fe64
+[0m14:00:37.699385 [debug] [Thread-4 (]: Writing runtime sql for node "test.jaffle_dbt.not_null_stg_orders_order_id.81cfe2fe64"
+[0m14:00:37.700384 [debug] [Thread-2 (]: Using duckdb connection "test.jaffle_dbt.not_null_stg_customers_customer_id.e2cfb1f9aa"
+[0m14:00:37.701379 [debug] [Thread-1 (]: Using duckdb connection "test.jaffle_dbt.accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending.922d62c820"
+[0m14:00:37.703377 [debug] [Thread-3 (]: Using duckdb connection "test.jaffle_dbt.not_null_stg_orders_customer_id.af79d5e4b5"
+[0m14:00:37.704376 [debug] [Thread-2 (]: On test.jaffle_dbt.not_null_stg_customers_customer_id.e2cfb1f9aa: BEGIN
+[0m14:00:37.705375 [debug] [Thread-4 (]: Using duckdb connection "test.jaffle_dbt.not_null_stg_orders_order_id.81cfe2fe64"
+[0m14:00:37.706367 [debug] [Thread-1 (]: On test.jaffle_dbt.accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending.922d62c820: BEGIN
+[0m14:00:37.707365 [debug] [Thread-3 (]: On test.jaffle_dbt.not_null_stg_orders_customer_id.af79d5e4b5: BEGIN
+[0m14:00:37.708360 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m14:00:37.709387 [debug] [Thread-4 (]: On test.jaffle_dbt.not_null_stg_orders_order_id.81cfe2fe64: BEGIN
+[0m14:00:37.710590 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m14:00:37.711757 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m14:00:37.713512 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m14:00:37.714507 [debug] [Thread-2 (]: SQL status: OK in 0.006 seconds
+[0m14:00:37.716619 [debug] [Thread-1 (]: SQL status: OK in 0.005 seconds
+[0m14:00:37.717615 [debug] [Thread-3 (]: SQL status: OK in 0.006 seconds
+[0m14:00:37.719582 [debug] [Thread-2 (]: Using duckdb connection "test.jaffle_dbt.not_null_stg_customers_customer_id.e2cfb1f9aa"
+[0m14:00:37.720559 [debug] [Thread-4 (]: SQL status: OK in 0.007 seconds
+[0m14:00:37.721011 [debug] [Thread-1 (]: Using duckdb connection "test.jaffle_dbt.accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending.922d62c820"
+[0m14:00:37.722008 [debug] [Thread-3 (]: Using duckdb connection "test.jaffle_dbt.not_null_stg_orders_customer_id.af79d5e4b5"
+[0m14:00:37.723092 [debug] [Thread-2 (]: On test.jaffle_dbt.not_null_stg_customers_customer_id.e2cfb1f9aa: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "test.jaffle_dbt.not_null_stg_customers_customer_id.e2cfb1f9aa"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select customer_id
+from "jaffle_dbt"."main"."stg_customers"
+where customer_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:00:37.723920 [debug] [Thread-4 (]: Using duckdb connection "test.jaffle_dbt.not_null_stg_orders_order_id.81cfe2fe64"
+[0m14:00:37.725047 [debug] [Thread-1 (]: On test.jaffle_dbt.accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending.922d62c820: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "test.jaffle_dbt.accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending.922d62c820"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with all_values as (
+
+    select
+        status as value_field,
+        count(*) as n_records
+
+    from "jaffle_dbt"."main"."stg_orders"
+    group by status
+
+)
+
+select *
+from all_values
+where value_field not in (
+    'placed','shipped','completed','returned','return_pending'
+)
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:00:37.725889 [debug] [Thread-3 (]: On test.jaffle_dbt.not_null_stg_orders_customer_id.af79d5e4b5: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "test.jaffle_dbt.not_null_stg_orders_customer_id.af79d5e4b5"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select customer_id
+from "jaffle_dbt"."main"."stg_orders"
+where customer_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:00:37.727889 [debug] [Thread-4 (]: On test.jaffle_dbt.not_null_stg_orders_order_id.81cfe2fe64: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "test.jaffle_dbt.not_null_stg_orders_order_id.81cfe2fe64"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select order_id
+from "jaffle_dbt"."main"."stg_orders"
+where order_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:00:37.735383 [debug] [Thread-4 (]: SQL status: OK in 0.005 seconds
+[0m14:00:37.737377 [debug] [Thread-3 (]: SQL status: OK in 0.006 seconds
+[0m14:00:37.738388 [debug] [Thread-2 (]: SQL status: OK in 0.011 seconds
+[0m14:00:37.746042 [debug] [Thread-4 (]: On test.jaffle_dbt.not_null_stg_orders_order_id.81cfe2fe64: ROLLBACK
+[0m14:00:37.747041 [debug] [Thread-1 (]: SQL status: OK in 0.018 seconds
+[0m14:00:37.749994 [debug] [Thread-3 (]: On test.jaffle_dbt.not_null_stg_orders_customer_id.af79d5e4b5: ROLLBACK
+[0m14:00:37.754022 [debug] [Thread-2 (]: On test.jaffle_dbt.not_null_stg_customers_customer_id.e2cfb1f9aa: ROLLBACK
+[0m14:00:37.754982 [debug] [Thread-4 (]: Failed to rollback 'test.jaffle_dbt.not_null_stg_orders_order_id.81cfe2fe64'
+[0m14:00:37.758153 [debug] [Thread-1 (]: On test.jaffle_dbt.accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending.922d62c820: ROLLBACK
+[0m14:00:37.759620 [debug] [Thread-3 (]: Failed to rollback 'test.jaffle_dbt.not_null_stg_orders_customer_id.af79d5e4b5'
+[0m14:00:37.760623 [debug] [Thread-2 (]: Failed to rollback 'test.jaffle_dbt.not_null_stg_customers_customer_id.e2cfb1f9aa'
+[0m14:00:37.761611 [debug] [Thread-4 (]: On test.jaffle_dbt.not_null_stg_orders_order_id.81cfe2fe64: Close
+[0m14:00:37.762607 [debug] [Thread-1 (]: Failed to rollback 'test.jaffle_dbt.accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending.922d62c820'
+[0m14:00:37.763606 [debug] [Thread-3 (]: On test.jaffle_dbt.not_null_stg_orders_customer_id.af79d5e4b5: Close
+[0m14:00:37.764639 [debug] [Thread-2 (]: On test.jaffle_dbt.not_null_stg_customers_customer_id.e2cfb1f9aa: Close
+[0m14:00:37.767921 [debug] [Thread-1 (]: On test.jaffle_dbt.accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending.922d62c820: Close
+[0m14:00:37.766924 [info ] [Thread-4 (]: 4 of 11 PASS not_null_stg_orders_order_id ...................................... [[32mPASS[0m in 0.19s]
+[0m14:00:37.770247 [info ] [Thread-3 (]: 3 of 11 PASS not_null_stg_orders_customer_id ................................... [[32mPASS[0m in 0.20s]
+[0m14:00:37.771245 [info ] [Thread-2 (]: 2 of 11 PASS not_null_stg_customers_customer_id ................................ [[32mPASS[0m in 0.20s]
+[0m14:00:37.775234 [debug] [Thread-4 (]: Finished running node test.jaffle_dbt.not_null_stg_orders_order_id.81cfe2fe64
+[0m14:00:37.773240 [info ] [Thread-1 (]: 1 of 11 PASS accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending  [[32mPASS[0m in 0.21s]
+[0m14:00:37.777181 [debug] [Thread-3 (]: Finished running node test.jaffle_dbt.not_null_stg_orders_customer_id.af79d5e4b5
+[0m14:00:37.779478 [debug] [Thread-2 (]: Finished running node test.jaffle_dbt.not_null_stg_customers_customer_id.e2cfb1f9aa
+[0m14:00:37.780476 [debug] [Thread-4 (]: Began running node test.jaffle_dbt.not_null_stg_payments_order_id.601cf57649
+[0m14:00:37.782472 [debug] [Thread-1 (]: Finished running node test.jaffle_dbt.accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending.922d62c820
+[0m14:00:37.787458 [debug] [Thread-3 (]: Began running node test.jaffle_dbt.not_null_stg_payments_payment_id.c19cc50075
+[0m14:00:37.788456 [debug] [Thread-2 (]: Began running node test.jaffle_dbt.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500
+[0m14:00:37.791447 [debug] [Thread-1 (]: Began running node test.jaffle_dbt.relationships_stg_payments_order_id__order_id__ref_stg_orders_.8426a3f3d3
+[0m14:00:37.790450 [info ] [Thread-4 (]: 5 of 11 START test not_null_stg_payments_order_id .............................. [RUN]
+[0m14:00:37.794881 [info ] [Thread-3 (]: 6 of 11 START test not_null_stg_payments_payment_id ............................ [RUN]
+[0m14:00:37.800125 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.jaffle_dbt.not_null_stg_orders_order_id.81cfe2fe64, now test.jaffle_dbt.not_null_stg_payments_order_id.601cf57649)
+[0m14:00:37.796878 [info ] [Thread-2 (]: 7 of 11 START test relationships_stg_orders_customer_id__customer_id__ref_stg_customers_  [RUN]
+[0m14:00:37.803119 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.jaffle_dbt.not_null_stg_orders_customer_id.af79d5e4b5, now test.jaffle_dbt.not_null_stg_payments_payment_id.c19cc50075)
+[0m14:00:37.799134 [info ] [Thread-1 (]: 8 of 11 START test relationships_stg_payments_order_id__order_id__ref_stg_orders_  [RUN]
+[0m14:00:37.805113 [debug] [Thread-4 (]: Began compiling node test.jaffle_dbt.not_null_stg_payments_order_id.601cf57649
+[0m14:00:37.807115 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.jaffle_dbt.not_null_stg_customers_customer_id.e2cfb1f9aa, now test.jaffle_dbt.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500)
+[0m14:00:37.808107 [debug] [Thread-3 (]: Began compiling node test.jaffle_dbt.not_null_stg_payments_payment_id.c19cc50075
+[0m14:00:37.811097 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.jaffle_dbt.accepted_values_stg_orders_status__placed__shipped__completed__returned__return_pending.922d62c820, now test.jaffle_dbt.relationships_stg_payments_order_id__order_id__ref_stg_orders_.8426a3f3d3)
+[0m14:00:37.823066 [debug] [Thread-4 (]: Writing injected SQL for node "test.jaffle_dbt.not_null_stg_payments_order_id.601cf57649"
+[0m14:00:37.824063 [debug] [Thread-2 (]: Began compiling node test.jaffle_dbt.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500
+[0m14:00:37.832885 [debug] [Thread-3 (]: Writing injected SQL for node "test.jaffle_dbt.not_null_stg_payments_payment_id.c19cc50075"
+[0m14:00:37.833940 [debug] [Thread-1 (]: Began compiling node test.jaffle_dbt.relationships_stg_payments_order_id__order_id__ref_stg_orders_.8426a3f3d3
+[0m14:00:37.845199 [debug] [Thread-2 (]: Writing injected SQL for node "test.jaffle_dbt.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500"
+[0m14:00:37.846160 [debug] [Thread-4 (]: Began executing node test.jaffle_dbt.not_null_stg_payments_order_id.601cf57649
+[0m14:00:37.855137 [debug] [Thread-1 (]: Writing injected SQL for node "test.jaffle_dbt.relationships_stg_payments_order_id__order_id__ref_stg_orders_.8426a3f3d3"
+[0m14:00:37.857133 [debug] [Thread-3 (]: Began executing node test.jaffle_dbt.not_null_stg_payments_payment_id.c19cc50075
+[0m14:00:37.862117 [debug] [Thread-4 (]: Writing runtime sql for node "test.jaffle_dbt.not_null_stg_payments_order_id.601cf57649"
+[0m14:00:37.863116 [debug] [Thread-2 (]: Began executing node test.jaffle_dbt.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500
+[0m14:00:37.872092 [debug] [Thread-3 (]: Writing runtime sql for node "test.jaffle_dbt.not_null_stg_payments_payment_id.c19cc50075"
+[0m14:00:37.879560 [debug] [Thread-2 (]: Writing runtime sql for node "test.jaffle_dbt.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500"
+[0m14:00:37.879560 [debug] [Thread-1 (]: Began executing node test.jaffle_dbt.relationships_stg_payments_order_id__order_id__ref_stg_orders_.8426a3f3d3
+[0m14:00:37.880551 [debug] [Thread-4 (]: Using duckdb connection "test.jaffle_dbt.not_null_stg_payments_order_id.601cf57649"
+[0m14:00:37.889528 [debug] [Thread-3 (]: Using duckdb connection "test.jaffle_dbt.not_null_stg_payments_payment_id.c19cc50075"
+[0m14:00:37.888530 [debug] [Thread-1 (]: Writing runtime sql for node "test.jaffle_dbt.relationships_stg_payments_order_id__order_id__ref_stg_orders_.8426a3f3d3"
+[0m14:00:37.890627 [debug] [Thread-2 (]: Using duckdb connection "test.jaffle_dbt.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500"
+[0m14:00:37.891626 [debug] [Thread-4 (]: On test.jaffle_dbt.not_null_stg_payments_order_id.601cf57649: BEGIN
+[0m14:00:37.892622 [debug] [Thread-3 (]: On test.jaffle_dbt.not_null_stg_payments_payment_id.c19cc50075: BEGIN
+[0m14:00:37.894724 [debug] [Thread-2 (]: On test.jaffle_dbt.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500: BEGIN
+[0m14:00:37.895722 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m14:00:37.896719 [debug] [Thread-1 (]: Using duckdb connection "test.jaffle_dbt.relationships_stg_payments_order_id__order_id__ref_stg_orders_.8426a3f3d3"
+[0m14:00:37.897717 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m14:00:37.899565 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m14:00:37.900718 [debug] [Thread-1 (]: On test.jaffle_dbt.relationships_stg_payments_order_id__order_id__ref_stg_orders_.8426a3f3d3: BEGIN
+[0m14:00:37.901715 [debug] [Thread-4 (]: SQL status: OK in 0.006 seconds
+[0m14:00:37.903710 [debug] [Thread-3 (]: SQL status: OK in 0.005 seconds
+[0m14:00:37.904706 [debug] [Thread-2 (]: SQL status: OK in 0.005 seconds
+[0m14:00:37.904706 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:00:37.905704 [debug] [Thread-4 (]: Using duckdb connection "test.jaffle_dbt.not_null_stg_payments_order_id.601cf57649"
+[0m14:00:37.906702 [debug] [Thread-3 (]: Using duckdb connection "test.jaffle_dbt.not_null_stg_payments_payment_id.c19cc50075"
+[0m14:00:37.907698 [debug] [Thread-2 (]: Using duckdb connection "test.jaffle_dbt.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500"
+[0m14:00:37.909584 [debug] [Thread-4 (]: On test.jaffle_dbt.not_null_stg_payments_order_id.601cf57649: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "test.jaffle_dbt.not_null_stg_payments_order_id.601cf57649"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select order_id
+from "jaffle_dbt"."main"."stg_payments"
+where order_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:00:37.910578 [debug] [Thread-1 (]: SQL status: OK in 0.005 seconds
+[0m14:00:37.910578 [debug] [Thread-3 (]: On test.jaffle_dbt.not_null_stg_payments_payment_id.c19cc50075: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "test.jaffle_dbt.not_null_stg_payments_payment_id.c19cc50075"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select payment_id
+from "jaffle_dbt"."main"."stg_payments"
+where payment_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:00:37.911575 [debug] [Thread-2 (]: On test.jaffle_dbt.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "test.jaffle_dbt.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with child as (
+    select customer_id as from_field
+    from "jaffle_dbt"."main"."stg_orders"
+    where customer_id is not null
+),
+
+parent as (
+    select customer_id as to_field
+    from "jaffle_dbt"."main"."stg_customers"
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:00:37.913570 [debug] [Thread-1 (]: Using duckdb connection "test.jaffle_dbt.relationships_stg_payments_order_id__order_id__ref_stg_orders_.8426a3f3d3"
+[0m14:00:37.914568 [debug] [Thread-4 (]: SQL status: OK in 0.002 seconds
+[0m14:00:37.916682 [debug] [Thread-1 (]: On test.jaffle_dbt.relationships_stg_payments_order_id__order_id__ref_stg_orders_.8426a3f3d3: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "test.jaffle_dbt.relationships_stg_payments_order_id__order_id__ref_stg_orders_.8426a3f3d3"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with child as (
+    select order_id as from_field
+    from "jaffle_dbt"."main"."stg_payments"
+    where order_id is not null
+),
+
+parent as (
+    select order_id as to_field
+    from "jaffle_dbt"."main"."stg_orders"
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:00:37.917678 [debug] [Thread-3 (]: SQL status: OK in 0.003 seconds
+[0m14:00:37.921789 [debug] [Thread-4 (]: On test.jaffle_dbt.not_null_stg_payments_order_id.601cf57649: ROLLBACK
+[0m14:00:37.925768 [debug] [Thread-3 (]: On test.jaffle_dbt.not_null_stg_payments_payment_id.c19cc50075: ROLLBACK
+[0m14:00:37.927777 [debug] [Thread-4 (]: Failed to rollback 'test.jaffle_dbt.not_null_stg_payments_order_id.601cf57649'
+[0m14:00:37.929413 [debug] [Thread-3 (]: Failed to rollback 'test.jaffle_dbt.not_null_stg_payments_payment_id.c19cc50075'
+[0m14:00:37.930410 [debug] [Thread-1 (]: SQL status: OK in 0.008 seconds
+[0m14:00:37.931406 [debug] [Thread-2 (]: SQL status: OK in 0.015 seconds
+[0m14:00:37.931406 [debug] [Thread-4 (]: On test.jaffle_dbt.not_null_stg_payments_order_id.601cf57649: Close
+[0m14:00:37.932403 [debug] [Thread-3 (]: On test.jaffle_dbt.not_null_stg_payments_payment_id.c19cc50075: Close
+[0m14:00:37.935395 [debug] [Thread-1 (]: On test.jaffle_dbt.relationships_stg_payments_order_id__order_id__ref_stg_orders_.8426a3f3d3: ROLLBACK
+[0m14:00:37.937391 [debug] [Thread-2 (]: On test.jaffle_dbt.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500: ROLLBACK
+[0m14:00:37.939354 [info ] [Thread-4 (]: 5 of 11 PASS not_null_stg_payments_order_id .................................... [[32mPASS[0m in 0.14s]
+[0m14:00:37.942344 [debug] [Thread-1 (]: Failed to rollback 'test.jaffle_dbt.relationships_stg_payments_order_id__order_id__ref_stg_orders_.8426a3f3d3'
+[0m14:00:37.940348 [info ] [Thread-3 (]: 6 of 11 PASS not_null_stg_payments_payment_id .................................. [[32mPASS[0m in 0.14s]
+[0m14:00:37.943342 [debug] [Thread-2 (]: Failed to rollback 'test.jaffle_dbt.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500'
+[0m14:00:37.944338 [debug] [Thread-4 (]: Finished running node test.jaffle_dbt.not_null_stg_payments_order_id.601cf57649
+[0m14:00:37.945335 [debug] [Thread-1 (]: On test.jaffle_dbt.relationships_stg_payments_order_id__order_id__ref_stg_orders_.8426a3f3d3: Close
+[0m14:00:37.946333 [debug] [Thread-3 (]: Finished running node test.jaffle_dbt.not_null_stg_payments_payment_id.c19cc50075
+[0m14:00:37.947330 [debug] [Thread-2 (]: On test.jaffle_dbt.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500: Close
+[0m14:00:37.948328 [debug] [Thread-4 (]: Began running node test.jaffle_dbt.unique_stg_customers_customer_id.c7614daada
+[0m14:00:37.951319 [debug] [Thread-3 (]: Began running node test.jaffle_dbt.unique_stg_orders_order_id.e3b841c71a
+[0m14:00:37.950322 [info ] [Thread-1 (]: 8 of 11 PASS relationships_stg_payments_order_id__order_id__ref_stg_orders_ .... [[32mPASS[0m in 0.14s]
+[0m14:00:37.954312 [info ] [Thread-2 (]: 7 of 11 PASS relationships_stg_orders_customer_id__customer_id__ref_stg_customers_  [[32mPASS[0m in 0.15s]
+[0m14:00:37.955310 [info ] [Thread-4 (]: 9 of 11 START test unique_stg_customers_customer_id ............................ [RUN]
+[0m14:00:37.959874 [debug] [Thread-1 (]: Finished running node test.jaffle_dbt.relationships_stg_payments_order_id__order_id__ref_stg_orders_.8426a3f3d3
+[0m14:00:37.957304 [info ] [Thread-3 (]: 10 of 11 START test unique_stg_orders_order_id ................................. [RUN]
+[0m14:00:37.961870 [debug] [Thread-2 (]: Finished running node test.jaffle_dbt.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500
+[0m14:00:37.963864 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.jaffle_dbt.not_null_stg_payments_order_id.601cf57649, now test.jaffle_dbt.unique_stg_customers_customer_id.c7614daada)
+[0m14:00:37.964860 [debug] [Thread-1 (]: Began running node test.jaffle_dbt.unique_stg_payments_payment_id.3744510712
+[0m14:00:37.964860 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.jaffle_dbt.not_null_stg_payments_payment_id.c19cc50075, now test.jaffle_dbt.unique_stg_orders_order_id.e3b841c71a)
+[0m14:00:37.966854 [debug] [Thread-4 (]: Began compiling node test.jaffle_dbt.unique_stg_customers_customer_id.c7614daada
+[0m14:00:37.970562 [debug] [Thread-3 (]: Began compiling node test.jaffle_dbt.unique_stg_orders_order_id.e3b841c71a
+[0m14:00:37.967851 [info ] [Thread-1 (]: 11 of 11 START test unique_stg_payments_payment_id ............................. [RUN]
+[0m14:00:37.982602 [debug] [Thread-4 (]: Writing injected SQL for node "test.jaffle_dbt.unique_stg_customers_customer_id.c7614daada"
+[0m14:00:37.995849 [debug] [Thread-3 (]: Writing injected SQL for node "test.jaffle_dbt.unique_stg_orders_order_id.e3b841c71a"
+[0m14:00:37.996847 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.jaffle_dbt.relationships_stg_payments_order_id__order_id__ref_stg_orders_.8426a3f3d3, now test.jaffle_dbt.unique_stg_payments_payment_id.3744510712)
+[0m14:00:37.998496 [debug] [Thread-1 (]: Began compiling node test.jaffle_dbt.unique_stg_payments_payment_id.3744510712
+[0m14:00:38.000487 [debug] [Thread-4 (]: Began executing node test.jaffle_dbt.unique_stg_customers_customer_id.c7614daada
+[0m14:00:38.010459 [debug] [Thread-1 (]: Writing injected SQL for node "test.jaffle_dbt.unique_stg_payments_payment_id.3744510712"
+[0m14:00:38.010459 [debug] [Thread-3 (]: Began executing node test.jaffle_dbt.unique_stg_orders_order_id.e3b841c71a
+[0m14:00:38.014448 [debug] [Thread-4 (]: Writing runtime sql for node "test.jaffle_dbt.unique_stg_customers_customer_id.c7614daada"
+[0m14:00:38.022676 [debug] [Thread-3 (]: Writing runtime sql for node "test.jaffle_dbt.unique_stg_orders_order_id.e3b841c71a"
+[0m14:00:38.026664 [debug] [Thread-4 (]: Using duckdb connection "test.jaffle_dbt.unique_stg_customers_customer_id.c7614daada"
+[0m14:00:38.028659 [debug] [Thread-1 (]: Began executing node test.jaffle_dbt.unique_stg_payments_payment_id.3744510712
+[0m14:00:38.030653 [debug] [Thread-4 (]: On test.jaffle_dbt.unique_stg_customers_customer_id.c7614daada: BEGIN
+[0m14:00:38.032648 [debug] [Thread-3 (]: Using duckdb connection "test.jaffle_dbt.unique_stg_orders_order_id.e3b841c71a"
+[0m14:00:38.039452 [debug] [Thread-1 (]: Writing runtime sql for node "test.jaffle_dbt.unique_stg_payments_payment_id.3744510712"
+[0m14:00:38.040593 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m14:00:38.041592 [debug] [Thread-3 (]: On test.jaffle_dbt.unique_stg_orders_order_id.e3b841c71a: BEGIN
+[0m14:00:38.043737 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m14:00:38.044736 [debug] [Thread-4 (]: SQL status: OK in 0.004 seconds
+[0m14:00:38.045733 [debug] [Thread-1 (]: Using duckdb connection "test.jaffle_dbt.unique_stg_payments_payment_id.3744510712"
+[0m14:00:38.046730 [debug] [Thread-4 (]: Using duckdb connection "test.jaffle_dbt.unique_stg_customers_customer_id.c7614daada"
+[0m14:00:38.047728 [debug] [Thread-3 (]: SQL status: OK in 0.004 seconds
+[0m14:00:38.048504 [debug] [Thread-1 (]: On test.jaffle_dbt.unique_stg_payments_payment_id.3744510712: BEGIN
+[0m14:00:38.049498 [debug] [Thread-4 (]: On test.jaffle_dbt.unique_stg_customers_customer_id.c7614daada: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "test.jaffle_dbt.unique_stg_customers_customer_id.c7614daada"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    customer_id as unique_field,
+    count(*) as n_records
+
+from "jaffle_dbt"."main"."stg_customers"
+where customer_id is not null
+group by customer_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:00:38.050496 [debug] [Thread-3 (]: Using duckdb connection "test.jaffle_dbt.unique_stg_orders_order_id.e3b841c71a"
+[0m14:00:38.051492 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:00:38.054485 [debug] [Thread-3 (]: On test.jaffle_dbt.unique_stg_orders_order_id.e3b841c71a: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "test.jaffle_dbt.unique_stg_orders_order_id.e3b841c71a"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    order_id as unique_field,
+    count(*) as n_records
+
+from "jaffle_dbt"."main"."stg_orders"
+where order_id is not null
+group by order_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:00:38.056479 [debug] [Thread-1 (]: SQL status: OK in 0.004 seconds
+[0m14:00:38.057477 [debug] [Thread-1 (]: Using duckdb connection "test.jaffle_dbt.unique_stg_payments_payment_id.3744510712"
+[0m14:00:38.058474 [debug] [Thread-1 (]: On test.jaffle_dbt.unique_stg_payments_payment_id.3744510712: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_dbt", "target_name": "dev", "node_id": "test.jaffle_dbt.unique_stg_payments_payment_id.3744510712"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    payment_id as unique_field,
+    count(*) as n_records
+
+from "jaffle_dbt"."main"."stg_payments"
+where payment_id is not null
+group by payment_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:00:38.059471 [debug] [Thread-4 (]: SQL status: OK in 0.007 seconds
+[0m14:00:38.060468 [debug] [Thread-3 (]: SQL status: OK in 0.005 seconds
+[0m14:00:38.064458 [debug] [Thread-4 (]: On test.jaffle_dbt.unique_stg_customers_customer_id.c7614daada: ROLLBACK
+[0m14:00:38.064458 [debug] [Thread-1 (]: SQL status: OK in 0.004 seconds
+[0m14:00:38.067449 [debug] [Thread-3 (]: On test.jaffle_dbt.unique_stg_orders_order_id.e3b841c71a: ROLLBACK
+[0m14:00:38.069477 [debug] [Thread-4 (]: Failed to rollback 'test.jaffle_dbt.unique_stg_customers_customer_id.c7614daada'
+[0m14:00:38.072462 [debug] [Thread-1 (]: On test.jaffle_dbt.unique_stg_payments_payment_id.3744510712: ROLLBACK
+[0m14:00:38.074459 [debug] [Thread-3 (]: Failed to rollback 'test.jaffle_dbt.unique_stg_orders_order_id.e3b841c71a'
+[0m14:00:38.076454 [debug] [Thread-4 (]: On test.jaffle_dbt.unique_stg_customers_customer_id.c7614daada: Close
+[0m14:00:38.077449 [debug] [Thread-1 (]: Failed to rollback 'test.jaffle_dbt.unique_stg_payments_payment_id.3744510712'
+[0m14:00:38.078447 [debug] [Thread-3 (]: On test.jaffle_dbt.unique_stg_orders_order_id.e3b841c71a: Close
+[0m14:00:38.081438 [debug] [Thread-1 (]: On test.jaffle_dbt.unique_stg_payments_payment_id.3744510712: Close
+[0m14:00:38.080441 [info ] [Thread-4 (]: 9 of 11 PASS unique_stg_customers_customer_id .................................. [[32mPASS[0m in 0.12s]
+[0m14:00:38.083433 [info ] [Thread-3 (]: 10 of 11 PASS unique_stg_orders_order_id ....................................... [[32mPASS[0m in 0.12s]
+[0m14:00:38.086425 [debug] [Thread-4 (]: Finished running node test.jaffle_dbt.unique_stg_customers_customer_id.c7614daada
+[0m14:00:38.084431 [info ] [Thread-1 (]: 11 of 11 PASS unique_stg_payments_payment_id ................................... [[32mPASS[0m in 0.09s]
+[0m14:00:38.088421 [debug] [Thread-3 (]: Finished running node test.jaffle_dbt.unique_stg_orders_order_id.e3b841c71a
+[0m14:00:38.090539 [debug] [Thread-1 (]: Finished running node test.jaffle_dbt.unique_stg_payments_payment_id.3744510712
+[0m14:00:38.093623 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:00:38.094622 [debug] [MainThread]: On master: BEGIN
+[0m14:00:38.095619 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:00:38.097614 [debug] [MainThread]: SQL status: OK in 0.002 seconds
+[0m14:00:38.098611 [debug] [MainThread]: On master: COMMIT
+[0m14:00:38.099608 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:00:38.100605 [debug] [MainThread]: On master: COMMIT
+[0m14:00:38.102600 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m14:00:38.103598 [debug] [MainThread]: On master: Close
+[0m14:00:38.105594 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:00:38.108585 [debug] [MainThread]: Connection 'list_jaffle_dbt_main' was properly closed.
+[0m14:00:38.109584 [debug] [MainThread]: Connection 'test.jaffle_dbt.unique_stg_payments_payment_id.3744510712' was properly closed.
+[0m14:00:38.110578 [debug] [MainThread]: Connection 'test.jaffle_dbt.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500' was properly closed.
+[0m14:00:38.111576 [debug] [MainThread]: Connection 'test.jaffle_dbt.unique_stg_orders_order_id.e3b841c71a' was properly closed.
+[0m14:00:38.112577 [debug] [MainThread]: Connection 'test.jaffle_dbt.unique_stg_customers_customer_id.c7614daada' was properly closed.
+[0m14:00:38.113571 [info ] [MainThread]: 
+[0m14:00:38.114568 [info ] [MainThread]: Finished running 11 data tests in 0 hours 0 minutes and 4.94 seconds (4.94s).
+[0m14:00:38.121197 [debug] [MainThread]: Command end result
+[0m14:00:38.190787 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\jaffle_shop\jaffle_dbt\target\manifest.json
+[0m14:00:38.194773 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\jaffle_shop\jaffle_dbt\target\semantic_manifest.json
+[0m14:00:38.209733 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\kev\jaffle_shop\jaffle_dbt\target\run_results.json
+[0m14:00:38.210732 [info ] [MainThread]: 
+[0m14:00:38.212727 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:00:38.213735 [info ] [MainThread]: 
+[0m14:00:38.214721 [info ] [MainThread]: Done. PASS=11 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=11
+[0m14:00:38.216716 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- MissingArgumentsPropertyInGenericTestDeprecation: 3 occurrences
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m14:00:38.222972 [debug] [MainThread]: Command `dbt test` succeeded at 14:00:38.222972 after 10.40 seconds
+[0m14:00:38.224966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D4296D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217CD89A310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217CD89AF10>]}
+[0m14:00:38.225963 [debug] [MainThread]: Flushing usage events
+[0m14:00:39.302327 [debug] [MainThread]: An error was encountered while trying to flush usage events

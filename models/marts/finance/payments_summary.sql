@@ -1,5 +1,3 @@
---Summary by payment method
-│
 {{ config(materialized='table') }}
 
 select
@@ -7,5 +5,5 @@ select
     count(*) as payment_count,
     sum(amount) as total_amount
 from {{ ref('stg_payments') }}
-group by 1
+group by payment_method
 order by total_amount desc
