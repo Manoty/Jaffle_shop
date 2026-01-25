@@ -1,0 +1,13 @@
+page:
+  name: Customer Analytics
+  slug: customers
+  description: Dashboard showing top customers and summaries
+  sections:
+    - title: Top Customers
+      charts:
+        - name: Top Customers Table
+          type: table
+          query: "{{ ref('top_customers_query') }}"
+        - name: Top Customers Summary
+          type: metric
+          query: "{{ ref('top_customers_summary_query') }}"
