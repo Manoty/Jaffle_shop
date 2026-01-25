@@ -1,11 +1,14 @@
+{{ config(materialized='table') }}
+
 with customers as (
     select
-        customer_id,
-        customer_name,
-        sum(order_amount) as total_spent,
-        count(order_id) as orders_count
-    from {{ source('customers_source', 'orders') }}
-    group by customer_id, customer_name
+        o.customer_id,
+        sum(p.amount) as total_spent,
+        count(o.order_id) as orders_count
+    from {{ ref('stg_orders') }} o
+    join {{ ref('stg_payments') }} p
+        on o.order_id = p.order_id
+    group by o.customer_id
 )
 
 select *
