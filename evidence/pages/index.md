@@ -1,11 +1,11 @@
----
-title: Welcome to Evidence
----
 
-<Details title='How to edit this page'>
+# Analytics Platform (dbt + DuckDB + Evidence)
 
-  This page can be found in your project at `/pages/index.md`. Make a change to the markdown file and save it to see the change take effect in your browser.
-</Details>
+Built with:
+- dbt for transformations
+- DuckDB for analytics
+- Evidence for BI
+
 
 ```sql categories
   select

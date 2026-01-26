@@ -1,3 +1,9 @@
-```sql duckdb
-select *
-from customer_segment
+
+Use:
+- `customer_ltv`
+- `customer_segment`
+- `top_customers`
+
+---
+
+
